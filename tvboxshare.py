@@ -50,7 +50,7 @@ def process_json(data):
 
 # 获取当前时间 
 def get_time():
-    time=time.ctime()
+    # time=time.ctime()
 
     # print(timeformat)
     return time # 获取当前时间并返回到函数调用处
