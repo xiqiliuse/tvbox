@@ -66,9 +66,9 @@ def giteeup(path):
     remote = repo.remote()
     remote.push()
     '''
-    order_arr = ["git add *","git commit -m " + '"' + time + '"',"git push origin master"] # 创建指令集合
-    for order in order_arr:
-        system(order) # 执行每一项指令
+    # order_arr = ["git add *","git commit -m " + '"' + time + '"',"git push origin master"] # 创建指令集合
+    # for order in order_arr:
+    #     system(order) # 执行每一项指令
     return 
 
 def check_file_exist():
@@ -89,5 +89,5 @@ def check_file_exist():
 
 if __name__ == '__main__':
     url = "https://gitee.com/jiangnandao/tvboxshare/raw/master/TvBoxLink"
-    # tvjson=process_json(url)
+    tvjson=process_json(url)
     # notify.send("tvbox路线失效验证", folder_path)
