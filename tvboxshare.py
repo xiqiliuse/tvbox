@@ -48,29 +48,6 @@ def process_json(data):
         file.close()
     return savejson2
 
-# 获取当前时间 
-def get_time():
-    # time=time.ctime()
-
-    # print(timeformat)
-    return time # 获取当前时间并返回到函数调用处
-
-# 将本地tvbox_json文件上传gitee
-def giteeup(path):
-    time=time.ctime()
-    '''
-    repo = Repo("/ql/data/scripts/tvboxshare/")
-    index = repo.index
-    index.add([path])
-    index.commit(str(str(datetime.now())))
-    remote = repo.remote()
-    remote.push()
-    '''
-    # order_arr = ["git add *","git commit -m " + '"' + time + '"',"git push origin master"] # 创建指令集合
-    # for order in order_arr:
-    #     system(order) # 执行每一项指令
-    return 
-
 def check_file_exist():
     folder_path = os.getcwd()
     file_list = os.listdir(folder_path)
