@@ -67,4 +67,5 @@ def check_file_exist():
 if __name__ == '__main__':
     url = "https://gitee.com/jiangnandao/tvboxshare/raw/master/TvBoxLink"
     tvjson=process_json(url)
+    
     # notify.send("tvbox路线失效验证", folder_path)
