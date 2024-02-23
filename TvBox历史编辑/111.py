@@ -16,8 +16,7 @@ def process_json(url):
     # 解析 JSON 响应
         jsondata = json.loads(response.text)
         datas=jsondata['urls']
-        x=len(datas)
-        print('总线路条数：',x)
+        print('总线路条数：',len(datas))
         for data in datas:
             testurl=data['url']
             try:
@@ -36,31 +35,16 @@ def process_json(url):
                 pass
             finally:
                 pass
-        y=len(datas) #成功路线
-    print('成功路线条数：',y)
-
-    def DelRepeat(data,key):
-        new_data = [] # 用于存储去重后的list
-        values = []   # 用于存储当前已有的值
-        for d in data:
-            if d[key] not in values:
-                new_data.append(d)
-                values.append(d[key])
-        z=len(data)-len(new_data) #去重路线条数
-        return new_data,z
-
-
+    print('成功路线条数：',len(datas))
     dict2={}
-    dict2['urls']=DelRepeat(datas,'url')[0]
-    print('去除线路：',DelRepeat(datas,'url')[1])
-    print('总成功路线：',y-DelRepeat(datas,'url')[1])
+    dict2['urls']=datas
     savejson2=json.dumps(dict2, indent=4, ensure_ascii=False)
     
-    # print(type(savejson2))
+    print(type(savejson2))
     with open(filename, "w", encoding="utf-8") as file:
         file.write(savejson2)
         file.close()
-    return savejson2,y-DelRepeat(datas,'url')[1]
+    return savejson2
 
 # 获取当前时间 
 # def get_time():
@@ -86,14 +70,14 @@ def check_file_exist():
         # print(file_list)
 
 def main():
-    url = "https://gitee.com/jiangnandao/tvboxline/raw/master/tvbox_json"
     tvjson=process_json(url)
     # path=check_file_exist()
     # print(time.ctime())
-    notify.send("tvbox路线失效验证", "最后成功的线路条数有："+str(tvjson[1]))
+    notify.send("tvbox路线失效验证", tvjson)
     check_file_exist()
     
 if __name__ == '__main__':
+    url = "https://gitee.com/jiangnandao/tvboxline/raw/master/tvbox_json"
     filename='tvbox_json'
     main()
 
