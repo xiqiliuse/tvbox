@@ -45,7 +45,7 @@ push_config = {
 
     'CONSOLE': True,                    # 控制台输出
 
-    'QYWX_KEY': '1f348718-ba57-4f91-9f55-c09184bcbf18'                     # 企业微信机器人--------
+    'QYWX_KEY':''                     # 企业微信机器人--------
     }
 notify_function = []
 # fmt: on
@@ -55,7 +55,7 @@ for k in push_config:
     if os.getenv(k):
         v = os.getenv(k)
         push_config[k] = v
-        print(v)
+        # print(v)
 
 def console(title: str, content: str) -> None:
     """
@@ -80,82 +80,12 @@ def wecom_bot(title: str, content: str) -> None:
     url = f"{origin}/cgi-bin/webhook/send?key={push_config.get('QYWX_KEY')}"
     headers = {"Content-Type": "application/json;charset=utf-8"}
     data = {"msgtype": "text", "text": {"content": f"{title}\n\n{content}"}}
-    response = requests.post(
-        url=url, data=json.dumps(data), headers=headers, timeout=15).json()
+    response = requests.post(url=url, data=json.dumps(data), headers=headers, timeout=15).json()
 
     if response["errcode"] == 0:
         print("企业微信机器人推送成功！")
     else:
         print("企业微信机器人推送失败！")
-
-
-
-def parse_headers(headers):
-    if not headers:
-        return {}
-
-    parsed = {}
-    lines = headers.split("\n")
-
-    for line in lines:
-        i = line.find(":")
-        if i == -1:
-            continue
-
-        key = line[:i].strip().lower()
-        val = line[i + 1 :].strip()
-        parsed[key] = parsed.get(key, "") + ", " + val if key in parsed else val
-
-    return parsed
-
-
-def parse_body(body, content_type):
-    if not body:
-        return ""
-
-    parsed = {}
-    lines = body.split("\n")
-
-    for line in lines:
-        i = line.find(":")
-        if i == -1:
-            continue
-
-        key = line[:i].strip().lower()
-        val = line[i + 1 :].strip()
-
-        if not key or key in parsed:
-            continue
-
-        try:
-            json_value = json.loads(val)
-            parsed[key] = json_value
-        except:
-            parsed[key] = val
-
-    if content_type == "application/x-www-form-urlencoded":
-        data = urlencode(parsed, doseq=True)
-        return data
-
-    if content_type == "application/json":
-        data = json.dumps(parsed)
-        return data
-
-    return parsed
-
-
-def format_notify_content(url, body, title, content):
-    if "$title" not in url and "$title" not in body:
-        return {}
-
-    formatted_url = url.replace("$title", urllib.parse.quote_plus(title)).replace(
-        "$content", urllib.parse.quote_plus(content)
-    )
-    formatted_body = body.replace("$title", title).replace("$content", content)
-
-    return formatted_url, formatted_body
-
-
 
 
 def one() -> str:
@@ -192,14 +122,16 @@ def send(title: str, content: str) -> None:
     ts = [
         threading.Thread(target=mode, args=(title, content), name=mode.__name__)
         for mode in notify_function
-    ]
+        ]
     [t.start() for t in ts]
     [t.join() for t in ts]
 
 
 def main():
     send("title", "content")
-
+    print("\n",one())
+    print(push_config.get("QYWX_KEY"))
 
 if __name__ == "__main__":
     main()
+    
