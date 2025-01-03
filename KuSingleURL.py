@@ -96,37 +96,12 @@ def process_json(url): # 判断url路线有效性，并在本地生成tvbox_json
     print('去除线路：',DelRepeat(datas,'url')[1])
     print('总成功路线：',y-DelRepeat(datas,'url')[1])
     savejson2=json.dumps(dict2, indent=4, ensure_ascii=False)
-    
-    # print(type(savejson2))
-    with open(filename, "w", encoding="utf-8") as file:
-        file.write(savejson2)
-        file.close()
+    print(type(savejson2))
     return savejson2,y-DelRepeat(datas,'url')[1]
 
 
-def check_file_exist():
-    folder_path = os.getcwd()
-    file_list = os.listdir(folder_path)
-    if filename in file_list:
-        # print(file_list)
-        file_path = os.path.join(folder_path,filename)
-        # 获取tvboxjson文件的修改时间
-        filelast_modified=os.path.getmtime(file_path)
-        last_modified_time = datetime.fromtimestamp(filelast_modified)
-        formatted_time = last_modified_time.strftime('%Y-%m-%d %H:%M:%S')
-        print('文件存在，文件修改时间是：',formatted_time,"文件路径是：",file_path)
-        return file_path
-    else:
-        print('文件不存在')
-        # print(file_list)
+def mainx(url):
 
-def main():
-    # url = "https://gitee.com/jiangnandao/tvboxshare/raw/master/Tvtest"
-    url="https://gitee.com/jiangnandao/tvboxshare/raw/master/TVLineTestTew.json"
-    tvjson=process_json(url)
-    notify.send("tvbox路线失效验证", "最后成功的线路条数有："+str(tvjson[1]))
-    check_file_exist()
-    
-if __name__ == '__main__':
-    filename='tvbox.json'
-    main()
+    process_json(url)
+
+ 
