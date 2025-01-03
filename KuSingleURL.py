@@ -39,10 +39,11 @@ def fetch_url_info(url):
     except requests.exceptions.RequestException as e:
         print(f"请求失败: {e}")
 
-def process_json(url): # 判断url路线有效性，并在本地生成tvbox_json文件
+def process_json(url,filename): # 判断url路线有效性，并在本地生成tvbox_json文件
     response = requests.get(url,verify=False)
     headers={"User-Agent":"okhttp/4.1.0"}
     if response.status_code == 200:
+        response.encoding = 'utf-8-sig'
         jsondata = json.loads(response.text)
         datas=jsondata['urls']
         x=len(datas)
@@ -97,11 +98,14 @@ def process_json(url): # 判断url路线有效性，并在本地生成tvbox_json
     print('总成功路线：',y-DelRepeat(datas,'url')[1])
     savejson2=json.dumps(dict2, indent=4, ensure_ascii=False)
     print(type(savejson2))
+    with open(filename, "w", encoding="utf-8") as file:
+        file.write(savejson2)
+        file.close()
     return savejson2,y-DelRepeat(datas,'url')[1]
 
 
-def mainx(url):
+# def mainx(url,filename):
 
-    process_json(url)
+#     process_json(url,filename)
 
  

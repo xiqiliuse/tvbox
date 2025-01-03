@@ -1,0 +1,36 @@
+{
+    "urls": [
+        {
+            "url": "https://9877.kstore.space/FourDS/movie.json",
+            "name": "影视"
+        },
+        {
+            "url": "https://9877.kstore.space/FourDS/anime.json",
+            "name": "动漫"
+        },
+        {
+            "url": "https://9877.kstore.space/FourDS/other.json",
+            "name": "文艺"
+        },
+        {
+            "url": "https://9877.kstore.space/FourDS/sport.json",
+            "name": "体育"
+        },
+        {
+            "url": "https://9877.kstore.space/FourDS/education.json",
+            "name": "教育"
+        },
+        {
+            "url": "https://9877.kstore.space/FourDS/webcast.json",
+            "name": "直播"
+        },
+        {
+            "url": "https://9877.kstore.space/FourDS/magnet.json",
+            "name": "磁力"
+        },
+        {
+            "url": "https://9877.kstore.space/FourDS/cloud.json",
+            "name": "云盘"
+        }
+    ]
+}
