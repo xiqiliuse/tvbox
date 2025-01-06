@@ -104,8 +104,12 @@ def process_json(url,filename): # 判断url路线有效性，并在本地生成t
     return savejson2,y-DelRepeat(datas,'url')[1]
 
 
-# def mainx(url,filename):
-
-#     process_json(url,filename)
+def mainx(url,filename):
+    try:
+        process_json(url,filename)
+    except Exception as e:
+        print(f"请求失败: {e}")
+        return
+    
 
  

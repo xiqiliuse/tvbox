@@ -1,4 +1,6 @@
+#2025-01-06更新
 # 从其他py脚本中读取 单个url仓库，返回线路条数和线路
+#从KuSingleUR自定义库中读取解析结果
 
 # from KuSingleURL import mainx
 import KuSingleURL
@@ -12,10 +14,6 @@ warnings.filterwarnings("ignore")
 # KuSingleURL.process_json(url,"12345")
 
 def main():
-    # url="https://9877.kstore.space/FourDS/api.json"
-    # url1="https://qixing.myhkw.com/DC.txt"
-    # mainx(url)
-    
     i=1
     # excel_file = r'D:\OneDrive\Learn\pythonLearn\TvBox\tvbox\excel_xianlu.xlsx' #家里路径
     excel_file = r'D:\lxd\learn\py\tvbox\excel_0103.xlsx' #公司路径
@@ -23,9 +21,9 @@ def main():
     sheet1= workbook['单仓']
     for row in sheet1.iter_rows(values_only=True):
         if not row is None :
-            # analysis_respone=url_respon(row[1]) 
-            returninfo=KuSingleURL.process_json(row[1],row[0])
-
+            # returninfo=KuSingleURL.process_json(row[1],row[0])
+            jsonfilename = row[0] + ".json"
+            returninfo=KuSingleURL.mainx(row[1],jsonfilename)
             # strtxt=analysis_respone[2] #返回解析结果,如单仓/多仓/失败
             # codetxt=analysis_respone[1]  #返回 url的返回状态 如200，400
             # sheet1.cell(row = i,column = 4,value = strtxt)
