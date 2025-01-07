@@ -5,9 +5,6 @@
 # from KuSingleURL import mainx
 import KuSingleURL
 import openpyxl
-import requests
-import json
-import re,os
 import warnings 
 warnings.filterwarnings("ignore")
 def main():
@@ -17,7 +14,7 @@ def main():
     workbook = openpyxl.load_workbook(filename=excel_file)
     sheet1= workbook['单仓']
     for row in sheet1.iter_rows(values_only=True):
-        if not row is None :
+        if row:
             jsonfilename = row[0] + ".json"
             returninfo=KuSingleURL.mainx(row[1],jsonfilename)
             sheet1.cell(row = i,column = 3,value = returninfo)
