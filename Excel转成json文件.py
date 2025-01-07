@@ -1,7 +1,6 @@
-#2025-01-06更新，未完成
+#2025-01-07更新，完成
+# 把Excel表中的单独线路整合成json文件
 import json,openpyxl
-
-
 
 def main():
     i=1
@@ -9,16 +8,19 @@ def main():
     excel_file = r'D:\lxd\learn\py\tvbox\excel_0103.xlsx' #公司路径
     workbook = openpyxl.load_workbook(filename=excel_file)
     sheet1= workbook['0103']
+    listdict=[]
     data_dict = {}
     for row in sheet1.iter_rows(values_only=True):
         if row[0] is not None and row[1] is not None:
-            data_dict[row[0]] = row[1]
+            data_dict["url"] = row[1]
+            data_dict["name"] = row[0]
+            listdict.append(data_dict.copy())
             print(row[0],row[1])
         else:
             break
         i=i+1
     with open('output.json', 'w', encoding='utf-8') as json_file:
-        json.dump(data_dict, json_file, ensure_ascii=False, indent=4)
+        json.dump(listdict, json_file, ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':
     main()

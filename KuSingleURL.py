@@ -77,7 +77,7 @@ def process_json(url,filename): # 判断url路线有效性，并在本地生成t
                 end_time = time.time()
                 response_time = end_time - start_time
                 print(f"响应时间: {response_time:.4f} 秒; ",f"内容长度: {content_length_kb:.2f} KB")
-                print("-"*100)
+                print("_"*20)
                 # pass
         y=len(datas) #成功路线
     print('成功路线条数：',y)
@@ -107,9 +107,12 @@ def process_json(url,filename): # 判断url路线有效性，并在本地生成t
 def mainx(url,filename):
     try:
         process_json(url,filename)
+        print("="*30)
+        return "运行成功！"
     except Exception as e:
         print(f"请求失败: {e}")
-        return
+        print("~"*30)
+        return "请求失败。"
     
 
  
