@@ -3,7 +3,8 @@
 import openpyxl
 import requests
 import json
-import re,os
+import os
+import re
 import warnings 
 warnings.filterwarnings("ignore")
 
@@ -59,7 +60,7 @@ def main():
     workbook = openpyxl.load_workbook(filename=excel_file)
     sheet1= workbook['0103']
     for row in sheet1.iter_rows(values_only=True):
-        if not row is None :
+        if row:
             analysis_respone=url_respon(row[1]) 
             strtxt=analysis_respone[2] #返回解析结果,如单仓/多仓/失败
             codetxt=analysis_respone[1]  #返回 url的返回状态 如200，400
