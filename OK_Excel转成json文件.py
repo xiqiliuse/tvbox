@@ -5,10 +5,10 @@ import openpyxl
 
 def main():
     i=1
-    # excel_file = r'D:\OneDrive\Learn\pythonLearn\TvBox\tvbox\excel_xianlu.xlsx' #家里路径
-    excel_file = r'D:\lxd\learn\py\tvbox\excel_0103.xlsx' #公司路径
+    excel_file = r'D:\OneDrive\Learn\pythonLearn\TvBox\tvbox\excel_0607.xlsx' #家里路径
+    # excel_file = r'D:\lxd\learn\py\tvbox\excel_0607.xlsx' #公司路径
     workbook = openpyxl.load_workbook(filename=excel_file)
-    sheet1= workbook['0107']
+    sheet1= workbook['xl']
     dict2={} #创建一个字典,存储Urls
     listdict=[]
     data_dict = {}
@@ -22,7 +22,7 @@ def main():
             break
         i=i+1
     dict2['urls']=listdict
-    with open('output.json', 'w', encoding='utf-8') as json_file:
+    with open('output0607.json', 'w', encoding='utf-8') as json_file:
         json.dump(dict2, json_file, ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':
