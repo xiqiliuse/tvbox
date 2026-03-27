@@ -171,13 +171,13 @@ class TVBoxValidator:
                 for future in as_completed(future_to_url):
                     url_data, is_valid, response_time, content_length_kb, name_count, api_count = future.result()
                     
-                    # 性能过滤：响应时间>5 秒且内容<10KB 的线路删除
-                    if is_valid and response_time > 5 and content_length_kb < 10:
+                    # 性能过滤：响应时间>10 秒且内容<8KB 的线路删除
+                    if is_valid and response_time > 10 and content_length_kb < 8:
                         logger.warning(f"删除慢速线路：{url_data['name']} - {url_data['url']}")
                         is_valid = False
                     
-                    # 键值统计过滤 - name_count<30 且 api_count<10 的线路删除
-                    if is_valid and name_count < 30 and api_count < 10:
+                    # 键值统计过滤 - name_count<20 且 api_count<6 的线路删除
+                    if is_valid and name_count < 20 and api_count < 6:
                         logger.warning(f"删除线路（键值统计不足）：{url_data['name']} - name_count:{name_count}, api_count:{api_count}")
                         is_valid = False
                     
@@ -190,12 +190,16 @@ class TVBoxValidator:
             # 去重处理
             unique_urls, duplicate_count = self.remove_duplicates(valid_urls, 'url')
             logger.info(f'去除重复线路：{duplicate_count}')
-            
+
+            # 新增：将肥猫线路添加到 urls 数组开头
+            feimao_line = {"url": "http://肥猫.com", "name": "肥猫线路"}
+            unique_urls.insert(0, feimao_line)
+
             final_count = len(unique_urls)
             logger.info(f'成功路线条数：{final_count}')
             
             # 构建结果 JSON
-            result_dict = {'urls': unique_urls}
+            result_dict = {'urls': unique_urls }
             json_string = json.dumps(result_dict, indent=4, ensure_ascii=False)
             
             # 保存文件
