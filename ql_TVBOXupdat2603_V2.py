@@ -37,6 +37,12 @@ FALLBACK_URLS = [
     'https://gitee.com/jiangnandao/tvboxshare/raw/master/TVLineTest2.json',
 ]
 
+# 固定线路列表（将添加到结果数组开头）
+FIXED_LINES = [
+    {"url": "http://肥猫.com/", "name": "肥猫线路"},
+    {"url": "http://www.饭太硬.com/tv", "name": "饭太硬"},
+]
+
 
 class TVBoxValidator:
     """TVBox 线路验证器"""
@@ -276,7 +282,6 @@ def main():
     validator = TVBoxValidator(filename='tvbox.json')
     
     all_urls = []
-    source_stats = []
     
     # 1. 遍历所有数据源，收集 URLs
     for url in FALLBACK_URLS:
@@ -287,7 +292,6 @@ def main():
         urls = validator.fetch_urls_from_source(url)
         if urls:
             all_urls.extend(urls)
-            source_stats.append({'url': url, 'count': len(urls)})
             logger.info(f"✓ 成功从 {url} 获取 {len(urls)} 条线路")
         else:
             logger.warning(f"✗ 数据源 {url} 获取失败")
@@ -309,9 +313,10 @@ def main():
     logger.info(f'去除重复线路：{duplicate_count}')
     logger.info(f'去重后线路数：{len(unique_urls)}')
 
-    # 4. 将肥猫线路添加到 urls 数组开头
-    feimao_line = {"url": "http://肥猫.com/", "name": "肥猫线路"}
-    unique_urls.insert(0, feimao_line)
+    # 4. 将固定线路添加到 urls 数组开头（逆序插入保持原顺序）
+    for line in reversed(FIXED_LINES):
+        unique_urls.insert(0, line)
+    logger.info(f'添加固定线路数：{len(FIXED_LINES)}')
 
     final_count = len(unique_urls)
     logger.info(f'最终线路条数：{final_count}')
