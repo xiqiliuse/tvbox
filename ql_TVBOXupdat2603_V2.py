@@ -310,7 +310,7 @@ def main():
     logger.info(f'去重后线路数：{len(unique_urls)}')
 
     # 4. 将肥猫线路添加到 urls 数组开头
-    feimao_line = {"url": "http://www.feimao.com", "name": "肥猫线路"}
+    feimao_line = {"url": "http://肥猫.com/", "name": "肥猫线路"}
     unique_urls.insert(0, feimao_line)
 
     final_count = len(unique_urls)
