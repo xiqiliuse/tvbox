@@ -71,34 +71,41 @@ class TVBoxValidator:
         else:
             return -1  # 其他
     
-    def count_sites_keys(self, data: Any) -> int:
+    def count_sites_keys_and_names(self, data: Any) -> Tuple[int, int]:
         """
-        统计 JSON 数据中 sites 数组内每个对象的 Keys 数量
-        返回：sites 中所有对象的 keys 总数
+        统计 JSON 数据中 sites 数组内每个对象的 Keys 数量和 name 数量
+        返回：(sites_keys 总数，name 数量)
         """
         total_keys = 0
+        name_count = 0
         
         if isinstance(data, dict):
             for k, v in data.items():
                 if k == 'sites' and isinstance(v, list):
-                    # 统计 sites 数组中每个对象的 keys 数量
+                    # 统计 sites 数组中每个对象的 keys 数量和 name 数量
                     for item in v:
                         if isinstance(item, dict):
                             total_keys += len(item.keys())
+                            if 'name' in item:
+                                name_count += 1
                 else:
                     # 递归统计嵌套数据
-                    total_keys += self.count_sites_keys(v)
+                    sub_keys, sub_names = self.count_sites_keys_and_names(v)
+                    total_keys += sub_keys
+                    name_count += sub_names
         
         elif isinstance(data, list):
             for item in data:
-                total_keys += self.count_sites_keys(item)
+                sub_keys, sub_names = self.count_sites_keys_and_names(item)
+                total_keys += sub_keys
+                name_count += sub_names
         
-        return total_keys
+        return (total_keys, name_count)
     
-    def validate_single_url(self, url_data: Dict) -> Tuple[Dict, bool, float, float, int]:
+    def validate_single_url(self, url_data: Dict) -> Tuple[Dict, bool, float, float, int, int]:
         """
         验证单个 URL
-        返回：(url_data, is_valid, response_time, content_length_kb, sites_keys_count)
+        返回：(url_data, is_valid, response_time, content_length_kb, sites_keys_count, name_count)
         """
         url = url_data['url']
         name = url_data['name']
@@ -106,6 +113,7 @@ class TVBoxValidator:
         
         # 初始化变量
         sites_keys_count = 0
+        name_count = 0
         content_length_kb = 0
         response_time = 0.0
     
@@ -115,11 +123,11 @@ class TVBoxValidator:
             content_length_kb = len(response.content) / 1024
             
             if response.status_code == 200:
-                # 解析 response.text 并统计 sites 中 keys 数量
+                # 解析 response.text 并统计 sites 中 keys 数量和 name 数量
                 try:
                     json_data = json.loads(response.text)
-                    sites_keys_count = self.count_sites_keys(json_data)
-                    logger.info(f"📊 sites Keys 统计：{sites_keys_count}")
+                    sites_keys_count, name_count = self.count_sites_keys_and_names(json_data)
+                    logger.info(f"📊 sites Keys 统计：{sites_keys_count}, name 数量：{name_count}")
                 except json.JSONDecodeError:
                     logger.warning(f"无法解析 JSON 格式：{url}")
                 
@@ -128,7 +136,7 @@ class TVBoxValidator:
                 # 第一次验证
                 if classification == 0 and content_length_kb > 2:
                     logger.info(f"✓ {name} - {url} 线路成功")
-                    return (url_data, True, response_time, content_length_kb, sites_keys_count)
+                    return (url_data, True, response_time, content_length_kb, sites_keys_count, name_count)
                 
                 # 第二次验证（使用特定 headers）
                 response2 = self.session.get(url, timeout=REQUEST_CONFIG['timeout'])
@@ -138,15 +146,15 @@ class TVBoxValidator:
                     
                     if classification2 == 0 and content_length_kb2 > 2:
                         logger.info(f"✓ {name} - {url} 线路成功（二次验证）")
-                        return (url_data, True, response_time, content_length_kb2, sites_keys_count)
+                        return (url_data, True, response_time, content_length_kb2, sites_keys_count, name_count)
             
             logger.warning(f"✗ {name} - {url} 线路失败")
-            return (url_data, False, response_time, content_length_kb, sites_keys_count)
+            return (url_data, False, response_time, content_length_kb, sites_keys_count, name_count)
             
         except Exception as e:
             response_time = time.time() - start_time
             logger.error(f"✗ {name} - {url} 请求异常：{e}")
-            return (url_data, False, response_time, content_length_kb, sites_keys_count)
+            return (url_data, False, response_time, content_length_kb, sites_keys_count, name_count)
         
     def fetch_urls_from_source(self, url: str) -> List[Dict]:
         """
@@ -178,10 +186,10 @@ class TVBoxValidator:
             logger.error(f"获取数据源失败 {url}：{e}")
             return []
     
-    def validate_urls(self, datas: List[Dict]) -> List[Dict]:
+    def validate_urls(self, datas: List[Dict]) -> List[Tuple[Dict, int, int]]:
         """
         验证 URLs 列表
-        返回：有效的 urls 列表
+        返回：有效的 urls 列表 [(url_data, sites_keys_count, name_count), ...]
         """
         valid_urls = []
         total_count = len(datas)
@@ -195,7 +203,7 @@ class TVBoxValidator:
             }
             
             for future in as_completed(future_to_url):
-                url_data, is_valid, response_time, content_length_kb, sites_keys_count = future.result()
+                url_data, is_valid, response_time, content_length_kb, sites_keys_count, name_count = future.result()
                 
                 # 性能过滤：响应时间>10 秒且内容<8KB 的线路删除
                 if is_valid and response_time > 10 and content_length_kb < 8:
@@ -208,12 +216,24 @@ class TVBoxValidator:
                     is_valid = False
                 
                 if is_valid:
-                    valid_urls.append(url_data)
+                    # 保存 url_data 和统计信息用于后续排序
+                    valid_urls.append((url_data, sites_keys_count, name_count))
                 
                 logger.info(f"响应时间：{response_time:.4f}秒; 内容长度：{content_length_kb:.2f}KB")
                 logger.info("-" * 100)
         
         return valid_urls
+    
+    def sort_by_keys_and_names(self, data: List[Tuple[Dict, int, int]]) -> List[Dict]:
+        """
+        按 sites_keys 数量和 name 数量降序排序
+        返回：排序后的 url_data 列表
+        """
+        # 先按 sites_keys 降序，再按 name_count 降序
+        sorted_data = sorted(data, key=lambda x: (x[1], x[2]), reverse=True)
+        
+        # 只返回 url_data，丢弃统计信息
+        return [item[0] for item in sorted_data]
     
     def remove_duplicates(self, data: List[Dict], key: str) -> Tuple[List[Dict], int]:
         """
@@ -292,16 +312,20 @@ def main():
     logger.info(f"所有数据源合并后总线路数：{len(all_urls)}")
     logger.info(f"{'=' * 50}\n")
     
-    # 2. 验证所有 URLs
-    valid_urls = validator.validate_urls(all_urls)
-    logger.info(f"验证后有效线路数：{len(valid_urls)}")
+    # 2. 验证所有 URLs（返回带统计信息的元组列表）
+    valid_urls_with_stats = validator.validate_urls(all_urls)
+    logger.info(f"验证后有效线路数：{len(valid_urls_with_stats)}")
     
-    # 3. 去重处理
-    unique_urls, duplicate_count = validator.remove_duplicates(valid_urls, 'url')
+    # 3. 按 sites_keys 和 name 数量降序排序
+    sorted_urls = validator.sort_by_keys_and_names(valid_urls_with_stats)
+    logger.info(f'排序完成（按 sites_keys 和 name 数量降序）')
+    
+    # 4. 去重处理
+    unique_urls, duplicate_count = validator.remove_duplicates(sorted_urls, 'url')
     logger.info(f'去除重复线路：{duplicate_count}')
     logger.info(f'去重后线路数：{len(unique_urls)}')
 
-    # 4. 将固定线路添加到 urls 数组开头（逆序插入保持原顺序）
+    # 5. 将固定线路添加到 urls 数组开头（逆序插入保持原顺序）
     for line in reversed(FIXED_LINES):
         unique_urls.insert(0, line)
     logger.info(f'添加固定线路数：{len(FIXED_LINES)}')
@@ -309,14 +333,14 @@ def main():
     final_count = len(unique_urls)
     logger.info(f'最终线路条数：{final_count}')
     
-    # 5. 构建结果 JSON
+    # 6. 构建结果 JSON
     result_dict = {'urls': unique_urls}
     json_string = json.dumps(result_dict, indent=4, ensure_ascii=False)
     
-    # 6. 保存文件
+    # 7. 保存文件
     validator.save_json_file(json_string)
     
-    # 7. 发送通知
+    # 8. 发送通知
     if final_count > 0:
         send_notification(final_count)
         validator.check_file_exist()
