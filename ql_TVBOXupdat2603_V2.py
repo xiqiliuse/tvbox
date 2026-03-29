@@ -24,7 +24,7 @@ PATTERNS = {
 
 # 请求配置
 REQUEST_CONFIG = {
-    'timeout': 60,
+    'timeout': 20,
     'headers': {"User-Agent": "okhttp/4.1.0"},
     'verify': False
 }
@@ -71,18 +71,41 @@ class TVBoxValidator:
         else:
             return -1  # 其他
     
-    def validate_single_url(self, url_data: Dict) -> Tuple[Dict, bool, float, float, int, int]:
+    def count_sites_keys(self, data: Any) -> int:
+        """
+        统计 JSON 数据中 sites 数组内每个对象的 Keys 数量
+        返回：sites 中所有对象的 keys 总数
+        """
+        total_keys = 0
+        
+        if isinstance(data, dict):
+            for k, v in data.items():
+                if k == 'sites' and isinstance(v, list):
+                    # 统计 sites 数组中每个对象的 keys 数量
+                    for item in v:
+                        if isinstance(item, dict):
+                            total_keys += len(item.keys())
+                else:
+                    # 递归统计嵌套数据
+                    total_keys += self.count_sites_keys(v)
+        
+        elif isinstance(data, list):
+            for item in data:
+                total_keys += self.count_sites_keys(item)
+        
+        return total_keys
+    
+    def validate_single_url(self, url_data: Dict) -> Tuple[Dict, bool, float, float, int]:
         """
         验证单个 URL
-        返回：(url_data, is_valid, response_time, content_length_kb, name_count, api_count)
+        返回：(url_data, is_valid, response_time, content_length_kb, sites_keys_count)
         """
         url = url_data['url']
         name = url_data['name']
         start_time = time.time()
         
         # 初始化变量
-        name_count = 0
-        api_count = 0
+        sites_keys_count = 0
         content_length_kb = 0
         response_time = 0.0
     
@@ -92,11 +115,11 @@ class TVBoxValidator:
             content_length_kb = len(response.content) / 1024
             
             if response.status_code == 200:
-                # 解析 response.text 并统计键值对数量
+                # 解析 response.text 并统计 sites 中 keys 数量
                 try:
                     json_data = json.loads(response.text)
-                    key_count, name_count, api_count = self.count_keys(json_data)
-                    logger.info(f"📊 键值统计 - key:{key_count}, name:{name_count}, api:{api_count}")
+                    sites_keys_count = self.count_sites_keys(json_data)
+                    logger.info(f"📊 sites Keys 统计：{sites_keys_count}")
                 except json.JSONDecodeError:
                     logger.warning(f"无法解析 JSON 格式：{url}")
                 
@@ -105,7 +128,7 @@ class TVBoxValidator:
                 # 第一次验证
                 if classification == 0 and content_length_kb > 2:
                     logger.info(f"✓ {name} - {url} 线路成功")
-                    return (url_data, True, response_time, content_length_kb, name_count, api_count)
+                    return (url_data, True, response_time, content_length_kb, sites_keys_count)
                 
                 # 第二次验证（使用特定 headers）
                 response2 = self.session.get(url, timeout=REQUEST_CONFIG['timeout'])
@@ -115,51 +138,16 @@ class TVBoxValidator:
                     
                     if classification2 == 0 and content_length_kb2 > 2:
                         logger.info(f"✓ {name} - {url} 线路成功（二次验证）")
-                        return (url_data, True, response_time, content_length_kb2, name_count, api_count)
+                        return (url_data, True, response_time, content_length_kb2, sites_keys_count)
             
             logger.warning(f"✗ {name} - {url} 线路失败")
-            return (url_data, False, response_time, content_length_kb, name_count, api_count)
+            return (url_data, False, response_time, content_length_kb, sites_keys_count)
             
         except Exception as e:
             response_time = time.time() - start_time
             logger.error(f"✗ {name} - {url} 请求异常：{e}")
-            return (url_data, False, response_time, content_length_kb, name_count, api_count)
+            return (url_data, False, response_time, content_length_kb, sites_keys_count)
         
-    def count_keys(self, data: Any, target_keys: List[str] = None) -> Tuple[int, int, int]:
-        """
-        递归统计 JSON 数据中指定键的出现次数
-        返回：(key_count, name_count, api_count)
-        """
-        if target_keys is None:
-            target_keys = ['key', 'name', 'api']
-        
-        key_count = 0
-        name_count = 0
-        api_count = 0
-        
-        if isinstance(data, dict):
-            for k, v in data.items():
-                if k == 'key':
-                    key_count += 1
-                elif k == 'name':
-                    name_count += 1
-                elif k == 'api':
-                    api_count += 1
-                # 递归统计嵌套数据
-                sub_key, sub_name, sub_api = self.count_keys(v, target_keys)
-                key_count += sub_key
-                name_count += sub_name
-                api_count += sub_api
-        
-        elif isinstance(data, list):
-            for item in data:
-                sub_key, sub_name, sub_api = self.count_keys(item, target_keys)
-                key_count += sub_key
-                name_count += sub_name
-                api_count += sub_api
-        
-        return (key_count, name_count, api_count)
-    
     def fetch_urls_from_source(self, url: str) -> List[Dict]:
         """
         从单个数据源获取 URLs 列表
@@ -207,16 +195,16 @@ class TVBoxValidator:
             }
             
             for future in as_completed(future_to_url):
-                url_data, is_valid, response_time, content_length_kb, name_count, api_count = future.result()
+                url_data, is_valid, response_time, content_length_kb, sites_keys_count = future.result()
                 
                 # 性能过滤：响应时间>10 秒且内容<8KB 的线路删除
                 if is_valid and response_time > 10 and content_length_kb < 8:
                     logger.warning(f"删除慢速线路：{url_data['name']} - {url_data['url']}")
                     is_valid = False
                 
-                # 键值统计过滤 - name_count<20 且 api_count<6 的线路删除
-                if is_valid and name_count < 20 and api_count < 6:
-                    logger.warning(f"删除线路（键值统计不足）：{url_data['name']} - name_count:{name_count}, api_count:{api_count}")
+                # sites Keys 数量过滤 - 小于 10 个则删除
+                if is_valid and sites_keys_count < 10:
+                    logger.warning(f"删除线路（sites Keys 不足）：{url_data['name']} - sites_keys:{sites_keys_count}")
                     is_valid = False
                 
                 if is_valid:
