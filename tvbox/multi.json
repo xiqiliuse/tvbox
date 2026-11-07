@@ -1,12 +1,12 @@
 {
  "urls": [
   {
-   "name": "全能聚合（23站）",
-   "url": "https://raw.githubusercontent.com/xiqiliuse/tvbox/main/tvbox/groups/group_00_all.json"
+   "name": "全能聚合（110站）",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xiqiliuse/tvbox/main/tvbox/groups/group_00_all.json"
   },
   {
-   "name": "聚合01·fm261102c.png（23站）",
-   "url": "https://raw.githubusercontent.com/xiqiliuse/tvbox/main/tvbox/groups/group_01.json"
+   "name": "聚合01·xs.jar（61站）",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xiqiliuse/tvbox/main/tvbox/groups/group_01.json"
   }
  ]
 }
