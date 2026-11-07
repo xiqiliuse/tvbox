@@ -1,0 +1,51 @@
+{
+ "ts": 1794060071,
+ "elapsed": 49.4,
+ "depth": "l3",
+ "sources_total": 4,
+ "sources_ok": 1,
+ "states": {
+  "ok": 1,
+  "fetch_fail": 2,
+  "http_404": 1
+ },
+ "sites_total": 108,
+ "sites_uniq": 49,
+ "sites_ok": 15,
+ "sites_kept": 23,
+ "lines": 2,
+ "all_sites": 23,
+ "summary": [
+  {
+   "name": "全能聚合",
+   "jar": "(全部)",
+   "sites": 23,
+   "lives": 21,
+   "sources": 1
+  },
+  {
+   "name": "聚合01·fm261102c.png",
+   "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png",
+   "sites": 23,
+   "lives": 21,
+   "sources": 1
+  }
+ ],
+ "failed_sources": [
+  {
+   "url": "https://api.hgyx.vip/hgyx.json",
+   "state": "fetch_fail",
+   "note": "<urlopen error [Errno 111] Connection refused>"
+  },
+  {
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/chendi0207/my-TVBOX/main/tvboxqq/饭太硬/api.json",
+   "state": "http_404",
+   "note": ""
+  },
+  {
+   "url": "http://xn--z7x900a.com",
+   "state": "fetch_fail",
+   "note": "<urlopen error [Errno 101] Network is unreachable>"
+  }
+ ]
+}
