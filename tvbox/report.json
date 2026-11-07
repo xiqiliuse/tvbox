@@ -1,41 +1,74 @@
 {
- "ts": 1794060071,
- "elapsed": 49.4,
+ "ts": 1794061169,
+ "elapsed": 56.4,
  "depth": "l3",
- "sources_total": 4,
- "sources_ok": 1,
+ "sources_total": 26,
+ "sources_ok": 17,
  "states": {
-  "ok": 1,
+  "ok": 17,
+  "decode_fail": 1,
+  "nested_multi": 3,
   "fetch_fail": 2,
+  "encrypted": 2,
   "http_404": 1
  },
- "sites_total": 108,
- "sites_uniq": 49,
- "sites_ok": 15,
- "sites_kept": 23,
+ "sites_total": 637,
+ "sites_uniq": 164,
+ "sites_ok": 62,
+ "sites_kept": 110,
  "lines": 2,
- "all_sites": 23,
+ "all_sites": 110,
  "summary": [
   {
    "name": "全能聚合",
    "jar": "(全部)",
-   "sites": 23,
-   "lives": 21,
-   "sources": 1
+   "sites": 110,
+   "lives": 50,
+   "sources": 14
   },
   {
-   "name": "聚合01·fm261102c.png",
-   "jar": "https://ss1.eisite.cn/autoupload/f/eja2s/20261102/WU58/0X0/fm261102c.png",
-   "sites": 23,
-   "lives": 21,
+   "name": "聚合01·xs.jar",
+   "jar": "https://clun.top/jar/xs.jar",
+   "sites": 61,
+   "lives": 17,
    "sources": 1
   }
  ],
  "failed_sources": [
   {
+   "url": "http://new.xn--4kq62z5rby2qupq9ub.top",
+   "state": "decode_fail",
+   "note": ""
+  },
+  {
+   "url": "http://ztha.top/TVBox/GYCK.json",
+   "state": "nested_multi",
+   "note": ""
+  },
+  {
    "url": "https://api.hgyx.vip/hgyx.json",
    "state": "fetch_fail",
    "note": "<urlopen error [Errno 111] Connection refused>"
+  },
+  {
+   "url": "http://xhztv.top/dc",
+   "state": "nested_multi",
+   "note": ""
+  },
+  {
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+   "state": "encrypted",
+   "note": ""
+  },
+  {
+   "url": "http://xn--z7x900a.net/",
+   "state": "encrypted",
+   "note": ""
+  },
+  {
+   "url": "http://xmbjm.fh4u.org/dc.txt",
+   "state": "nested_multi",
+   "note": ""
   },
   {
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/chendi0207/my-TVBOX/main/tvboxqq/饭太硬/api.json",
