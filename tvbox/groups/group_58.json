@@ -1,0 +1,684 @@
+{
+ "spider": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/jar/xc.jar",
+ "wallpaper": "",
+ "sites": [
+  {
+   "key": "量子",
+   "name": "量子采集",
+   "type": 1,
+   "api": "https://cj.lziapi.com/api.php/provide/vod/",
+   "playUrl": "https://lziplayer.com/?url=",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "国产动漫",
+    "日韩动漫",
+    "国产剧"
+   ]
+  },
+  {
+   "key": "电影天堂",
+   "name": "电影天堂",
+   "type": 1,
+   "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 0,
+   "categories": [
+    "国产动漫",
+    "日韩动漫",
+    "连续剧"
+   ]
+  },
+  {
+   "key": "金鹰",
+   "name": "金鹰采集",
+   "type": 1,
+   "api": "https://jyzyapi.com/api.php/provide/vod/",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "中国动漫",
+    "日本动漫",
+    "内地剧"
+   ]
+  },
+  {
+   "key": "py_甜圈短剧",
+   "name": "甜圈短剧(T3)",
+   "type": 3,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/html/%E7%94%9C%E5%9C%88%E7%9F%AD%E5%89%A7.py",
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_皮皮虾",
+   "name": "皮皮虾(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/%E7%9A%AE%E7%9A%AE%E8%99%BEAPP.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_APPV2",
+   "name": "APPV2(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/APPV2.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_hitv",
+   "name": "hitv(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/hitvAPP.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_红果网页.py",
+   "name": "红果网页(T3)",
+   "type": 3,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/html/%E7%BA%A2%E6%9E%9C%E7%BD%91%E9%A1%B5.py",
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_哇哇_2",
+   "name": "哇哇(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/%E5%93%87%E5%93%87APP.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "js_youyou",
+   "name": "悠悠视频(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/%E6%82%A0%E6%82%A0APP.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_旺旺_2",
+   "name": "旺旺影视(T3)",
+   "type": 3,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/html/%E6%97%BA%E6%97%BA.py",
+   "playerType": 2,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_云端_5",
+   "name": "云端影视(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/py/%E4%BA%91%E7%AB%AF%E5%BD%B1%E8%A7%86.py",
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "py_aigua_5",
+   "name": "爱瓜TV(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/%E7%88%B1%E7%93%9CTVAPP.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_美帕_2",
+   "name": "美帕影视(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/%E7%BE%8E%E5%B8%95APP.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_恋鱼_2",
+   "name": "恋鱼影视(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/%E6%81%8B%E9%B1%BC%E5%BD%B1%E8%A7%86APP.py",
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "速播",
+   "name": "速播采集",
+   "type": 1,
+   "api": "https://subocaiji.com/api.php/provide/vod/",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "中国动漫",
+    "日本动漫",
+    "大陆剧"
+   ]
+  },
+  {
+   "key": "py_云速_5",
+   "name": "云速影视(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/py/%E4%BA%91%E9%80%9F%E5%BD%B1%E8%A7%86.py",
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "py_边缘_2",
+   "name": "边缘影视(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/%E8%BE%B9%E7%BC%98%E5%BD%B1%E8%A7%86APP.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_4KAV_5",
+   "name": "4KAV(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/py/4KAV.py",
+   "quickSearch": 1,
+   "searchable": 1,
+   "filterable": 1
+  },
+  {
+   "key": "py_剧多短剧",
+   "name": "剧多短剧(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/%E5%89%A7%E5%A4%9A%E7%9F%AD%E5%89%A7APP.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_国外",
+   "name": "国外剧情(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/py/py_guowaiju.py",
+   "quickSearch": 1,
+   "searchable": 1,
+   "filterable": 1
+  },
+  {
+   "key": "py_若惜_2",
+   "name": "若惜影视(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/%E8%8B%A5%E6%83%9C%E8%BF%BD%E5%89%A7APP.py",
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "直播转点播_14",
+   "name": "电视┃直播",
+   "type": 3,
+   "searchable": 0,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/lib/live2vod.js",
+   "ext": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/lib/feimaolive.json"
+  },
+  {
+   "key": "py_粤漫动漫_4",
+   "name": "粤漫动漫(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/s/%E7%B2%A4%E6%BC%AB.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_农牧_4",
+   "name": "农牧影视(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/py/%E5%86%9C%E6%B0%91%E5%BD%B1%E8%A7%86.py",
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "py_绝对影视_2",
+   "name": "绝对影视(T3)",
+   "type": 3,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/html/%E7%BB%9D%E5%AF%B9%E5%BD%B1%E8%A7%86.py",
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_奇优动漫_4",
+   "name": "奇优动漫(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/py/%E5%A5%87%E4%BC%98%E5%8A%A8%E6%BC%AB.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_文才_6",
+   "name": "文才影视(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/py/%E6%96%87%E6%89%8D%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": {
+    "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+   }
+  },
+  {
+   "key": "py_嗨皮_4",
+   "name": "嗨皮影视(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/py/%E5%97%A8%E7%9A%AE%E5%BD%B1%E8%A7%86.py",
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "py_嗷呜动漫_3",
+   "name": "嗷呜动漫(T3)",
+   "type": 3,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/html/%E5%97%B7%E5%91%9C%E5%8A%A8%E6%BC%AB.py",
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_金牌_5",
+   "name": "金牌(T3)",
+   "type": 3,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/py/%E9%87%91%E7%89%8C.py",
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_三号动漫",
+   "name": "三号动漫(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/%E4%B8%89%E5%8F%B7%E5%8A%A8%E6%BC%ABAPP.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_猎手_2",
+   "name": "电影猎手(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/%E7%94%B5%E5%BD%B1%E7%8C%8E%E6%89%8B.py",
+   "quickSearch": 1,
+   "searchable": 1,
+   "filterable": 0
+  },
+  {
+   "key": "索尼",
+   "name": "索尼采集 ",
+   "type": 1,
+   "api": "https://suoniapi.com/api.php/provide/vod/",
+   "playUrl": "https://www.snplayer.com/?url=",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "国产动漫",
+    "日韩动漫",
+    "国产剧"
+   ]
+  },
+  {
+   "key": "无尽",
+   "name": "无尽采集",
+   "type": 1,
+   "api": "https://api.wujinapi.net/api.php/provide/vod/",
+   "playUrl": "https://jx.wujinkk.com/dplayer/?url=",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "国产动漫",
+    "日韩动漫",
+    "国产剧",
+    "预告片"
+   ]
+  },
+  {
+   "key": "py_偷乐_5",
+   "name": "偷乐短剧(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/py/%E5%81%B7%E4%B9%90%E7%9F%AD%E5%89%A7.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "py_随机小姐姐",
+   "name": "随机小姐姐(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/html/%E9%9A%8F%E6%9C%BA%E5%B0%8F%E5%A7%90%E5%A7%90.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_魔方_2",
+   "name": "魔方影视(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/%E9%AD%94%E6%96%B9%E5%BD%B1%E8%A7%86APP.py",
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "py_高清电影_4",
+   "name": "高清电影(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/py/%E9%AB%98%E6%B8%85%E7%94%B5%E5%BD%B1.py"
+  },
+  {
+   "key": "py_光速_2",
+   "name": "光速(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/%E5%85%89%E9%80%9FAPP.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_视觉_2",
+   "name": "视觉(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/%E8%A7%86%E8%A7%89APP.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_火车太顺",
+   "name": "火车太顺(T3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/py/plugin/app/%E7%81%AB%E8%BD%A6%E5%A4%AA%E9%A1%BAAPP.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "CliCli",
+   "name": "CliCli｜动漫",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/py/CliCli%E5%8A%A8%E6%BC%AB.py",
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "MiFun_4",
+   "name": "MiFun｜动漫",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/py/MiFunP.py",
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "hipy_js_KTV歌厅[听]1",
+   "name": "KTV歌厅",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/lib/drpy2.min.js",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 0,
+   "ext": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/js/drpy2.js"
+  }
+ ],
+ "lives": [
+  {
+   "name": "cluntop",
+   "type": 0,
+   "url": "./lib/iptv.m3u",
+   "ua": "okhttp/4.1.0"
+  },
+  {
+   "name": "Mursor",
+   "type": "0",
+   "url": "https://gh.clun.top/raw.githubusercontent.com/Mursor/LIVE/main/iptv.m3u",
+   "playerType": 2,
+   "timeout": 10,
+   "ua": "okHttp/Mod-1.4.0.0"
+  },
+  {
+   "name": "tv_jp",
+   "type": "0",
+   "url": "https://gh.clun.top/raw.githubusercontent.com/luongz/iptv-jp/main/jp.m3u"
+  },
+  {
+   "name": "tv_jp_clean",
+   "type": "0",
+   "url": "https://gh.clun.top/raw.githubusercontent.com/luongz/iptv-jp/main/jp_clean.m3u"
+  },
+  {
+   "name": "平台直播",
+   "type": 0,
+   "url": "https://tv.iill.top/m3u/Live",
+   "ua": "okhttp/3.15",
+   "playerType": 2
+  },
+  {
+   "name": "冰茶 TV",
+   "type": 0,
+   "url": "https://fy.188766.xyz/?ip=&mishitong=true&mima=mianfeidehaimaiqian&json=true",
+   "ua": "bingcha/1.1"
+  },
+  {
+   "name": "肥羊虎牙一起看",
+   "type": 0,
+   "url": "https://gh.clun.top/raw.githubusercontent.com/mursor1985/LIVE/main/huyayqk.m3u",
+   "playerType": 2,
+   "timeout": 10,
+   "ua": "okHttp/Mod-1.4.0.0"
+  },
+  {
+   "name": "肥羊B站直播",
+   "type": 0,
+   "url": "https://gh.clun.top/raw.githubusercontent.com/mursor1985/LIVE/main/bililive.m3u",
+   "playerType": 2,
+   "timeout": 10,
+   "ua": "okHttp/Mod-1.4.0.0"
+  },
+  {
+   "name": "肥羊斗鱼一起看",
+   "type": 0,
+   "url": "https://gh.clun.top/raw.githubusercontent.com/mursor1985/LIVE/main/douyuyqk.m3u",
+   "playerType": 2,
+   "timeout": 10,
+   "ua": "okHttp/Mod-1.4.0.0"
+  },
+  {
+   "name": "肥羊YY轮播",
+   "type": 0,
+   "url": "https://gh.clun.top/raw.githubusercontent.com/mursor1985/LIVE/main/yylunbo.m3u",
+   "playerType": 2,
+   "timeout": 10,
+   "ua": "okHttp/Mod-1.4.0.0"
+  },
+  {
+   "name": "YTLive",
+   "type": 0,
+   "url": "./lib/yo21.txt"
+  },
+  {
+   "name": "wqwqwq",
+   "type": 0,
+   "url": "https://la1.wqwqwq.sbs/tv.m3u"
+  },
+  {
+   "name": "YanG",
+   "type": 0,
+   "url": "https://tv.iill.top/m3u/Gather",
+   "ua": "(Windows NT 10.0; Win64; x64) PotPlayer/25.03.21",
+   "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+   "logo": "https://live.fanmingming.com/tv/{name}.png"
+  },
+  {
+   "name": "nctv",
+   "type": 0,
+   "url": "http://live.nctv.top/x.txt",
+   "ua": "okhttp/4.1.0"
+  },
+  {
+   "name": "ofiii",
+   "type": 0,
+   "url": "./lib/ofiii.m3u"
+  },
+  {
+   "name": "Guovin",
+   "type": 0,
+   "url": "https://gh.clun.top/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+  },
+  {
+   "name": "mlzlzj",
+   "type": 0,
+   "url": "https://gh.clun.top/raw.githubusercontent.com/mlzlzj/TV/main/output/result.m3u"
+  },
+  {
+   "name": "gambiarras",
+   "type": 0,
+   "url": "https://github.com/gambiarras/legal-iptv/blob/main/playlist.m3u"
+  },
+  {
+   "name": "epg.pw All",
+   "type": 0,
+   "url": "https://m3u.002397.xyz/all.m3u"
+  },
+  {
+   "name": "iptv.org All",
+   "type": 0,
+   "url": "https://m3u.002397.xyz/o_all.m3u"
+  },
+  {
+   "group": "redirect",
+   "channels": [
+    {
+     "name": "redirect",
+     "urls": [
+      "proxy://do=live&type=live&proxy=&url="
+     ]
+    }
+   ]
+  }
+ ],
+ "parses": [
+  {
+   "name": "解析聚合",
+   "type": 3,
+   "url": "Web"
+  },
+  {
+   "name": "777",
+   "type": 0,
+   "url": "https://www.huaqi.live/?url="
+  },
+  {
+   "name": "jsonplayer",
+   "type": 0,
+   "url": "https://jx.jsonplayer.com/player/?url="
+  },
+  {
+   "name": "xmflv",
+   "type": 0,
+   "url": "https://jx.xmflv.com/?url="
+  },
+  {
+   "name": "M3U8",
+   "url": "https://jx.m3u8.tv/jiexi/?url=",
+   "type": 0
+  },
+  {
+   "name": "PM",
+   "url": "https://www.playm3u8.cn/jiexi.php?url=",
+   "type": 0
+  },
+  {
+   "name": "七哥",
+   "url": "https://jx.nnxv.cn/tv.php?url=",
+   "type": 0
+  }
+ ],
+ "flags": [
+  "youku",
+  "tudou",
+  "qq",
+  "qiyi",
+  "iqiyi",
+  "leshi",
+  "letv",
+  "sohu",
+  "imgo",
+  "mgtv",
+  "bilibili",
+  "pptv",
+  "PPTV",
+  "migu"
+ ]
+}
