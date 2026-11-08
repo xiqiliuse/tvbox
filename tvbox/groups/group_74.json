@@ -1,0 +1,527 @@
+{
+ "spider": "http://oss4liview.moji.com/thd_file/2026/10/26/837a77b77fc98aba6b97856944e94d7c.jpg;md5;722d5c1bdcb1b38fc62874941e060d6b",
+ "wallpaper": "",
+ "sites": [
+  {
+   "key": "量子资源",
+   "name": "🎀量子┆影视",
+   "type": 1,
+   "api": "https://cj.lziapi.com/api.php/provide/vod",
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "科幻片",
+    "恐怖片",
+    "爱情片",
+    "剧情片",
+    "战争片",
+    "记录片",
+    "动画片",
+    "国产剧",
+    "欧美剧",
+    "香港剧",
+    "韩国剧",
+    "台湾剧",
+    "日本剧",
+    "海外剧",
+    "泰国剧",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺",
+    "短剧",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫"
+   ]
+  },
+  {
+   "key": "七猫",
+   "name": "🎭七猫┆短剧",
+   "type": 3,
+   "api": "https://mpimg.cn/down.php/fd932d46caef0995cb0b6936f0413946.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "耐看",
+   "name": "💝耐看┆PY",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/%E8%80%90%E7%9C%8B.py"
+  },
+  {
+   "key": "央视综艺PY",
+   "name": "💝央视┆综艺",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/%E5%A4%AE%E8%A7%86%E7%BB%BC%E8%89%BA.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2,
+   "timeout": 60
+  },
+  {
+   "key": "py_XY影视",
+   "name": "🎭星芽┆短剧",
+   "type": 3,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/XYDJ.py",
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_永乐",
+   "name": "💝永乐┆PY",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/%E6%B0%B8%E4%B9%90%E8%A7%86%E9%A2%91.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "py_瓜子影视",
+   "name": "💝瓜子┆PY",
+   "type": 3,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/guazi.py",
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "哔哩PY",
+   "name": "💕哔哩丨PY",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/BLZB.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "酷我PY",
+   "name": "💕酷我┆PY",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/kuwo.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "高清点播",
+   "name": "💝高清┆PY",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/%E9%AB%98%E6%B8%85%E7%82%B9%E6%92%AD4K.py"
+  },
+  {
+   "key": "py_shanzha",
+   "name": "💝山楂┆PY",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/shanzha.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": {}
+  },
+  {
+   "key": "雪落",
+   "name": "💝雪落┆PY",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/%E9%9B%AA%E8%90%BD.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "py_多多视频电影",
+   "name": "💝多多┆PY",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/duoduo.py"
+  },
+  {
+   "key": "爱听音乐",
+   "name": "💕爱听┆PY",
+   "type": 3,
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/%E7%88%B1%E5%90%AC%E9%9F%B3%E4%B9%90.py"
+  },
+  {
+   "key": "py_独播库",
+   "name": "💝独播┆PY",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/%E7%8B%AC%E6%92%AD%E5%BA%93.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "七星短剧",
+   "name": "🎭七星┆短剧",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/%E4%B8%83%E6%98%9F%E7%9F%AD%E5%89%A7.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "首映網",
+   "name": "💝首映┆PY",
+   "type": 3,
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/%E9%A6%96%E6%98%A0%E7%B6%B2.py"
+  },
+  {
+   "key": "枫叶",
+   "name": "💝枫叶丨PY",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/maple.py"
+  },
+  {
+   "key": "影视单播放",
+   "name": "🌟影视┆播放",
+   "type": 4,
+   "api": "http://zhangqun1818.serv00.net/zh/2243.php"
+  },
+  {
+   "key": "小豬看看",
+   "name": "💝小豬┆PY",
+   "type": 3,
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/%E5%B0%8F%E8%B1%AC%E7%9C%8B%E7%9C%8B.py"
+  },
+  {
+   "key": "py_可可影视",
+   "name": "💝可可┆PY",
+   "type": 3,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/kkys.py",
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "開心影院",
+   "name": "💝開心┆PY",
+   "type": 3,
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "api": "https://gh-proxy.org/https://github.com/hy5528/tvbox/blob/main/py/%E9%96%8B%E5%BF%83%E5%BD%B1%E9%99%A2.py"
+  },
+  {
+   "key": "暴风影视",
+   "name": "🎀暴风┆影视",
+   "type": 1,
+   "api": "https://bfzyapi.com/api.php/provide/vod",
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "科幻片",
+    "恐怖片",
+    "爱情片",
+    "剧情片",
+    "战争片",
+    "记录片",
+    "动画片",
+    "国产剧",
+    "欧美剧",
+    "香港剧",
+    "韩国剧",
+    "台湾剧",
+    "日本剧",
+    "海外剧",
+    "泰国剧",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺",
+    "短剧大全",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫"
+   ]
+  },
+  {
+   "key": "红果短剧",
+   "name": "💖红果|短剧",
+   "type": 3,
+   "api": "https://easy888.dpdns.org/py/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7.py",
+   "genre": "shortdrama"
+  },
+  {
+   "key": "小苹果.py",
+   "name": "💝分享苹果",
+   "type": 3,
+   "api": "https://wget.la/https://raw.githubusercontent.com/maoystv/6/main/PY/%E5%88%86%E4%BA%AB%E8%80%85%E5%B0%8F%E8%8B%B9%E6%9E%9C.py"
+  },
+  {
+   "key": "聚合资源",
+   "name": "🎀聚合┆影视",
+   "type": 1,
+   "api": "https://vod.7na7.com/",
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "科幻片",
+    "恐怖片",
+    "爱情片",
+    "剧情片",
+    "战争片",
+    "记录片",
+    "动画片",
+    "国产剧",
+    "欧美剧",
+    "香港剧",
+    "韩国剧",
+    "台湾剧",
+    "日本剧",
+    "海外剧",
+    "泰国剧",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺",
+    "短剧",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫"
+   ]
+  },
+  {
+   "key": "360资源",
+   "name": "🎀360┆影视",
+   "type": 1,
+   "api": "https://360zyzz.com/api.php/provide/vod",
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "科幻片",
+    "恐怖片",
+    "爱情片",
+    "剧情片",
+    "战争片",
+    "古装片",
+    "历史片",
+    "家庭篇",
+    "犯罪片",
+    "灾难片",
+    "悬疑片",
+    "纪录片",
+    "短片",
+    "动画片",
+    "国产剧",
+    "欧美剧",
+    "香港剧",
+    "韩国剧",
+    "台湾剧",
+    "日本剧",
+    "海外剧",
+    "泰国剧",
+    "爽文短剧",
+    "古装仙侠",
+    "现代都市",
+    "年代穿越",
+    "脑洞悬疑",
+    "女频恋爱",
+    "成长逆袭",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺",
+    "短剧",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫"
+   ]
+  },
+  {
+   "key": "无水印资源",
+   "name": "🎀无水印┆影视",
+   "type": 1,
+   "api": "https://api.wsyzy.net/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "changeable": 1,
+   "categories": [
+    "4K电影",
+    "Netflix自制剧",
+    "动作片",
+    "喜剧片",
+    "科幻片",
+    "恐怖片",
+    "爱情片",
+    "剧情片",
+    "战争片",
+    "记录片",
+    "邵氏电影",
+    "动画片",
+    "国产剧",
+    "欧美剧",
+    "香港剧",
+    "韩国剧",
+    "台湾剧",
+    "日本剧",
+    "海外剧",
+    "泰国剧",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺",
+    "短剧",
+    "女频恋爱",
+    "反转爽剧",
+    "古装仙侠",
+    "年代穿越",
+    "脑洞悬疑",
+    "现代都市",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫"
+   ]
+  },
+  {
+   "key": "影视播放",
+   "name": "🌟老张┆影视",
+   "type": 4,
+   "api": "http://zhangqun1818.serv00.net/zh/2242.php"
+  }
+ ],
+ "lives": [
+  {
+   "name": "双龙",
+   "type": 0,
+   "url": "https://xn--jory77o.v.nxog.top/m/tv/?ou=339",
+   "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+   "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png",
+   "playerType": 2,
+   "timeout": 10
+  },
+  {
+   "name": "Kimentanm",
+   "type": 0,
+   "url": "https://down.nigx.cn/raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+   "playerType": 2
+  },
+  {
+   "name": "老汤TV直播",
+   "type": 0,
+   "ua": "okhttp",
+   "url": "https://gh-proxy.org/https://raw.githubusercontent.com/alantang1977/alan/main/proxy/mg.m3u"
+  },
+  {
+   "name": "涛涛TV直播",
+   "type": 0,
+   "url": "https://gh-proxy.org/https://raw.githubusercontent.com/taoBox2620/taoBox2620/refs/heads/main/logo1.png",
+   "playerType": 1
+  },
+  {
+   "name": "广西移动直播",
+   "type": 0,
+   "url": "https://gitee.com/hyx2230/IPTV/raw/master/tv.m3u",
+   "ua": "Herissmon/2016",
+   "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+  },
+  {
+   "name": "综合直播",
+   "type": 0,
+   "playerType": 2,
+   "url": "http://193.123.86.190:14888/TV/iptv.php",
+   "ua": "bingcha/1.1 (mianfeifenxiang) "
+  },
+  {
+   "name": "虎牙一起看",
+   "type": 0,
+   "url": "https://sub.ottiptv.cc/huyayqk.m3u",
+   "playerType": 2,
+   "timeout": 10,
+   "ua": "okHttp/Mod-1.5.0.0"
+  },
+  {
+   "name": "斗鱼一起看",
+   "type": 0,
+   "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
+   "playerType": 2,
+   "timeout": 10,
+   "ua": "okHttp/Mod-1.5.0.0"
+  },
+  {
+   "name": "B站直播",
+   "type": 0,
+   "url": "https://file.icve.com.cn/file_doc/220/1003/370FAE41BD301F89BA1FCD6FDB8D5BD6.m3u",
+   "playerType": 2,
+   "timeout": 10,
+   "ua": "okHttp/Mod-1.5.0.0"
+  },
+  {
+   "name": "YY轮播",
+   "type": 0,
+   "url": "https://sub.ottiptv.cc/yylunbo.m3u",
+   "playerType": 2,
+   "timeout": 10,
+   "ua": "okHttp/Mod-1.5.0.0"
+  }
+ ],
+ "parses": [
+  {
+   "name": "王",
+   "type": 1,
+   "url": "http://122.228.84.103:7777/api/?key=4Dk5tdayvY6NZufEMG&url="
+  },
+  {
+   "name": "二",
+   "type": 1,
+   "url": "http://110.42.7.182:880/api/?key=7e84f07dc78fbb3406d64a1ab7d966b3&url="
+  },
+  {
+   "name": "小",
+   "type": 1,
+   "url": "http://43.136.176.188:91/api/?key=4ef232e96172b0bda78d393c695fe7c4&url="
+  },
+  {
+   "name": "帅",
+   "type": 1,
+   "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
+  }
+ ],
+ "flags": []
+}
