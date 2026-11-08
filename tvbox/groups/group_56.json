@@ -1,0 +1,646 @@
+{
+ "spider": "https://myjf.indevs.in/mytv/api/spider-kaixin.jar",
+ "wallpaper": "",
+ "sites": [
+  {
+   "key": "非凡影视",
+   "name": "✴️非凡影视",
+   "type": 1,
+   "api": "http://cj.ffzyapi.com//api.php/provide/vod",
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "科幻片",
+    "恐怖片",
+    "爱情片",
+    "剧情片",
+    "战争片",
+    "记录片",
+    "国产剧",
+    "欧美剧",
+    "香港剧",
+    "韩国剧",
+    "台湾剧",
+    "日本剧",
+    "海外剧",
+    "泰国剧",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺"
+   ]
+  },
+  {
+   "key": "非凡",
+   "name": "影视 | 非凡[直连]",
+   "type": 1,
+   "api": "http://ffzy.tv/api.php/provide/vod/",
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "爱情片",
+    "科幻片",
+    "恐怖片",
+    "剧情片",
+    "战争片",
+    "国产剧",
+    "香港剧",
+    "韩国剧",
+    "欧美剧",
+    "记录片",
+    "台湾剧",
+    "日本剧",
+    "海外剧",
+    "泰国剧",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫"
+   ]
+  },
+  {
+   "key": "lzizy.net",
+   "name": "🎬量子影视",
+   "type": 1,
+   "api": "https://cj.lziapi.com/api.php/provide/vod",
+   "ext": "https://lzizy.net"
+  },
+  {
+   "key": "华为吧",
+   "name": "影视 | 华为吧[直连]",
+   "type": 1,
+   "api": "https://huaweiba.live/api.php/provide/vod/",
+   "categories": [
+    "电影",
+    "冒险片",
+    "剧情片",
+    "动作片",
+    "动画电影",
+    "喜剧片",
+    "奇幻片",
+    "恐怖片",
+    "悬疑片",
+    "惊悚片",
+    "歌舞片",
+    "灾难片",
+    "爱情片",
+    "科幻片",
+    "犯罪片",
+    "经典片",
+    "网络电影",
+    "战争片",
+    "电视 剧",
+    "欧美剧",
+    "日剧",
+    "韩剧",
+    "台剧",
+    "泰剧",
+    "国产剧",
+    "港剧",
+    "新马剧",
+    "其他剧",
+    "动漫",
+    "综艺",
+    "体育",
+    "纪录片",
+    "篮球",
+    "足球",
+    "网球",
+    "斯诺克",
+    "欧美动漫",
+    "日韩动漫",
+    "国产动漫",
+    "新马泰动漫",
+    "港台 动漫",
+    "其他动漫",
+    "国产综艺",
+    "日韩综艺",
+    "欧美综艺",
+    "新马泰综艺",
+    "港台综艺",
+    "其他综艺",
+    "短剧"
+   ]
+  },
+  {
+   "key": "无尽",
+   "name": "影视 | 无尽[直连]",
+   "type": 1,
+   "api": "http://api.wujinapi.me/api.php/provide/vod/?ac=list",
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "爱情片",
+    "科幻片",
+    "恐怖片",
+    "剧情片",
+    "战争片",
+    "国产剧",
+    "香港剧",
+    "台湾剧",
+    "美国剧",
+    "纪录片",
+    "韩国剧",
+    "日本剧",
+    "海外剧",
+    "大陆综艺",
+    "日韩综艺",
+    "港台综艺",
+    "欧美综艺",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "悬疑片",
+    "动画片",
+    "犯罪片",
+    "奇幻片",
+    "邵氏电影",
+    "泰剧",
+    "短剧",
+    "港台动漫",
+    "海外动漫"
+   ],
+   "header": {
+    "User-Agent": "Mozilla/5.0"
+   }
+  },
+  {
+   "key": "dyttzyapi.com",
+   "name": "🎬电影天堂",
+   "type": 1,
+   "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+   "ext": "http://caiji.dyttzyapi.com"
+  },
+  {
+   "key": "wolongzyw.com",
+   "name": "🎬卧龙资源",
+   "type": 1,
+   "api": "https://wolongzyw.com/api.php/provide/vod",
+   "ext": "https://wolongzyw.com"
+  },
+  {
+   "key": "www.hongniuzy.com",
+   "name": "🎬红牛资源",
+   "type": 1,
+   "api": "https://www.hongniuzy2.com/api.php/provide/vod",
+   "ext": "https://www.hongniuzy.com"
+  },
+  {
+   "key": "xinlangapi.com",
+   "name": "🎬新浪资源",
+   "type": 1,
+   "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+   "ext": "https://xinlangapi.com"
+  },
+  {
+   "key": "p2100.net",
+   "name": "🎬飘零资源",
+   "type": 1,
+   "api": "https://p2100.net/api.php/provide/vod",
+   "ext": "https://p2100.net"
+  },
+  {
+   "key": "www.huyaapi.com",
+   "name": "🎬虎牙资源",
+   "type": 1,
+   "api": "https://www.huyaapi.com/api.php/provide/vod",
+   "ext": "https://www.huyaapi.com"
+  },
+  {
+   "key": "TV-卧龙点播",
+   "name": "TV-卧龙点播",
+   "type": 1,
+   "api": "https://collect.wolongzyw.com/api.php/provide/vod",
+   "detail": "https://collect.wolongzyw.com",
+   "categories": [
+    "内地剧",
+    "香港剧",
+    "欧美剧",
+    "韩剧",
+    "日剧",
+    "马泰剧",
+    "台湾剧",
+    "动画片",
+    "中国动漫",
+    "日本动漫",
+    "欧美动漫",
+    "剧情片",
+    "战争片",
+    "动作片",
+    "科幻片",
+    "记录片",
+    "爱情片",
+    "喜剧片",
+    "灾难片",
+    "悬疑片",
+    "犯罪片",
+    "大陆综艺",
+    "日韩综艺",
+    "港台综艺",
+    "欧美综艺"
+   ]
+  },
+  {
+   "key": "索尼",
+   "name": "影视 | 索尼[直连]",
+   "type": 0,
+   "api": "https://suoniapi.com/api.php/provide/vod/at/xml/",
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "爱情片",
+    "科幻片",
+    "恐怖片",
+    "剧情片",
+    "战争片",
+    "国产剧",
+    "欧美剧",
+    "港剧",
+    "台剧",
+    "韩剧",
+    "日剧",
+    "泰剧",
+    "纪录片",
+    "海外剧",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫",
+    "影视解说"
+   ]
+  },
+  {
+   "key": "www.moduzy.net",
+   "name": "🎬魔都资源",
+   "type": 1,
+   "api": "https://www.mdzyapi.com/api.php/provide/vod",
+   "ext": "https://www.moduzy.net"
+  },
+  {
+   "key": "www.subozy.com",
+   "name": "🎬速播资源",
+   "type": 1,
+   "api": "https://subocaiji.com/api.php/provide/vod",
+   "ext": "https://www.subozy.com"
+  },
+  {
+   "key": "TV-天涯资源",
+   "name": "TV-天涯资源",
+   "type": 1,
+   "api": "https://tyyszy.com/api.php/provide/vod",
+   "changeable": 1,
+   "categories": [
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "动漫电影",
+    "里番动漫",
+    "电影",
+    "连续剧",
+    "综艺",
+    "动作片",
+    "喜剧片",
+    "爱情片",
+    "科幻片",
+    "恐怖片",
+    "剧情片",
+    "战争片",
+    "惊悚片",
+    "家庭片",
+    "古装片",
+    "历史片",
+    "悬疑片",
+    "犯罪片",
+    "灾难片",
+    "记录片",
+    "短片",
+    "国产剧",
+    "香港剧",
+    "韩国剧",
+    "欧美剧",
+    "台湾剧",
+    "日本剧",
+    "海外剧",
+    "泰国剧",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺",
+    "短剧",
+    "伦理片",
+    "动漫"
+   ],
+   "header": {
+    "User-Agent": "Mozilla/5.0 (Linux; Android 11; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Mobile Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Cache-Control": "no-cache",
+    "Connection": "close"
+   },
+   "timeout": 10000,
+   "retry": 2
+  },
+  {
+   "key": "wujinzy.com",
+   "name": "🎬无尽影视",
+   "type": 1,
+   "api": "https://api.wujinapi.com/api.php/provide/vod",
+   "ext": "https://wujinzy.com"
+  },
+  {
+   "key": "py_douban_4",
+   "name": "豆瓣[py]",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/my521jf/my521jf.github.io@main/json/lib/douban.py",
+   "changeable": 0,
+   "searchable": 0,
+   "filterable": 0
+  },
+  {
+   "key": "caiji.moduapi.cc",
+   "name": "🎬魔都动漫",
+   "type": 1,
+   "api": "https://caiji.moduapi.cc/api.php/provide/vod",
+   "ext": "https://caiji.moduapi.cc"
+  },
+  {
+   "key": "www.haohuazy.com",
+   "name": "🎬豪华资源",
+   "type": 1,
+   "api": "https://hhzyapi.com/api.php/provide/vod",
+   "ext": "https://www.haohuazy.com"
+  },
+  {
+   "key": "wujinzy.me",
+   "name": "🎬无尽资源",
+   "type": 1,
+   "api": "https://api.wujinapi.me/api.php/provide/vod",
+   "ext": "https://wujinzy.com"
+  },
+  {
+   "key": "hipy_js_4k剧院",
+   "name": "🎦4k剧院(drpy_t3)",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/my521jf/my521jf.github.io@main/json/api/drpy2.min.js",
+   "order_num": 6,
+   "ext": "https://fastly.jsdelivr.net/gh/my521jf/my521jf.github.io@main/json/js/4k%E5%89%A7%E9%99%A2.js"
+  },
+  {
+   "key": "Acfun",
+   "name": "😀┃A站┃平台",
+   "type": 3,
+   "api": "https://fastlink.cokey.xyz/f/XB4Oik/Acfun.py"
+  },
+  {
+   "key": "虎牙直播js",
+   "name": "🐯┃虎牙┃直播",
+   "playerType": 1,
+   "type": 3,
+   "api": "https://raw.liucn.cc/box/libs/js/drpy2.min.js",
+   "ext": "https://raw.liucn.cc/box/libs/js/%E8%99%8E%E7%89%99%E7%9B%B4%E6%92%AD.js",
+   "style": {
+    "type": "rect",
+    "ratio": 1.755
+   },
+   "searchable": 0,
+   "quickSearch": 0
+  },
+  {
+   "key": "jszyapi.com",
+   "name": "🎬极速资源",
+   "type": 1,
+   "api": "https://jszyapi.com/api.php/provide/vod",
+   "ext": "https://jszyapi.com"
+  },
+  {
+   "key": "zuida.xyz",
+   "name": "🎬最大资源",
+   "type": 1,
+   "api": "https://api.zuidapi.com/api.php/provide/vod",
+   "ext": "https://zuida.xyz"
+  },
+  {
+   "key": "suonizy.net",
+   "name": "🎬索尼资源",
+   "type": 1,
+   "api": "https://suoniapi.com/api.php/provide/vod",
+   "ext": "https://suonizy.net"
+  },
+  {
+   "key": "bfzy.tv",
+   "name": "🎬暴风资源",
+   "type": 1,
+   "api": "https://bfzyapi.com/api.php/provide/vod",
+   "ext": "https://bfzy.tv"
+  },
+  {
+   "key": "jinyingzy.com",
+   "name": "🎬金鹰点播",
+   "type": 1,
+   "api": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json",
+   "ext": "https://jinyingzy.com"
+  },
+  {
+   "key": "api.ukuapi88.com",
+   "name": "🎬U酷影视",
+   "type": 1,
+   "api": "https://api.ukuapi88.com/api.php/provide/vod",
+   "ext": "https://www.ukuzy.com"
+  },
+  {
+   "key": "drpy_js_豆瓣_18",
+   "name": "🐮马氏一族观影愉快🐮",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/my521jf/my521jf.github.io@main/json/lib/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/my521jf/my521jf.github.io@main/json/js/drpy.js"
+  },
+  {
+   "key": "www.maoyanzy.com",
+   "name": "🎬猫眼资源",
+   "type": 1,
+   "api": "https://api.maoyanapi.top/api.php/provide/vod",
+   "ext": "https://www.maoyanzy.com"
+  },
+  {
+   "key": "360zy.com",
+   "name": "🎬360 资源",
+   "type": 1,
+   "api": "https://360zyzz.com/api.php/provide/vod",
+   "ext": "https://360zy.com"
+  },
+  {
+   "key": "直播转点播_12",
+   "name": "📺︎┃电视┃点播",
+   "playerType": 1,
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/my521jf/my521jf.github.io@main/json/js/zubo.min.js",
+   "quickSearch": 0,
+   "filterable": 0,
+   "ext": "https://ghproxy.jsyfhome.dpdns.org/https://myjf.indevs.in/mytv/api/zubo.json"
+  },
+  {
+   "key": "maotv直播",
+   "name": "📺︎maotv直播",
+   "type": 3,
+   "searchable": 0,
+   "changeable": 1,
+   "api": "https://fastly.jsdelivr.net/gh/my521jf/my521jf.github.io@main/json/api/maotv.js",
+   "ext": "https://ghproxy.jsyfhome.dpdns.org/https://myjf.indevs.in/mytv/api/maotv.json"
+  }
+ ],
+ "lives": [
+  {
+   "name": "⑴NV域名YSP直播",
+   "type": 0,
+   "url": "https://mg.jsyfcode.dpdns.org/txt",
+   "playerType": 2
+  },
+  {
+   "name": "⑵KataBump部署直播",
+   "type": 0,
+   "url": "http://145.239.65.119:20218/all.m3u",
+   "playerType": 2
+  },
+  {
+   "name": "⑶IPTV Center直播",
+   "type": 0,
+   "url": "https://ghproxy.jsyfhome.dpdns.org/https://xymm.1000s.dpdns.org/377497/txt",
+   "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}"
+  },
+  {
+   "name": "⑷🛰️CF域名TXT直播",
+   "type": 0,
+   "url": "https://txt.jsyfcode.ccwu.cc/",
+   "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}",
+   "playerType": 2
+  },
+  {
+   "name": "⑸订阅直播",
+   "type": 0,
+   "url": "https://ghproxy.jsyfhome.dpdns.org/https://live.ottiptv.cc/iptv.m3u?userid=6320786386&sign=036b37e9e5d7e1724e97a92b6a7fd5dce5702dcf102f51360686ed467f6047bcbd900dd6842c204facdaddc8137f94a3a0a2053daa4878bd96f3a4d9c8fc9ab35f87509495f440&auth_token=7ee21037e831ad7453963c9360f92bac",
+   "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}",
+   "playerType": 2
+  },
+  {
+   "name": "⑹猫影视TV",
+   "type": 0,
+   "url": "http://rihou.cc:555/gggg.nzk",
+   "playerType": 2
+  },
+  {
+   "name": "⑺ONE直播",
+   "type": 0,
+   "url": "https://ghproxy.jsyfhome.dpdns.org/https://raw.githubusercontent.com/my521jf/my521jf.github.io/refs/heads/main/one.txt",
+   "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}"
+  },
+  {
+   "name": "⑻3w部",
+   "type": 0,
+   "url": "https://my521jf.github.io/txt/3wb.txt",
+   "playerType": 2
+  },
+  {
+   "name": "⑼YY影视",
+   "type": 0,
+   "url": "https://ghproxy.jsyfhome.dpdns.org/https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/yylunbo.m3u",
+   "playerType": 2
+  },
+  {
+   "name": "⑽fnos",
+   "type": 0,
+   "url": "http://172.16.8.96:7788/",
+   "playerType": 2
+  },
+  {
+   "name": "⑾萌萌TV",
+   "type": 0,
+   "url": "http://45.192.97.170:5211/233747",
+   "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}"
+  },
+  {
+   "name": "易发TV",
+   "type": 0,
+   "url": "http://45.192.97.170:5211/789741",
+   "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}"
+  },
+  {
+   "name": "酒店合集",
+   "type": 0,
+   "url": "http://45.192.97.170:6001/txt",
+   "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}"
+  },
+  {
+   "name": "🛰️央视频",
+   "type": 0,
+   "url": "http://45.192.97.170:10001/live.m3u",
+   "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}"
+  },
+  {
+   "name": "体育赛事",
+   "type": 0,
+   "url": "http://45.192.97.170:5211/789123",
+   "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}"
+  },
+  {
+   "name": "⑿体育赛事",
+   "type": 0,
+   "url": "https://xymm.tv12.xyz/live.txt=789123",
+   "playerType": 2
+  }
+ ],
+ "parses": [
+  {
+   "name": "-8090g-",
+   "type": 0,
+   "url": "https://www.8090g.cn/jiexi/?url="
+  },
+  {
+   "name": "-冰豆-",
+   "type": 0,
+   "url": "https://bd.jx.cn/?url="
+  },
+  {
+   "name": "-m3u8TV-",
+   "type": 0,
+   "url": "https://jx.m3u8.tv/jiexi/?url="
+  }
+ ],
+ "flags": [
+  "youku",
+  "优酷",
+  "优 酷",
+  "优酷视频",
+  "qq",
+  "腾讯",
+  "腾 讯",
+  "腾讯视频",
+  "iqiyi",
+  "qiyi",
+  "奇艺",
+  "爱奇艺",
+  "爱 奇 艺",
+  "m1905",
+  "xigua",
+  "letv",
+  "leshi",
+  "乐视",
+  "乐 视",
+  "sohu"
+ ]
+}
