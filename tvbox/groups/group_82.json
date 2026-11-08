@@ -1,0 +1,301 @@
+{
+ "spider": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/spider.jar",
+ "wallpaper": "",
+ "sites": [
+  {
+   "key": "Cat_聚合儿歌_5",
+   "name": "👶聚合丨儿童",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/erge_juhe.js",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "荐片123_5",
+   "name": "🥇荐片｜影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E8%8D%90%E7%89%87.js"
+  },
+  {
+   "key": "星辰影院_3",
+   "name": "🥇星辰┃影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E6%98%9F%E8%BE%B0%E5%BD%B1%E9%99%A2.js"
+  },
+  {
+   "key": "金牌123_2",
+   "name": "🥇金牌｜影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E9%87%91%E7%89%8C%E5%BD%B1%E9%99%A2.js"
+  },
+  {
+   "key": "鬼片_2",
+   "name": "🥇鬼片｜影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E9%AC%BC%E7%89%87%E4%B9%8B%E5%AE%B6.js"
+  },
+  {
+   "key": "戒_4",
+   "name": "🥇视界｜影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E7%95%8C.py",
+   "changeable": 1
+  },
+  {
+   "key": "猎手_4",
+   "name": "🥇猎手丨影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E7%8C%8E%E6%89%8B.py"
+  },
+  {
+   "key": "哔哩直播_19",
+   "name": "🎮哔哩丨直播",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E5%93%94%E5%93%A9%E7%9B%B4%E6%92%AD.py"
+  },
+  {
+   "key": "央视",
+   "name": "🥇央视丨影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E5%A4%AE%E8%A7%86.py"
+  },
+  {
+   "key": "Cat_梨园戏_5",
+   "name": "🌸梨园丨戏曲",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/liyuan_xi.js",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "py_咖啡直播_4",
+   "name": "⚽咖啡｜球赛",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E5%92%96%E5%95%A1%E7%9B%B4%E6%92%AD.py",
+   "style": {
+    "type": "list"
+   },
+   "quickSearch": 0,
+   "searchable": 1,
+   "changeable": 0
+  },
+  {
+   "key": "魔都资源",
+   "name": "🤣魔都┃动漫",
+   "type": 1,
+   "api": "https://caiji.moduapi.cc/api.php/provide/vod/?ac=list",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "Cat_聚合知识_3",
+   "name": "👶聚合丨知识",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/zhishi_juhe.js",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "py_文才_7",
+   "name": "🥇文才｜影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E6%96%87%E6%89%8D%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": {
+    "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn"
+   }
+  },
+  {
+   "key": "py_douban_6",
+   "name": "📢接口软件永远免费",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/py_douban.py",
+   "searchable": 0,
+   "filterable": 0,
+   "changeable": 0
+  },
+  {
+   "key": "cat体育聚合_4",
+   "name": "⚽聚合｜球赛",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E4%BD%93%E8%82%B2%E8%81%9A%E5%90%88.js",
+   "style": {
+    "type": "rect",
+    "ratio": 1
+   },
+   "changeable": 1
+  },
+  {
+   "key": "枫叶_4",
+   "name": "🥇枫叶丨影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E6%9E%AB%E5%8F%B6.py"
+  },
+  {
+   "key": "两个BT_2",
+   "name": "🥇两个丨影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E4%B8%A4%E4%B8%AABT.py"
+  },
+  {
+   "key": "独播库_2",
+   "name": "🥇播库┃影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/VmOlRys8_vip.js"
+  },
+  {
+   "key": "py_6v_4",
+   "name": "🥇六微｜影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/6v.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "极影_4",
+   "name": "🥇极影｜影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E6%9E%81%E5%BD%B1.js",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"
+  },
+  {
+   "key": "cat_剧迷网_6",
+   "name": "🥇剧迷｜影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E9%AB%98%E6%B8%85%E5%89%A7%E8%BF%B7.js",
+   "style": {
+    "type": "rect",
+    "ratio": 1
+   },
+   "changeable": 1
+  },
+  {
+   "key": "看剧影视_2",
+   "name": "🥇看剧丨影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/AppToV5.py",
+   "ext": "http://43.248.117.123:4680"
+  },
+  {
+   "key": "Anime1_3",
+   "name": "🤣A1 ┃动漫",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/js/Anime1.js"
+  },
+  {
+   "key": "华数_12",
+   "name": "🥇华数｜影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E5%8D%8E%E6%95%B0.py",
+   "changeable": 1
+  },
+  {
+   "key": "瓜子影视_3",
+   "name": "🥇瓜子｜影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/GZYS.py",
+   "changeable": 1
+  },
+  {
+   "key": "毒舌影视_5",
+   "name": "🥇毒舌｜影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/api/%E6%AF%92%E8%88%8C%E5%BD%B1%E8%A7%86.js"
+  }
+ ],
+ "lives": [
+  {
+   "name": "双龙",
+   "type": 0,
+   "url": "./lives/双龙.txt",
+   "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
+  },
+  {
+   "name": "冰茶",
+   "type": 0,
+   "url": "./lives/冰茶.txt",
+   "ua": "bingcha/1.1(mianfeifenxiang)"
+  }
+ ],
+ "parses": [
+  {
+   "name": "-聚合-",
+   "type": 3,
+   "url": "Demo"
+  },
+  {
+   "name": "失败手动换",
+   "type": "1",
+   "url": "https://by1.nxog.eu.org/jx.php?ou=2cf&mz=0&url="
+  },
+  {
+   "name": "-关注-",
+   "type": 1,
+   "url": "https://by1.nxog.eu.org/jx.php?ou=2cf&mz=1&url="
+  },
+  {
+   "name": "-装歌API-",
+   "type": 1,
+   "url": "https://by1.nxog.eu.org/jx.php?ou=2cf&mz=2&url="
+  },
+  {
+   "name": "-公众号-",
+   "type": 1,
+   "url": "https://by1.nxog.eu.org/jx.php?ou=2cf&mz=3&url="
+  },
+  {
+   "name": "装歌APP",
+   "type": 1,
+   "url": "https://mfjx.iwsyy.xyz/?url="
+  },
+  {
+   "name": "线路1",
+   "type": 0,
+   "url": "https://jx.xmflv.com/?url="
+  },
+  {
+   "name": "线路2",
+   "type": 0,
+   "url": "http://www.ckplayer.vip/jiexi/?url="
+  },
+  {
+   "name": "线路3",
+   "type": 0,
+   "url": "https://jx.yparse.com/index.php?url="
+  },
+  {
+   "name": "线路4",
+   "type": 0,
+   "url": "https://jx.m3u8.tv/jiexi/?url="
+  },
+  {
+   "name": "线路5",
+   "type": 0,
+   "url": "https://cdn.zyc888.top/?url="
+  },
+  {
+   "name": "线路6",
+   "type": 0,
+   "url": "https://bd.jx.cn/?url="
+  },
+  {
+   "name": "线路7",
+   "type": 0,
+   "url": "https://down.nigx.cn/xjx.zzong6599.workers.dev/?url="
+  }
+ ],
+ "flags": []
+}
