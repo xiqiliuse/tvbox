@@ -1,0 +1,622 @@
+{
+ "spider": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/xpg.jar",
+ "wallpaper": "",
+ "sites": [
+  {
+   "key": "非凡资源",
+   "name": "🍎非凡🔹采集",
+   "type": 1,
+   "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "科幻片",
+    "恐怖片",
+    "爱情片",
+    "剧情片",
+    "战争片",
+    "记录片",
+    "国产剧",
+    "欧美剧",
+    "香港剧",
+    "韩国剧",
+    "台湾剧",
+    "日本剧",
+    "海外剧",
+    "泰国剧",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺",
+    "伦理片"
+   ]
+  },
+  {
+   "key": "量子资源",
+   "name": "🍎量子🔹采集",
+   "type": 1,
+   "api": "https://cj.lziapi.com/api.php/provide/vod/",
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "科幻片",
+    "恐怖片",
+    "爱情片",
+    "剧情片",
+    "战争片",
+    "记录片",
+    "国产剧",
+    "欧美剧",
+    "香港剧",
+    "韩国剧",
+    "台湾剧",
+    "日本剧",
+    "海外剧",
+    "泰国剧",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺",
+    "伦理片"
+   ]
+  },
+  {
+   "key": "星芽短剧_8",
+   "name": "🍎融融🔹短剧",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/lib/%E6%98%9F%E8%8A%BD%E7%9F%AD%E5%89%A7.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "py_juzong_4",
+   "name": "🍎剧踪🔹影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/juzong.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "天涯",
+   "name": "🍎天涯🔹蓝光",
+   "type": 1,
+   "api": "https://tyyszyapi.com/api.php/provide/vod/?ac=list",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "科幻片",
+    "恐怖片",
+    "爱情片",
+    "剧情片",
+    "战争片",
+    "记录片",
+    "动画片",
+    "国产剧",
+    "欧美剧",
+    "香港剧",
+    "韩国剧",
+    "台湾剧",
+    "日本剧",
+    "海外剧",
+    "泰国剧",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺",
+    "伦理"
+   ]
+  },
+  {
+   "key": "高清点播_5",
+   "name": "🍎高清🔹线路",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/lib/gq.js",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "懒人电影.py",
+   "name": "🍎懒人🔹影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E6%87%92%E4%BA%BA%E7%94%B5%E5%BD%B1.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "bl_2",
+   "name": "🍎哔哩🔹4K",
+   "type": 3,
+   "api": "https://hk.gh-proxy.org/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/bl.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "开心影院_2",
+   "name": "🍎苹果🔹影院",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E5%BC%80%E5%BF%83%E5%BD%B1%E9%99%A2.py",
+   "filterable": 1,
+   "quickSearch": 1,
+   "searchable": 1
+  },
+  {
+   "key": "多多影视_3",
+   "name": "🍎多多🔹4K",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E5%A4%9A%E5%A4%9A%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "文才影视_2",
+   "name": "🍎文才🔹影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E6%96%87%E6%89%8D%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2,
+   "ext": {
+    "site": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+   }
+  },
+  {
+   "key": "韩小圈.py",
+   "name": "🍎韩小🔹圈",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E9%9F%A9%E5%B0%8F%E5%9C%88.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "山楂_3",
+   "name": "🍎山楂🔹4K",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/sz.py"
+  },
+  {
+   "key": "电影侠_4",
+   "name": "🍎电影侠🔹影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E7%94%B5%E5%BD%B1%E4%BE%A0.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "瓜子┃4K",
+   "name": "🍎瓜子🔹影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E7%93%9C%E5%AD%90%E5%BD%B1%E8%A7%86.py",
+   "filterable": 1,
+   "quickSearch": 1,
+   "searchable": 1
+  },
+  {
+   "key": "88看球",
+   "name": "🏆88🔹看球",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/lib/88%E7%9C%8B%E7%90%83[%E4%BD%93].js"
+  },
+  {
+   "key": "人人影视",
+   "name": "🍎人人🔹影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "金牌.py_2",
+   "name": "🍎金牌🔹app",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E9%87%91%E7%89%8C.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "py_kkys_5",
+   "name": "🍎可可🔹追剧",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/kkys.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "个影_2",
+   "name": "🍎融融🔹自建",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/lib/gy.js"
+  },
+  {
+   "key": "py_bubuzhuiju_4",
+   "name": "🍎布布🔹追剧",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/bubuzhuiju.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "橘汁影视",
+   "name": "🍎橘汁🔹4K",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E6%A9%98%E6%B1%81.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "聚合备用",
+   "name": "🍎聚合🔹直播",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E7%BD%91%E7%BB%9C%E7%9B%B4%E6%92%AD.py"
+  },
+  {
+   "key": "py_maple_4",
+   "name": "🍎枫叶🔹影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/maple.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": {
+    "sites": [
+     "https://www.zzztool.com",
+     "https://maihaolian.com",
+     "https://www.cd-zj.com"
+    ],
+    "sitesIndex": 0
+   }
+  },
+  {
+   "key": "剧迷影视",
+   "name": "🍎剧迷🔹影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E5%89%A7%E8%BF%B7.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "妙看_2",
+   "name": "🍎妙看🔹影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/4kvms.py"
+  },
+  {
+   "key": "py_libvio_4",
+   "name": "🍎LIBVIO🔹影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/libvio.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "极速资源",
+   "name": "🍎极速🔹采集",
+   "type": 1,
+   "api": "https://jszyapi.com/api.php/provide/vod/",
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "日剧",
+    "马泰剧",
+    "内地剧",
+    "欧美剧",
+    "香港剧",
+    "韩剧",
+    "台湾剧",
+    "恐怖片",
+    "动画片",
+    "剧情片",
+    "战争片",
+    "动作片",
+    "记录片",
+    "爱情片",
+    "喜剧片",
+    "科幻片",
+    "灾难片",
+    "悬疑片",
+    "犯罪片",
+    "中国动漫",
+    "日本动漫",
+    "欧美动漫",
+    "伦理片"
+   ]
+  },
+  {
+   "key": "剧下饭_4",
+   "name": "🍎下饭🔹4K",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/jxf.py"
+  },
+  {
+   "key": "索尼资源",
+   "name": "🍎索尼🔹采集",
+   "type": 1,
+   "api": "https://suoniapi.com/api.php/provide/vod/",
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "爱情片",
+    "科幻片",
+    "恐怖片",
+    "剧情片",
+    "战争片",
+    "纪录片",
+    "动画片",
+    "国产剧",
+    "欧美剧",
+    "韩剧",
+    "日剧",
+    "港剧",
+    "台剧",
+    "泰剧",
+    "海外剧",
+    "大陆综艺",
+    "日韩综艺",
+    "港台综艺",
+    "欧美综艺",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫"
+   ]
+  },
+  {
+   "key": "Acfun4K.py",
+   "name": "🍎Acfun🔹py",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/Acfun4K.py"
+  },
+  {
+   "key": "追影.py_2",
+   "name": "🍎追影🔹影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E8%BF%BD%E5%BD%B1.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "厂长影视_3",
+   "name": "🍎厂长🔹影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E5%8E%82%E9%95%BF%E5%BD%B1%E8%A7%86.py",
+   "filterable": 1,
+   "quickSearch": 1,
+   "searchable": 1,
+   "switchable": 1
+  },
+  {
+   "key": "藤藤_2",
+   "name": "🍎藤藤🔹4K",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/lib/drpy2.min.js",
+   "ext": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/lib/%E8%97%A4%E8%97%A4.png"
+  },
+  {
+   "key": "奈飞4K",
+   "name": "🍎奈飞🔹4K",
+   "type": 1,
+   "api": "https://api.wsyzy.net/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "categories": [
+    "4K电影",
+    "Netflix电影",
+    "Netflix自制剧"
+   ]
+  },
+  {
+   "key": "咕噜影院",
+   "name": "🍎咕噜🔹4k",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E5%92%95%E5%99%9C.py",
+   "filterable": 1,
+   "quickSearch": 1,
+   "searchable": 1,
+   "switchable": 1
+  },
+  {
+   "key": "VIP电影",
+   "name": "🍎VIP🔹影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/VIP%E7%94%B5%E5%BD%B1.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "山有木兮",
+   "name": "🍎山有🔹木兮",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E5%B1%B1%E6%9C%89%E6%9C%A8%E5%85%AE.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "看看剧.py",
+   "name": "🍎看剧🔹影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E7%9C%8B%E7%9C%8B%E5%89%A7.py",
+   "filterable": 1,
+   "quickSearch": 1,
+   "searchable": 1,
+   "switchable": 1
+  },
+  {
+   "key": "哔哩直播_15",
+   "name": "🍎哔哩🔹直播",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E5%93%94%E5%93%A9.py"
+  },
+  {
+   "key": "py_hongguo_4",
+   "name": "🍎红果🔹短剧",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/hongguo.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "极光影视.py_2",
+   "name": "🍎极光🔹影视",
+   "type": 3,
+   "api": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/py/%E6%9E%81%E5%85%89%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  }
+ ],
+ "lives": [
+  {
+   "name": "🍎融融TV直播",
+   "type": 1,
+   "url": "./zb.txt"
+  }
+ ],
+ "parses": [
+  {
+   "name": "🍎虾米",
+   "type": 0,
+   "url": "https://jx.xmflv.com/?url=",
+   "ext": {
+    "header": {
+     "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+    }
+   }
+  },
+  {
+   "name": "🍎云解",
+   "type": 0,
+   "url": "https://yparse.ik9.cc/index.php?url=",
+   "ext": {
+    "header": {
+     "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+    }
+   }
+  },
+  {
+   "name": "🍎咸鱼",
+   "type": 0,
+   "url": "https://jx.xymp4.cc/?url=",
+   "ext": {
+    "header": {
+     "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+    }
+   }
+  },
+  {
+   "name": "🍎淘片",
+   "type": 0,
+   "url": "https://jx.yparse.com/index.php?url=",
+   "ext": {
+    "header": {
+     "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+    }
+   }
+  },
+  {
+   "name": "🍎冰豆",
+   "type": 0,
+   "url": "https://bd.jx.cn/?url=",
+   "ext": {
+    "header": {
+     "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+    }
+   }
+  },
+  {
+   "name": "🍎七七",
+   "type": 0,
+   "url": "https://jx.77flv.cc/?url=",
+   "ext": {
+    "header": {
+     "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+    }
+   }
+  },
+  {
+   "name": "🍎盘古",
+   "type": 0,
+   "url": "https://www.playm3u8.cn/jiexi.php?url=",
+   "ext": {
+    "header": {
+     "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+    }
+   }
+  },
+  {
+   "name": "🍎夜幕",
+   "type": 0,
+   "url": "https://yemu.xyz/?url=",
+   "ext": {
+    "header": {
+     "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+    }
+   }
+  }
+ ],
+ "flags": [
+  "youku",
+  "优酷",
+  "优 酷",
+  "优酷视频",
+  "qq",
+  "腾讯",
+  "腾 讯",
+  "腾讯视频",
+  "iqiyi",
+  "qiyi",
+  "奇艺",
+  "爱奇艺",
+  "爱 奇 艺",
+  "m1905",
+  "xigua",
+  "letv",
+  "leshi",
+  "乐视",
+  "乐 视",
+  "sohu"
+ ]
+}
