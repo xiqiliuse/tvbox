@@ -1,630 +1,68 @@
 {
- "ts": 1794099767,
- "elapsed": 802.0,
+ "ts": 1794196645,
+ "elapsed": 82.3,
  "depth": "l3",
- "sources_total": 3666,
- "sources_ok": 1731,
+ "sources_total": 155,
+ "sources_ok": 56,
  "states": {
-  "ok": 1731,
-  "encrypted": 62,
-  "nested_multi": 10,
-  "decode_fail": 379,
-  "fetch_fail": 386,
-  "http_404": 909,
-  "http_423": 59,
-  "http_403": 45,
-  "http_401": 59,
-  "not_config": 8,
-  "no_sites": 13,
-  "http_451": 1,
-  "http_429": 1,
-  "http_400": 1,
-  "http_301": 2
+  "ok": 56,
+  "decode_fail": 20,
+  "encrypted": 4,
+  "nested_multi": 3,
+  "fetch_fail": 34,
+  "http_404": 26,
+  "http_403": 5,
+  "http_401": 4,
+  "http_423": 2,
+  "http_429": 1
  },
- "sites_total": 66205,
- "sites_uniq": 10105,
- "sites_ok": 2066,
- "sites_kept": 4936,
- "lines": 85,
- "all_sites": 4936,
+ "sites_total": 1598,
+ "sites_uniq": 360,
+ "sites_ok": 103,
+ "sites_kept": 245,
+ "lines": 4,
+ "all_sites": 245,
  "summary": [
   {
    "name": "全能聚合",
    "jar": "(全部)",
-   "sites": 4936,
-   "lives": 300,
-   "sources": 1261
+   "sites": 245,
+   "lives": 141,
+   "sources": 42
   },
   {
-   "name": "聚合01·LIBVIO.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/hebijunge/tvbox-config@main/deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/XB%E5%8C%85jar/LIBVIO.jar",
-   "sites": 690,
-   "lives": 300,
-   "sources": 4
-  },
-  {
-   "name": "聚合02·46da6-aa33493f-1c1d-4f35-9990-",
-   "jar": "https://img2.gelonghui.com/library/46da6-aa33493f-1c1d-4f35-9990-0be4bdbf0c64.png",
-   "sites": 625,
-   "lives": 9,
-   "sources": 16
-  },
-  {
-   "name": "聚合03·XBPQ.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/dr/sp/XBPQ.jar?md5=65c2929d870759604dad0aa9cebec0a6",
-   "sites": 67,
-   "lives": 8,
-   "sources": 1
-  },
-  {
-   "name": "聚合04·aw.png",
-   "jar": "https://fastly.jsdelivr.net/gh/woshishiq1/hipy-drpy2@main/dr/sp/aw.png",
-   "sites": 52,
-   "lives": 10,
-   "sources": 1
-  },
-  {
-   "name": "聚合05·XBiubiuLA4.PNG",
-   "jar": "https://raw.iqiq.io/vpei/Free-TVUrl-Merge/main/res/XBiubiuLA4.PNG",
-   "sites": 45,
-   "lives": 1,
-   "sources": 1
-  },
-  {
-   "name": "聚合06·xcz.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/woshishiq1/hipy-drpy2@main/wzxxcz/xcz.jar",
-   "sites": 173,
-   "lives": 146,
-   "sources": 4
-  },
-  {
-   "name": "聚合07·_spider.jar",
-   "jar": "https://gcore.jsdelivr.net/gh/dql521/TVBox@main/_spider.jar",
-   "sites": 72,
-   "lives": 44,
-   "sources": 2
-  },
-  {
-   "name": "聚合08·_spider.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/dql521/TVBox@main/_spider.jar",
-   "sites": 72,
-   "lives": 44,
-   "sources": 2
-  },
-  {
-   "name": "聚合09·_spider.jar",
-   "jar": "https://cdn.jsdelivr.net/gh/dql521/TVBox@main/_spider.jar",
-   "sites": 71,
-   "lives": 44,
-   "sources": 2
-  },
-  {
-   "name": "聚合10·_spider.jar",
-   "jar": "https://ghfast.top/https://raw.githubusercontent.com/dql521/TVBox/main/_spider.jar",
-   "sites": 67,
-   "lives": 44,
-   "sources": 2
-  },
-  {
-   "name": "聚合11·pg.jar",
-   "jar": "https://ghproxy.net/https://raw.githubusercontent.com/13998394872/TVBox/main/jar/pg.jar",
-   "sites": 66,
-   "lives": 1,
-   "sources": 3
-  },
-  {
-   "name": "聚合12·xcz.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/wzxxcz/wzxxcz@maing/xcz.jar",
-   "sites": 144,
-   "lives": 54,
-   "sources": 2
-  },
-  {
-   "name": "聚合13·starlink.jar",
-   "jar": "https://gitee.com/starlinkapi/jar/raw/master/jar/starlink.jar",
-   "sites": 98,
-   "lives": 122,
-   "sources": 2
-  },
-  {
-   "name": "聚合14·fan.txt",
-   "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1708765869861/fan.txt",
-   "sites": 29,
-   "lives": 8,
-   "sources": 7
-  },
-  {
-   "name": "聚合15·spider.jar",
-   "jar": "https://raw.giteeusercontent.com/zcchu/tvbox/raw/master/qist/jar/spider.jar",
-   "sites": 27,
-   "lives": 7,
-   "sources": 1
-  },
-  {
-   "name": "聚合16·spider.jar",
-   "jar": "https://lytvs.top/py/spider.jar",
-   "sites": 236,
-   "lives": 37,
-   "sources": 2
-  },
-  {
-   "name": "聚合17·d479d37ee36fa366b646f77d17b76f",
-   "jar": "https://mpimg.cn/down.php/d479d37ee36fa366b646f77d17b76fb1.jar",
-   "sites": 215,
-   "lives": 0,
-   "sources": 4
-  },
-  {
-   "name": "聚合18·lem07042.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/gitbochs/tvbox_url@main/jar/lem07042.jar",
-   "sites": 103,
-   "lives": 0,
-   "sources": 3
-  },
-  {
-   "name": "聚合19·%E5%88%86%E4%BA%AB%E8%80%850.z",
-   "jar": "https://d.kstore.dev/download/4127/Jar/%E5%88%86%E4%BA%AB%E8%80%850.zip",
-   "sites": 65,
-   "lives": 9,
-   "sources": 2
-  },
-  {
-   "name": "聚合20·XBPQ.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/woshishiq1/hipy-drpy2@main/zheng1976/jar/XBPQ.jar",
-   "sites": 100,
-   "lives": 1,
-   "sources": 2
-  },
-  {
-   "name": "聚合21·spider.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/935704653/EasyBox@main/%E8%87%AA%E5%88%B6/spider.jar",
-   "sites": 75,
-   "lives": 19,
-   "sources": 1
-  },
-  {
-   "name": "聚合22·XBPQ.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/zheng197600/tvbox@main/jar/XBPQ.jar",
-   "sites": 98,
-   "lives": 1,
-   "sources": 2
-  },
-  {
-   "name": "聚合23·custom_spider.jar",
-   "jar": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar",
-   "sites": 143,
-   "lives": 10,
-   "sources": 1
-  },
-  {
-   "name": "聚合24·xcz.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/wzxxcz/xcz.jar",
-   "sites": 37,
-   "lives": 67,
-   "sources": 2
-  },
-  {
-   "name": "聚合25·FM060923.png",
-   "jar": "https://fastly.jsdelivr.net/gh/RS5114/RS51@main/sub/FM060923.png",
-   "sites": 140,
-   "lives": 10,
-   "sources": 1
-  },
-  {
-   "name": "聚合26·pg.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/RS5114/RS51@main/pg.jar",
-   "sites": 123,
-   "lives": 35,
-   "sources": 2
-  },
-  {
-   "name": "聚合27·spider.jar",
-   "jar": "https://gh-proxy.com/raw.githubusercontent.com/lubin776/tvbox/refs/heads/main/X4/lib/spider.jar",
-   "sites": 36,
-   "lives": 0,
-   "sources": 4
-  },
-  {
-   "name": "聚合28·uyv0t678c488189af47bb91dc10848",
-   "jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431",
-   "sites": 36,
-   "lives": 13,
-   "sources": 10
-  },
-  {
-   "name": "聚合29·lem1104.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/n3rddd/N3RD@master/JN/N3RD/J/lem1104.jar",
-   "sites": 87,
-   "lives": 16,
-   "sources": 1
-  },
-  {
-   "name": "聚合30·%E5%88%86%E4%BA%AB%E8%80%850.z",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/%E5%88%86%E4%BA%AB%E8%80%850.zip",
-   "sites": 98,
-   "lives": 10,
-   "sources": 1
-  },
-  {
-   "name": "聚合31·spider.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/Grovin720/tan@main/jar/spider.jar",
-   "sites": 32,
-   "lives": 5,
-   "sources": 3
-  },
-  {
-   "name": "聚合32·%E5%A4%A9%E5%BE%AE.jar",
-   "jar": "https://gitee.com/hnkfmh/jsjar/raw/master/%E5%A4%A9%E5%BE%AE.jar",
-   "sites": 43,
-   "lives": 5,
-   "sources": 2
-  },
-  {
-   "name": "聚合33·%E5%88%86%E4%BA%AB%E8%80%850.z",
-   "jar": "https://gh.llkk.cc/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/jar/%E5%88%86%E4%BA%AB%E8%80%850.zip",
-   "sites": 31,
-   "lives": 8,
-   "sources": 2
-  },
-  {
-   "name": "聚合34·spider.jar",
-   "jar": "https://ghfast.top/https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar",
-   "sites": 43,
-   "lives": 6,
-   "sources": 2
-  },
-  {
-   "name": "聚合35·svip.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/xmbjm/svip@refs/heads/main/svip.jar",
-   "sites": 55,
-   "lives": 20,
-   "sources": 1
-  },
-  {
-   "name": "聚合36·svip.jar",
+   "name": "聚合01·svip.jar",
    "jar": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.jar",
    "sites": 55,
    "lives": 20,
    "sources": 1
   },
   {
-   "name": "聚合37·svip.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/xmbjm/svip@main/svip.jar",
-   "sites": 53,
-   "lives": 20,
-   "sources": 1
-  },
-  {
-   "name": "聚合38·pg.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/n3rddd/N3RD@master/JN/N3RD/J/pg.jar",
-   "sites": 27,
-   "lives": 47,
-   "sources": 3
-  },
-  {
-   "name": "聚合39·%E5%88%86%E4%BA%AB%E8%80%850.z",
-   "jar": "https://fastly.jsdelivr.net/gh/hushujiang/hushujiang.github.io@main/lib/%E5%88%86%E4%BA%AB%E8%80%850.zip",
-   "sites": 59,
-   "lives": 10,
-   "sources": 1
-  },
-  {
-   "name": "聚合40·spider.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/zhijiantv/tvbox@main/jar/spider.jar",
-   "sites": 39,
-   "lives": 11,
-   "sources": 1
-  },
-  {
-   "name": "聚合41·fm.jar",
-   "jar": "https://gh-proxy.com/https://github.com/lemonguo121/BoxRes/raw/main/Myuse/lib/fm.jar",
-   "sites": 26,
-   "lives": 10,
-   "sources": 5
-  },
-  {
-   "name": "聚合42·hajimi.jar",
-   "jar": "https://walkeryjn.github.io/tvbox/hajimi.jar",
-   "sites": 62,
-   "lives": 11,
-   "sources": 1
-  },
-  {
-   "name": "聚合43·Yoursmile.jar",
-   "jar": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/Yoursmile.jar",
-   "sites": 28,
-   "lives": 3,
-   "sources": 10
-  },
-  {
-   "name": "聚合44·Yoursmile4.jar",
-   "jar": "https://8415.kstore.space/TVBox/jar/Yoursmile4.jar",
-   "sites": 31,
-   "lives": 36,
-   "sources": 1
-  },
-  {
-   "name": "聚合45·fm.jar",
-   "jar": "https://gh-proxy.com/raw.githubusercontent.com/lubin776/tvbox/refs/heads/main/xuexiji/fm.jar",
-   "sites": 35,
-   "lives": 4,
-   "sources": 2
-  },
-  {
-   "name": "聚合46·p.jar",
-   "jar": "https://0.12yue.de5.net/5/lib/p.jar",
-   "sites": 56,
-   "lives": 1,
-   "sources": 1
-  },
-  {
-   "name": "聚合47·XBiubiuLA4.jar",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar",
-   "sites": 25,
-   "lives": 227,
-   "sources": 2
-  },
-  {
-   "name": "聚合48·%E5%88%86%E4%BA%AB%E8%80%850.z",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/TV/refs/heads/master/jar/%E5%88%86%E4%BA%AB%E8%80%850.zip",
-   "sites": 33,
-   "lives": 8,
-   "sources": 1
-  },
-  {
-   "name": "聚合49·xs.jar",
+   "name": "聚合02·xs.jar",
    "jar": "https://clun.top/jar/xs.jar",
    "sites": 64,
    "lives": 17,
    "sources": 1
   },
   {
-   "name": "聚合50·xs.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/cluntop/TVBox@main/jar/xs.jar",
-   "sites": 64,
-   "lives": 17,
-   "sources": 1
-  },
-  {
-   "name": "聚合51·xs.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/woshishiq1/hipy-drpy2@main/tvbox/jar/xs.jar",
-   "sites": 62,
-   "lives": 17,
-   "sources": 1
-  },
-  {
-   "name": "聚合52·9c8e4-b797010b-366e-48f9-86b6-",
-   "jar": "https://fastly.jsdelivr.net/gh/Inliang/tvbox@main/9c8e4-b797010b-366e-48f9-86b6-16be897c90c2.png",
-   "sites": 44,
-   "lives": 5,
-   "sources": 1
-  },
-  {
-   "name": "聚合53·pg.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/ssmhdssmhd/pg-tvbox@main/pg.jar",
-   "sites": 54,
-   "lives": 27,
-   "sources": 1
-  },
-  {
-   "name": "聚合54·xcz.jar",
-   "jar": "https://raw.kkgithub.com/wzxxcz/wzxxcz/maing/xcz.jar",
-   "sites": 26,
-   "lives": 66,
-   "sources": 1
-  },
-  {
-   "name": "聚合55·custom_spider.jar",
-   "jar": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar",
-   "sites": 35,
-   "lives": 13,
-   "sources": 2
-  },
-  {
-   "name": "聚合56·spider-kaixin.jar",
-   "jar": "https://myjf.indevs.in/mytv/api/spider-kaixin.jar",
-   "sites": 35,
-   "lives": 16,
-   "sources": 1
-  },
-  {
-   "name": "聚合57·MX.jar",
-   "jar": "https://gitee.com/lyun_1_0/TS/raw/main/JAR/MX.jar",
-   "sites": 45,
-   "lives": 2,
-   "sources": 2
-  },
-  {
-   "name": "聚合58·xc.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/lys8013/woshishiq1-@main/tvbox/jar/xc.jar",
-   "sites": 45,
-   "lives": 21,
-   "sources": 1
-  },
-  {
-   "name": "聚合59·svip.jar",
+   "name": "聚合03·svip.jar",
    "jar": "https://jiekou.netlify.app/svip.jar",
-   "sites": 43,
+   "sites": 37,
    "lives": 20,
-   "sources": 1
-  },
-  {
-   "name": "聚合60·e9b740cd735f9cdbcfc251c4416f90",
-   "jar": "https://fastly.jsdelivr.net/gh/yescopys/box@main/jack/jar/e9b740cd735f9cdbcfc251c4416f903d.jpg",
-   "sites": 32,
-   "lives": 4,
-   "sources": 1
-  },
-  {
-   "name": "聚合61·xpg.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/cxelva/xpg@main/xpg.jar",
-   "sites": 42,
-   "lives": 1,
-   "sources": 1
-  },
-  {
-   "name": "聚合62·custom_spider.jar",
-   "jar": "https://raw.githubusercontents.com/liu673cn/mao/main/jar/custom_spider.jar",
-   "sites": 31,
-   "lives": 1,
-   "sources": 1
-  },
-  {
-   "name": "聚合63·dongli-spider.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/zengjian03/han@master/%E6%88%91%E7%9A%84/jar/dongli-spider.jar",
-   "sites": 26,
-   "lives": 13,
-   "sources": 3
-  },
-  {
-   "name": "聚合64·Yoursmile.jar",
-   "jar": "https://agit.ai/hu/sj/raw/branch/master/lib/Yoursmile.jar",
-   "sites": 29,
-   "lives": 1,
-   "sources": 1
-  },
-  {
-   "name": "聚合65·spider.jar",
-   "jar": "https://cnb.cool/fish2018/xs/-/git/raw/main/spider.jar",
-   "sites": 31,
-   "lives": 38,
-   "sources": 2
-  },
-  {
-   "name": "聚合66·spider.jar",
-   "jar": "https://raw.githubusercontent.com/lubin776/tvbox/refs/heads/main/X4/lib/spider.jar",
-   "sites": 36,
-   "lives": 0,
-   "sources": 1
-  },
-  {
-   "name": "聚合67·spider.jar",
-   "jar": "https://gitee.com/lu3589/776/raw/main/X4/lib/spider.jar",
-   "sites": 36,
-   "lives": 0,
-   "sources": 1
-  },
-  {
-   "name": "聚合68·953ff2a09d5a267e36ec8a9ccdd9bb",
-   "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0517/11/953ff2a09d5a267e36ec8a9ccdd9bb88.jpg",
-   "sites": 36,
-   "lives": 2,
-   "sources": 1
-  },
-  {
-   "name": "聚合69·da71a704cbc49a16c8a6339c640b79",
-   "jar": "https://xiuxiu-pro-new.meitudata.com/posters/da71a704cbc49a16c8a6339c640b7986.jpg",
-   "sites": 30,
-   "lives": 11,
-   "sources": 1
-  },
-  {
-   "name": "聚合70·og.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/lubin776/tvbox@main/og/lib/og.jar?id=index",
-   "sites": 35,
-   "lives": 0,
-   "sources": 1
-  },
-  {
-   "name": "聚合71·%E5%A4%AE%E8%A7%86%E4%B8%93%E7",
-   "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/fish2018/tvbox/master/jar/%E5%A4%AE%E8%A7%86%E4%B8%93%E7%BA%BF.jar",
-   "sites": 28,
-   "lives": 1,
-   "sources": 1
-  },
-  {
-   "name": "聚合72·uyv0t678c488189af47bb91dc10848",
-   "jar": "https://agit.ai/hu/sj/raw/branch/master/lib/uyv0t678c488189af47bb91dc108484d17431.jar",
-   "sites": 28,
-   "lives": 1,
-   "sources": 1
-  },
-  {
-   "name": "聚合73·fix1209.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/gengliye/tvbox@main/jar/fix1209.jar",
-   "sites": 31,
-   "lives": 4,
-   "sources": 1
-  },
-  {
-   "name": "聚合74·837a77b77fc98aba6b97856944e94d",
-   "jar": "http://oss4liview.moji.com/thd_file/2026/10/26/837a77b77fc98aba6b97856944e94d7c.jpg",
-   "sites": 29,
-   "lives": 10,
-   "sources": 1
-  },
-  {
-   "name": "聚合75·qxyc.jar",
-   "jar": "https://7337.kstore.vip/qxys/qxyc.jar",
-   "sites": 27,
-   "lives": 6,
-   "sources": 1
-  },
-  {
-   "name": "聚合76·0928.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/letian1650/mybox@main/0928.jar",
-   "sites": 26,
-   "lives": 27,
-   "sources": 1
-  },
-  {
-   "name": "聚合77·6f1e49c30e53b2af23c1598713e5e8",
-   "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0820/00/6f1e49c30e53b2af23c1598713e5e808.jpg",
-   "sites": 27,
-   "lives": 5,
-   "sources": 1
-  },
-  {
-   "name": "聚合78·aabe9ebea7695ee766e0bf503b218d",
-   "jar": "http://oss4liview.moji.com/thd_file/2026/01/23/aabe9ebea7695ee766e0bf503b218dcc.jpg",
-   "sites": 30,
-   "lives": 10,
-   "sources": 1
-  },
-  {
-   "name": "聚合79·%E8%9C%82%E7%8E%8B%E5%87%BA%E5",
-   "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/fish2018/tvbox/master/jar/%E8%9C%82%E7%8E%8B%E5%87%BA%E5%8A%A8.jar",
-   "sites": 26,
-   "lives": 28,
-   "sources": 1
-  },
-  {
-   "name": "聚合80·%E8%9C%82%E7%AA%9D%E6%8E%A5%E5",
-   "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/fish2018/tvbox/master/jar/%E8%9C%82%E7%AA%9D%E6%8E%A5%E5%8F%A3.jar",
-   "sites": 26,
-   "lives": 28,
-   "sources": 1
-  },
-  {
-   "name": "聚合81·custom_spider1.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/Li-Deng-Hui/ComponentProject@master/jar/custom_spider1.jar",
-   "sites": 28,
-   "lives": 1,
-   "sources": 1
-  },
-  {
-   "name": "聚合82·spider.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/ls125781003/tvboxtg@main/%E6%AC%A7%E6%AD%8C/spider.jar",
-   "sites": 27,
-   "lives": 2,
-   "sources": 1
-  },
-  {
-   "name": "聚合83·spider.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/ls125781003/qqctg@main/%E6%AC%A7%E6%AD%8C/spider.jar",
-   "sites": 26,
-   "lives": 2,
-   "sources": 1
-  },
-  {
-   "name": "聚合84·f.jar",
-   "jar": "https://fastly.jsdelivr.net/gh/wokaotianshi123/tvtg@main/%E9%81%93%E9%95%BFJS/f.jar",
-   "sites": 26,
-   "lives": 1,
    "sources": 1
   }
  ],
  "failed_sources": [
+  {
+   "url": "http://new.xn--4kq62z5rby2qupq9ub.top",
+   "state": "decode_fail",
+   "note": ""
+  },
+  {
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+   "state": "encrypted",
+   "note": ""
+  },
   {
    "url": "http://xn--z7x900a.net/",
    "state": "encrypted",
@@ -636,18 +74,8 @@
    "note": ""
   },
   {
-   "url": "http://xmbjm.fh4u.org/dc.txt",
-   "state": "nested_multi",
-   "note": ""
-  },
-  {
    "url": "https://play.iptv365.org/tvbox.txt",
    "state": "decode_fail",
-   "note": ""
-  },
-  {
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
-   "state": "encrypted",
    "note": ""
   },
   {
@@ -656,8 +84,8 @@
    "note": ""
   },
   {
-   "url": "http://new.xn--4kq62z5rby2qupq9ub.top",
-   "state": "decode_fail",
+   "url": "http://xmbjm.fh4u.org/dc.txt",
+   "state": "nested_multi",
    "note": ""
   },
   {
@@ -666,13 +94,28 @@
    "note": "<urlopen error [Errno 111] Connection refused>"
   },
   {
+   "url": "https://raw.atomgit.com/xxxooo/fan/blobs/cef5f441c422cffe4852e0fc8b102f9be6d2bb2b/in.bmp",
+   "state": "http_404",
+   "note": ""
+  },
+  {
+   "url": "http://new.xn--4kq62z5rby2qupq9ub.top/",
+   "state": "decode_fail",
+   "note": ""
+  },
+  {
+   "url": "http://ai.xn--4kq62z5rby2qupq9ub.top/",
+   "state": "decode_fail",
+   "note": ""
+  },
+  {
    "url": "http://liulian1993.vip:5555/tvbox/lib/ziji/ziji.json",
    "state": "fetch_fail",
    "note": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/movies.json",
-   "state": "http_404",
+   "url": "http://www3.fish2018.ip-ddns.com/p/jsm.json",
+   "state": "decode_fail",
    "note": ""
   },
   {
@@ -681,59 +124,14 @@
    "note": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
-   "url": "https://fastly.jsdelivr.net/gh/alantang1977/aj@main/X.json",
-   "state": "decode_fail",
-   "note": ""
-  },
-  {
-   "url": "https://fastly.jsdelivr.net/gh/alantang1977/aj@main/jsm.json",
-   "state": "decode_fail",
-   "note": ""
-  },
-  {
-   "url": "https://fastly.jsdelivr.net/gh/alantang1977/aj@main/fish.json",
-   "state": "decode_fail",
-   "note": ""
-  },
-  {
-   "url": "https://fastly.jsdelivr.net/gh/alantang1977/pg@main/jsm.json",
-   "state": "decode_fail",
-   "note": ""
-  },
-  {
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
-   "state": "encrypted",
-   "note": ""
-  },
-  {
-   "url": "http://xn--5mq46jrwl99dn01d.top",
-   "state": "decode_fail",
-   "note": ""
-  },
-  {
-   "url": "https://9877.kstore.space/AnotherD/api.json",
+   "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/0822.json",
    "state": "http_404",
    "note": ""
   },
   {
-   "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
-   "state": "http_404",
-   "note": ""
-  },
-  {
-   "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top/",
-   "state": "decode_fail",
-   "note": ""
-  },
-  {
-   "url": "https://gh-proxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/XC.json",
-   "state": "decode_fail",
-   "note": ""
-  },
-  {
-   "url": "https://gitee.com/blssss/jk/raw/api/bls.json",
-   "state": "http_423",
-   "note": ""
+   "url": "https://fty.xxooo.cf/tv",
+   "state": "fetch_fail",
+   "note": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "url": "https://100km.top/0",
@@ -741,52 +139,27 @@
    "note": "<urlopen error [Errno -5] No address associated with hostname>"
   },
   {
-   "url": "https://gitee.com/majiayun111/qyysyi/raw/master/qyys4K.json",
-   "state": "http_404",
+   "url": "https://cnb.cool/xiaomi666888/devcontainer/-/git/raw/main/gege.json",
+   "state": "encrypted",
    "note": ""
   },
   {
-   "url": "https://jk.catvod.site/",
+   "url": "https://cnb.cool/fish2018/zx/-/git/raw/master/FongMi.json",
    "state": "http_403",
    "note": ""
   },
   {
-   "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/XBPQ.json",
-   "state": "http_404",
+   "url": "http://hello.xn--z7x900a.net",
+   "state": "encrypted",
    "note": ""
   },
   {
-   "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/0822.json",
-   "state": "http_404",
-   "note": ""
-  },
-  {
-   "url": "https://gitee.com/zhikews/zhikews/raw/master/zhike.json",
-   "state": "http_423",
-   "note": ""
-  },
-  {
-   "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/9918.json",
-   "state": "http_404",
-   "note": ""
-  },
-  {
-   "url": "https://kv.zwc365.com/tv.json",
+   "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.top",
    "state": "decode_fail",
    "note": ""
   },
   {
-   "url": "http://m6z.cn/6xm0wE",
-   "state": "decode_fail",
-   "note": ""
-  },
-  {
-   "url": "http://u3v.cn/5ssoRL",
-   "state": "decode_fail",
-   "note": ""
-  },
-  {
-   "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/0825.txt",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/movies.json",
    "state": "http_404",
    "note": ""
   },
@@ -796,19 +169,69 @@
    "note": ""
   },
   {
-   "url": "https://16409.kstore.vip/tv/ngzmods.json",
-   "state": "http_401",
-   "note": ""
-  },
-  {
-   "url": "https://16409.kstore.vip/tv/beiyong.json",
-   "state": "http_401",
-   "note": ""
-  },
-  {
-   "url": "https://gitee.com/happy1-is-he-who-is-content/wfs.com/raw/main/wfs.json",
+   "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/0825.txt",
    "state": "http_404",
    "note": ""
+  },
+  {
+   "url": "http://www.xn--ihq545aq7p.com",
+   "state": "fetch_fail",
+   "note": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "url": "https://ghproxy.cn/https://raw.githubusercontent.com/leevi0709/one/main/jsm.json",
+   "state": "decode_fail",
+   "note": ""
+  },
+  {
+   "url": "https://jk.catvod.site/",
+   "state": "http_403",
+   "note": ""
+  },
+  {
+   "url": "https://git.acwing.com/lw0704/66/-/raw/master/jjzx.json",
+   "state": "decode_fail",
+   "note": ""
+  },
+  {
+   "url": "https://git.acwing.com/lkq0379/zjys/-/raw/main/zjys.json",
+   "state": "decode_fail",
+   "note": ""
+  },
+  {
+   "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/XBPQ.json",
+   "state": "http_404",
+   "note": ""
+  },
+  {
+   "url": "https://codeberg.org/Jsnzkpg/Jsnzkpg/raw/branch/Jsnzkpg/Jsnzkpg2",
+   "state": "http_404",
+   "note": ""
+  },
+  {
+   "url": "http://xn--z7x900a.net/tv",
+   "state": "http_404",
+   "note": ""
+  },
+  {
+   "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+   "state": "http_404",
+   "note": ""
+  },
+  {
+   "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/9918.json",
+   "state": "http_404",
+   "note": ""
+  },
+  {
+   "url": "http://xn--ihqu10cn4c.xn--v4q818bf34b.com",
+   "state": "decode_fail",
+   "note": ""
+  },
+  {
+   "url": "http://fty.xxooo.cf/tv",
+   "state": "fetch_fail",
+   "note": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "url": "http://cdn.qiaoji8.com/tvbox.json",
@@ -816,63 +239,68 @@
    "note": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
+   "url": "https://9877.kstore.space/AnotherD/api.json",
+   "state": "http_404",
+   "note": ""
+  },
+  {
    "url": "https://6492.kstore.space/xnf/xnf.json",
    "state": "http_401",
    "note": ""
   },
   {
-   "url": "https://7337.kstore.vip/tw.json",
+   "url": "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/DEMO.json",
    "state": "http_404",
    "note": ""
   },
   {
-   "url": "https://7337.kstore.vip/qxys/%E7%A6%81%E6%AD%A2%E4%BC%A0%E6%92%AD.json",
+   "url": "https://4708.kstore.space/svip/svip.json",
    "state": "http_401",
    "note": ""
   },
   {
-   "url": "https://9877.kstore.space/one.json",
-   "state": "http_404",
-   "note": ""
-  },
-  {
-   "url": "https://xn--fjq53n.xyz/TV/Zy.json",
-   "state": "fetch_fail",
-   "note": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "url": "https://7337.kstore.space/qxys/%E7%A6%81%E6%AD%A2%E4%BC%A0%E6%92%AD.json",
-   "state": "http_401",
-   "note": ""
-  },
-  {
-   "url": "http://zhangqun1818.serv00.net/zq/1818.json",
-   "state": "http_404",
-   "note": ""
-  },
-  {
-   "url": "http://mzrjk.top/%E6%88%8F%E6%9B%B2",
-   "state": "http_404",
-   "note": ""
-  },
-  {
-   "url": "http://mzrjk.top/%E9%9F%B3%E4%B9%90",
-   "state": "http_404",
-   "note": ""
-  },
-  {
-   "url": "https://zhangqun66.com/zq/api.json",
-   "state": "fetch_fail",
-   "note": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "url": "http://mzrjk.top/%E5%AD%A6%E4%B9%A0",
-   "state": "http_404",
-   "note": ""
-  },
-  {
-   "url": "https://tv.webhome.eu.org/config-clean.json",
+   "url": "http://hucongrong.web3v.work/%E9%A3%8E%E6%B0%B4/fxz/fxz.json",
    "state": "decode_fail",
+   "note": ""
+  },
+  {
+   "url": "http://tv.nxog.top/m",
+   "state": "fetch_fail",
+   "note": "[Errno 104] Connection reset by peer"
+  },
+  {
+   "url": "https://gitee.com/lukei7/lib/raw/Luck/%E8%87%AA%E5%BB%BA.json",
+   "state": "http_423",
+   "note": ""
+  },
+  {
+   "url": "http://tv.nxog.top/m/111.php?ou=%E5%85%AC%E4%BC%97%E5%8F%B7%E6%AC%A7%E6%AD%8C",
+   "state": "fetch_fail",
+   "note": "[Errno 104] Connection reset by peer"
+  },
+  {
+   "url": "https://hb.xyyh.online/tvbox",
+   "state": "fetch_fail",
+   "note": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "url": "http://fmys.top/fmys.json",
+   "state": "http_404",
+   "note": ""
+  },
+  {
+   "url": "http://mzjk.top/%E7%A6%81%E6%AD%A2%E8%B4%A9%E5%8D%96",
+   "state": "fetch_fail",
+   "note": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+   "url": "https://gitee.com/yiwu369/6758/raw/master/%E9%9D%92%E9%BE%99/1.json",
+   "state": "http_423",
+   "note": ""
+  },
+  {
+   "url": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json",
+   "state": "http_404",
    "note": ""
   }
  ]
