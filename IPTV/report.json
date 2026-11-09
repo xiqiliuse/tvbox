@@ -1,0 +1,642 @@
+{
+  "started_at": "2026-11-09T22:41:27+08:00",
+  "finished_at": null,
+  "elapsed_seconds": 80.5,
+  "sources": {
+    "total": 6,
+    "ok": 6,
+    "failed": 0,
+    "detail": [
+      {
+        "name": "iptv-org-cn",
+        "ok": true,
+        "streams": 156,
+        "bytes": 32047,
+        "elapsed": 49.0,
+        "error": ""
+      },
+      {
+        "name": "free-tv",
+        "ok": true,
+        "streams": 2197,
+        "bytes": 588585,
+        "elapsed": 3.49,
+        "error": ""
+      },
+      {
+        "name": "vbskycn-ipv4",
+        "ok": true,
+        "streams": 450,
+        "bytes": 99582,
+        "elapsed": 2.05,
+        "error": ""
+      },
+      {
+        "name": "zilong7728",
+        "ok": true,
+        "streams": 662,
+        "bytes": 132890,
+        "elapsed": 1.88,
+        "error": ""
+      },
+      {
+        "name": "herberthe-cn",
+        "ok": true,
+        "streams": 127,
+        "bytes": 40750,
+        "elapsed": 4.2,
+        "error": ""
+      },
+      {
+        "name": "guovin",
+        "ok": true,
+        "streams": 839,
+        "bytes": 208068,
+        "elapsed": 13.56,
+        "error": ""
+      }
+    ]
+  },
+  "streams": {
+    "total": 4431,
+    "deduped": 415
+  },
+  "probes": {
+    "total": 415,
+    "ok": 52,
+    "failed": 363,
+    "reasons": {
+      "conn:oserror": 266,
+      "skipped_slow_host": 150,
+      "timeout": 132,
+      "error:connectionreseterror": 64,
+      "conn:sslerror": 64,
+      "conn:sslcertverificationerror": 18,
+      "conn:connectionrefusederror": 8,
+      "http_404": 8,
+      "http_5xx": 4,
+      "error:unicodeencodeerror": 4,
+      "low_speed": 3,
+      "conn:connectionreseterror": 2,
+      "http_403": 2,
+      "conn:gaierror": 2,
+      "not_stream": 2
+    }
+  },
+  "channels": {
+    "total": 59,
+    "ok": 29,
+    "lines_ok": 44,
+    "fallback_lines": 0
+  },
+  "top_channels": [
+    [
+      "CGTN",
+      5
+    ],
+    [
+      "湖南卫视",
+      3
+    ],
+    [
+      "东方卫视",
+      3
+    ],
+    [
+      "河北卫视",
+      3
+    ],
+    [
+      "CCTV-9 纪录",
+      2
+    ],
+    [
+      "浙江卫视",
+      2
+    ],
+    [
+      "东南卫视",
+      2
+    ],
+    [
+      "广西卫视",
+      2
+    ],
+    [
+      "内蒙古卫视",
+      2
+    ],
+    [
+      "CCTV-4 中文国际",
+      1
+    ]
+  ],
+  "failed_domains": [
+    [
+      "stream1.freetv.fun",
+      56
+    ],
+    [
+      "63.141.230.178",
+      36
+    ],
+    [
+      "zby.130519.xyz",
+      32
+    ],
+    [
+      "2409:8087:8:21::18",
+      25
+    ],
+    [
+      "iptv.huuc.edu.cn",
+      25
+    ]
+  ],
+  "output_files": [],
+  "github": {},
+  "channel_details": [
+    {
+      "name": "CCTV-1 综合",
+      "group": "央视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "CCTV-2 财经",
+      "group": "央视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "CCTV-3 综艺",
+      "group": "央视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "CCTV-4 中文国际",
+      "group": "央视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "zilong7728"
+      ]
+    },
+    {
+      "name": "CCTV-5 体育",
+      "group": "央视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "CCTV-5+ 体育赛事",
+      "group": "央视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "CCTV-6 电影",
+      "group": "央视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "CCTV-7 国防军事",
+      "group": "央视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "CCTV-8 电视剧",
+      "group": "央视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "CCTV-9 纪录",
+      "group": "央视",
+      "lines": 2,
+      "best_resolution": "1920x1080",
+      "sources": [
+        "iptv-org-cn",
+        "zilong7728"
+      ]
+    },
+    {
+      "name": "CCTV-10 科教",
+      "group": "央视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "CCTV-11 戏曲",
+      "group": "央视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "CCTV-12 社会与法",
+      "group": "央视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "CCTV-13 新闻",
+      "group": "央视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "CCTV-14 少儿",
+      "group": "央视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "CCTV-15 音乐",
+      "group": "央视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "CCTV-16 奥林匹克",
+      "group": "央视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "CCTV-17 农业农村",
+      "group": "央视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "湖南卫视",
+      "group": "卫视",
+      "lines": 3,
+      "best_resolution": "",
+      "sources": [
+        "guovin",
+        "vbskycn-ipv4",
+        "zilong7728"
+      ]
+    },
+    {
+      "name": "浙江卫视",
+      "group": "卫视",
+      "lines": 2,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4",
+        "zilong7728"
+      ]
+    },
+    {
+      "name": "江苏卫视",
+      "group": "卫视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "zilong7728"
+      ]
+    },
+    {
+      "name": "东方卫视",
+      "group": "卫视",
+      "lines": 3,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4",
+        "zilong7728"
+      ]
+    },
+    {
+      "name": "北京卫视",
+      "group": "卫视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "广东卫视",
+      "group": "卫视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "深圳卫视",
+      "group": "卫视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "安徽卫视",
+      "group": "卫视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "zilong7728"
+      ]
+    },
+    {
+      "name": "山东卫视",
+      "group": "卫视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "天津卫视",
+      "group": "卫视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "四川卫视",
+      "group": "卫视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "湖北卫视",
+      "group": "卫视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "河南卫视",
+      "group": "卫视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "江西卫视",
+      "group": "卫视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "东南卫视",
+      "group": "卫视",
+      "lines": 2,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4",
+        "zilong7728"
+      ]
+    },
+    {
+      "name": "辽宁卫视",
+      "group": "卫视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "黑龙江卫视",
+      "group": "卫视",
+      "lines": 1,
+      "best_resolution": "1920x1080",
+      "sources": [
+        "guovin"
+      ]
+    },
+    {
+      "name": "吉林卫视",
+      "group": "卫视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "河北卫视",
+      "group": "卫视",
+      "lines": 3,
+      "best_resolution": "",
+      "sources": [
+        "guovin",
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "山西卫视",
+      "group": "卫视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "陕西卫视",
+      "group": "卫视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "甘肃卫视",
+      "group": "卫视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "青海卫视",
+      "group": "卫视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "宁夏卫视",
+      "group": "卫视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "zilong7728"
+      ]
+    },
+    {
+      "name": "新疆卫视",
+      "group": "卫视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "云南卫视",
+      "group": "卫视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "贵州卫视",
+      "group": "卫视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "广西卫视",
+      "group": "卫视",
+      "lines": 2,
+      "best_resolution": "1920x1080",
+      "sources": [
+        "guovin",
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "海南卫视",
+      "group": "卫视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "内蒙古卫视",
+      "group": "卫视",
+      "lines": 2,
+      "best_resolution": "",
+      "sources": [
+        "guovin",
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "西藏卫视",
+      "group": "卫视",
+      "lines": 1,
+      "best_resolution": "",
+      "sources": [
+        "vbskycn-ipv4"
+      ]
+    },
+    {
+      "name": "重庆卫视",
+      "group": "卫视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "厦门卫视",
+      "group": "卫视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "三沙卫视",
+      "group": "卫视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "翡翠台",
+      "group": "港澳台",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "明珠台",
+      "group": "港澳台",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "TVB 无线新闻",
+      "group": "港澳台",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "凤凰中文",
+      "group": "港澳台",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "凤凰资讯",
+      "group": "港澳台",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "澳视澳门",
+      "group": "港澳台",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
+    },
+    {
+      "name": "CGTN",
+      "group": "国际",
+      "lines": 5,
+      "best_resolution": "1280x720",
+      "sources": [
+        "free-tv",
+        "vbskycn-ipv4",
+        "zilong7728"
+      ]
+    }
+  ]
+}
