@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-11-09T22:41:27+08:00",
+  "started_at": "2026-11-09T22:44:41+08:00",
   "finished_at": null,
-  "elapsed_seconds": 80.5,
+  "elapsed_seconds": 43.4,
   "sources": {
     "total": 6,
     "ok": 6,
@@ -12,7 +12,7 @@
         "ok": true,
         "streams": 156,
         "bytes": 32047,
-        "elapsed": 49.0,
+        "elapsed": 3.3,
         "error": ""
       },
       {
@@ -20,7 +20,7 @@
         "ok": true,
         "streams": 2197,
         "bytes": 588585,
-        "elapsed": 3.49,
+        "elapsed": 3.79,
         "error": ""
       },
       {
@@ -28,7 +28,7 @@
         "ok": true,
         "streams": 450,
         "bytes": 99582,
-        "elapsed": 2.05,
+        "elapsed": 1.03,
         "error": ""
       },
       {
@@ -36,7 +36,7 @@
         "ok": true,
         "streams": 662,
         "bytes": 132890,
-        "elapsed": 1.88,
+        "elapsed": 1.4,
         "error": ""
       },
       {
@@ -44,7 +44,7 @@
         "ok": true,
         "streams": 127,
         "bytes": 40750,
-        "elapsed": 4.2,
+        "elapsed": 5.02,
         "error": ""
       },
       {
@@ -52,7 +52,7 @@
         "ok": true,
         "streams": 839,
         "bytes": 208068,
-        "elapsed": 13.56,
+        "elapsed": 2.67,
         "error": ""
       }
     ]
@@ -63,31 +63,32 @@
   },
   "probes": {
     "total": 415,
-    "ok": 52,
-    "failed": 363,
+    "ok": 43,
+    "failed": 372,
     "reasons": {
       "conn:oserror": 266,
-      "skipped_slow_host": 150,
-      "timeout": 132,
+      "skipped_slow_host": 148,
+      "timeout": 136,
       "error:connectionreseterror": 64,
       "conn:sslerror": 64,
-      "conn:sslcertverificationerror": 18,
+      "conn:sslcertverificationerror": 30,
+      "http_404": 10,
       "conn:connectionrefusederror": 8,
-      "http_404": 8,
+      "http_403": 4,
       "http_5xx": 4,
       "error:unicodeencodeerror": 4,
-      "low_speed": 3,
       "conn:connectionreseterror": 2,
-      "http_403": 2,
       "conn:gaierror": 2,
-      "not_stream": 2
+      "not_stream": 2,
+      "low_speed": 2,
+      "low_resolution": 2
     }
   },
   "channels": {
     "total": 59,
-    "ok": 29,
+    "ok": 32,
     "lines_ok": 44,
-    "fallback_lines": 0
+    "fallback_lines": 9
   },
   "top_channels": [
     [
@@ -103,14 +104,6 @@
       3
     ],
     [
-      "河北卫视",
-      3
-    ],
-    [
-      "CCTV-9 纪录",
-      2
-    ],
-    [
       "浙江卫视",
       2
     ],
@@ -119,15 +112,23 @@
       2
     ],
     [
+      "河北卫视",
+      2
+    ],
+    [
       "广西卫视",
       2
     ],
     [
-      "内蒙古卫视",
-      2
+      "CCTV-4 中文国际",
+      1
     ],
     [
-      "CCTV-4 中文国际",
+      "CCTV-5+ 体育赛事",
+      1
+    ],
+    [
+      "CCTV-9 纪录",
       1
     ]
   ],
@@ -226,11 +227,10 @@
     {
       "name": "CCTV-9 纪录",
       "group": "央视",
-      "lines": 2,
+      "lines": 1,
       "best_resolution": "1920x1080",
       "sources": [
-        "iptv-org-cn",
-        "zilong7728"
+        "iptv-org-cn"
       ]
     },
     {
@@ -258,7 +258,7 @@
       "name": "CCTV-13 新闻",
       "group": "央视",
       "lines": 1,
-      "best_resolution": "",
+      "best_resolution": "1920x1080",
       "sources": [
         "vbskycn-ipv4"
       ]
@@ -299,7 +299,7 @@
       "name": "湖南卫视",
       "group": "卫视",
       "lines": 3,
-      "best_resolution": "",
+      "best_resolution": "3840x2160",
       "sources": [
         "guovin",
         "vbskycn-ipv4",
@@ -310,7 +310,7 @@
       "name": "浙江卫视",
       "group": "卫视",
       "lines": 2,
-      "best_resolution": "",
+      "best_resolution": "1920x1080",
       "sources": [
         "vbskycn-ipv4",
         "zilong7728"
@@ -320,7 +320,7 @@
       "name": "江苏卫视",
       "group": "卫视",
       "lines": 1,
-      "best_resolution": "",
+      "best_resolution": "3840x2160",
       "sources": [
         "zilong7728"
       ]
@@ -329,7 +329,7 @@
       "name": "东方卫视",
       "group": "卫视",
       "lines": 3,
-      "best_resolution": "",
+      "best_resolution": "1920x1080",
       "sources": [
         "vbskycn-ipv4",
         "zilong7728"
@@ -348,7 +348,7 @@
       "name": "广东卫视",
       "group": "卫视",
       "lines": 1,
-      "best_resolution": "",
+      "best_resolution": "1280x720",
       "sources": [
         "vbskycn-ipv4"
       ]
@@ -421,7 +421,7 @@
       "name": "东南卫视",
       "group": "卫视",
       "lines": 2,
-      "best_resolution": "",
+      "best_resolution": "1920x1080",
       "sources": [
         "vbskycn-ipv4",
         "zilong7728"
@@ -453,8 +453,8 @@
     {
       "name": "河北卫视",
       "group": "卫视",
-      "lines": 3,
-      "best_resolution": "",
+      "lines": 2,
+      "best_resolution": "3840x2160",
       "sources": [
         "guovin",
         "vbskycn-ipv4"
@@ -548,11 +548,10 @@
     {
       "name": "内蒙古卫视",
       "group": "卫视",
-      "lines": 2,
-      "best_resolution": "",
+      "lines": 1,
+      "best_resolution": "1920x1080",
       "sources": [
-        "guovin",
-        "vbskycn-ipv4"
+        "guovin"
       ]
     },
     {
@@ -588,16 +587,20 @@
     {
       "name": "翡翠台",
       "group": "港澳台",
-      "lines": 0,
-      "best_resolution": "",
-      "sources": []
+      "lines": 1,
+      "best_resolution": "1920x1080",
+      "sources": [
+        "guovin"
+      ]
     },
     {
       "name": "明珠台",
       "group": "港澳台",
-      "lines": 0,
-      "best_resolution": "",
-      "sources": []
+      "lines": 1,
+      "best_resolution": "1920x1080",
+      "sources": [
+        "guovin"
+      ]
     },
     {
       "name": "TVB 无线新闻",
@@ -609,9 +612,11 @@
     {
       "name": "凤凰中文",
       "group": "港澳台",
-      "lines": 0,
+      "lines": 1,
       "best_resolution": "",
-      "sources": []
+      "sources": [
+        "guovin"
+      ]
     },
     {
       "name": "凤凰资讯",
@@ -631,11 +636,9 @@
       "name": "CGTN",
       "group": "国际",
       "lines": 5,
-      "best_resolution": "1280x720",
+      "best_resolution": "1920x1080",
       "sources": [
-        "free-tv",
-        "vbskycn-ipv4",
-        "zilong7728"
+        "vbskycn-ipv4"
       ]
     }
   ]
