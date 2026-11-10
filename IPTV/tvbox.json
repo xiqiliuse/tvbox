@@ -8,13 +8,14 @@
         {
           "name": "CCTV-4 中文国际",
           "urls": [
-            "https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1794247200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-179b646e71bcc769d97cf7f898ac72a3&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c"
+            "https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8"
           ]
         },
         {
-          "name": "CCTV-5+ 体育赛事",
+          "name": "CCTV-6 电影",
           "urls": [
-            "http://120.76.248.139/live/bfgd/4200000246.m3u8"
+            "http://8.138.7.223/tv/1905.php?id=LIVE3YPYZ30E7V1R0",
+            "https://piccpndks.v.kcdnvip.com/audio/cctv6_2/index.m3u8"
           ]
         },
         {
@@ -30,15 +31,9 @@
           ]
         },
         {
-          "name": "CCTV-15 音乐",
+          "name": "CCTV-16 奥林匹克",
           "urls": [
-            "http://120.76.248.139/live/bfgd/4200000133.m3u8"
-          ]
-        },
-        {
-          "name": "CCTV-17 农业农村",
-          "urls": [
-            "http://120.76.248.139/live/bfgd/4200000204.m3u8"
+            "https://piccpndks.v.kcdnvip.com/audio/cctv16_2/index.m3u8"
           ]
         },
         {
@@ -52,8 +47,7 @@
         {
           "name": "浙江卫视",
           "urls": [
-            "http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8",
-            "https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8"
+            "http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8"
           ]
         },
         {
@@ -65,15 +59,9 @@
         {
           "name": "东方卫视",
           "urls": [
-            "http://bp-resource-dfl.bestv.cn/155/3/video.m3u8",
             "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
-            "https://bp-resource-dfl.bestv.cn/148/3/video.m3u8"
-          ]
-        },
-        {
-          "name": "北京卫视",
-          "urls": [
-            "http://120.76.248.139/live/bfgd/4200000083.m3u8"
+            "https://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+            "http://bp-resource-dfl.bestv.cn/155/3/video.m3u8"
           ]
         },
         {
@@ -83,34 +71,15 @@
           ]
         },
         {
-          "name": "深圳卫视",
-          "urls": [
-            "http://120.76.248.139/live/bfgd/4200000100.m3u8"
-          ]
-        },
-        {
           "name": "安徽卫视",
           "urls": [
             "https://piccpndks.v.kcdnvip.com/audio/anhui_2/index.m3u8"
           ]
         },
         {
-          "name": "山东卫视",
-          "urls": [
-            "http://120.76.248.139/live/bfgd/4200000099.m3u8"
-          ]
-        },
-        {
-          "name": "湖北卫视",
-          "urls": [
-            "http://120.76.248.139/live/bfgd/4200000102.m3u8"
-          ]
-        },
-        {
           "name": "东南卫视",
           "urls": [
-            "http://live.zohi.tv/video/s10001-fztv-3/index.m3u8",
-            "http://120.76.248.139/live/bfgd/4200000483.m3u8"
+            "http://live.zohi.tv/video/s10001-fztv-3/index.m3u8"
           ]
         },
         {
@@ -127,18 +96,6 @@
           ]
         },
         {
-          "name": "甘肃卫视",
-          "urls": [
-            "http://120.76.248.139/live/bfgd/4200000119.m3u8"
-          ]
-        },
-        {
-          "name": "青海卫视",
-          "urls": [
-            "http://120.76.248.139/live/bfgd/4200000111.m3u8"
-          ]
-        },
-        {
           "name": "宁夏卫视",
           "urls": [
             "http://120.76.248.139/live/bfgd/4200000118.m3u8"
@@ -151,16 +108,9 @@
           ]
         },
         {
-          "name": "云南卫视",
-          "urls": [
-            "http://120.76.248.139/live/bfgd/4200000482.m3u8"
-          ]
-        },
-        {
           "name": "广西卫视",
           "urls": [
-            "https://hlscdn.liangtv.cn/live/de0f97348eb84f62aa6b7d8cf0430770/dd505d87880c478f901f38560ca4d4e6.m3u8",
-            "http://120.76.248.139/live/bfgd/4200000116.m3u8"
+            "https://hlscdn.liangtv.cn/live/de0f97348eb84f62aa6b7d8cf0430770/dd505d87880c478f901f38560ca4d4e6.m3u8"
           ]
         },
         {
@@ -172,13 +122,8 @@
         {
           "name": "内蒙古卫视",
           "urls": [
-            "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8"
-          ]
-        },
-        {
-          "name": "西藏卫视",
-          "urls": [
-            "http://120.76.248.139/live/bfgd/4200000121.m3u8"
+            "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
+            "http://120.76.248.139/live/bfgd/4200000110.m3u8"
           ]
         },
         {
@@ -202,11 +147,11 @@
         {
           "name": "CGTN",
           "urls": [
-            "https://0472.org/hls/cgtnx.m3u8",
-            "https://0472.org/hls/cgtna.m3u8",
             "http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8",
+            "https://0472.org/hls/cgtna.m3u8",
+            "https://0472.org/hls/cgtnx.m3u8",
             "http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8",
-            "https://0472.org/hls/cgtnd.m3u8"
+            "https://0472.org/hls/cgtn.m3u8"
           ]
         }
       ]
