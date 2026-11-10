@@ -1,7 +1,7 @@
 {
  "urls": [
   {
-   "name": "全能聚合（245站）",
+   "name": "全能聚合（251站）",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xiqiliuse/tvbox/main/tvbox/groups/group_00_all.json"
   },
   {
@@ -13,7 +13,7 @@
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xiqiliuse/tvbox/main/tvbox/groups/group_02.json"
   },
   {
-   "name": "聚合03·svip.jar（37站）",
+   "name": "聚合03·svip.jar（40站）",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xiqiliuse/tvbox/main/tvbox/groups/group_03.json"
   }
  ]
