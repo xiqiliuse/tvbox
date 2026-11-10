@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-11-09T22:44:41+08:00",
+  "started_at": "2026-11-10T17:00:00+08:00",
   "finished_at": null,
-  "elapsed_seconds": 43.4,
+  "elapsed_seconds": 76.6,
   "sources": {
     "total": 6,
     "ok": 6,
@@ -12,7 +12,7 @@
         "ok": true,
         "streams": 156,
         "bytes": 32047,
-        "elapsed": 3.3,
+        "elapsed": 4.81,
         "error": ""
       },
       {
@@ -20,31 +20,31 @@
         "ok": true,
         "streams": 2197,
         "bytes": 588585,
-        "elapsed": 3.79,
+        "elapsed": 39.91,
         "error": ""
       },
       {
         "name": "vbskycn-ipv4",
         "ok": true,
-        "streams": 450,
-        "bytes": 99582,
-        "elapsed": 1.03,
+        "streams": 428,
+        "bytes": 95469,
+        "elapsed": 3.11,
         "error": ""
       },
       {
         "name": "zilong7728",
         "ok": true,
-        "streams": 662,
-        "bytes": 132890,
-        "elapsed": 1.4,
+        "streams": 639,
+        "bytes": 128936,
+        "elapsed": 2.36,
         "error": ""
       },
       {
         "name": "herberthe-cn",
         "ok": true,
-        "streams": 127,
-        "bytes": 40750,
-        "elapsed": 5.02,
+        "streams": 129,
+        "bytes": 41387,
+        "elapsed": 2.7,
         "error": ""
       },
       {
@@ -52,43 +52,43 @@
         "ok": true,
         "streams": 839,
         "bytes": 208068,
-        "elapsed": 2.67,
+        "elapsed": 3.92,
         "error": ""
       }
     ]
   },
   "streams": {
-    "total": 4431,
-    "deduped": 415
+    "total": 4388,
+    "deduped": 414
   },
   "probes": {
-    "total": 415,
+    "total": 414,
     "ok": 43,
-    "failed": 372,
+    "failed": 371,
     "reasons": {
-      "conn:oserror": 266,
-      "skipped_slow_host": 148,
-      "timeout": 136,
-      "error:connectionreseterror": 64,
+      "conn:oserror": 270,
+      "skipped_slow_host": 156,
+      "timeout": 120,
+      "error:connectionreseterror": 72,
       "conn:sslerror": 64,
-      "conn:sslcertverificationerror": 30,
+      "conn:sslcertverificationerror": 22,
       "http_404": 10,
       "conn:connectionrefusederror": 8,
-      "http_403": 4,
+      "http_403": 6,
+      "low_speed": 5,
       "http_5xx": 4,
       "error:unicodeencodeerror": 4,
       "conn:connectionreseterror": 2,
       "conn:gaierror": 2,
       "not_stream": 2,
-      "low_speed": 2,
       "low_resolution": 2
     }
   },
   "channels": {
     "total": 59,
-    "ok": 32,
-    "lines_ok": 44,
-    "fallback_lines": 9
+    "ok": 23,
+    "lines_ok": 34,
+    "fallback_lines": 3
   },
   "top_channels": [
     [
@@ -104,11 +104,7 @@
       3
     ],
     [
-      "浙江卫视",
-      2
-    ],
-    [
-      "东南卫视",
+      "CCTV-6 电影",
       2
     ],
     [
@@ -116,7 +112,7 @@
       2
     ],
     [
-      "广西卫视",
+      "内蒙古卫视",
       2
     ],
     [
@@ -124,18 +120,22 @@
       1
     ],
     [
-      "CCTV-5+ 体育赛事",
+      "CCTV-9 纪录",
       1
     ],
     [
-      "CCTV-9 纪录",
+      "CCTV-13 新闻",
+      1
+    ],
+    [
+      "CCTV-16 奥林匹克",
       1
     ]
   ],
   "failed_domains": [
     [
       "stream1.freetv.fun",
-      56
+      57
     ],
     [
       "63.141.230.178",
@@ -146,11 +146,11 @@
       32
     ],
     [
-      "2409:8087:8:21::18",
-      25
+      "t.061899.xyz",
+      27
     ],
     [
-      "iptv.huuc.edu.cn",
+      "2409:8087:8:21::18",
       25
     ]
   ],
@@ -184,7 +184,7 @@
       "lines": 1,
       "best_resolution": "",
       "sources": [
-        "zilong7728"
+        "free-tv"
       ]
     },
     {
@@ -197,18 +197,18 @@
     {
       "name": "CCTV-5+ 体育赛事",
       "group": "央视",
-      "lines": 1,
+      "lines": 0,
       "best_resolution": "",
-      "sources": [
-        "vbskycn-ipv4"
-      ]
+      "sources": []
     },
     {
       "name": "CCTV-6 电影",
       "group": "央视",
-      "lines": 0,
-      "best_resolution": "",
-      "sources": []
+      "lines": 2,
+      "best_resolution": "1920x1080",
+      "sources": [
+        "zilong7728"
+      ]
     },
     {
       "name": "CCTV-7 国防军事",
@@ -273,27 +273,25 @@
     {
       "name": "CCTV-15 音乐",
       "group": "央视",
-      "lines": 1,
-      "best_resolution": "",
-      "sources": [
-        "vbskycn-ipv4"
-      ]
-    },
-    {
-      "name": "CCTV-16 奥林匹克",
-      "group": "央视",
       "lines": 0,
       "best_resolution": "",
       "sources": []
     },
     {
-      "name": "CCTV-17 农业农村",
+      "name": "CCTV-16 奥林匹克",
       "group": "央视",
       "lines": 1,
       "best_resolution": "",
       "sources": [
-        "vbskycn-ipv4"
+        "zilong7728"
       ]
+    },
+    {
+      "name": "CCTV-17 农业农村",
+      "group": "央视",
+      "lines": 0,
+      "best_resolution": "",
+      "sources": []
     },
     {
       "name": "湖南卫视",
@@ -309,11 +307,10 @@
     {
       "name": "浙江卫视",
       "group": "卫视",
-      "lines": 2,
+      "lines": 1,
       "best_resolution": "1920x1080",
       "sources": [
-        "vbskycn-ipv4",
-        "zilong7728"
+        "vbskycn-ipv4"
       ]
     },
     {
@@ -338,11 +335,9 @@
     {
       "name": "北京卫视",
       "group": "卫视",
-      "lines": 1,
+      "lines": 0,
       "best_resolution": "",
-      "sources": [
-        "vbskycn-ipv4"
-      ]
+      "sources": []
     },
     {
       "name": "广东卫视",
@@ -356,11 +351,9 @@
     {
       "name": "深圳卫视",
       "group": "卫视",
-      "lines": 1,
+      "lines": 0,
       "best_resolution": "",
-      "sources": [
-        "vbskycn-ipv4"
-      ]
+      "sources": []
     },
     {
       "name": "安徽卫视",
@@ -374,11 +367,9 @@
     {
       "name": "山东卫视",
       "group": "卫视",
-      "lines": 1,
+      "lines": 0,
       "best_resolution": "",
-      "sources": [
-        "vbskycn-ipv4"
-      ]
+      "sources": []
     },
     {
       "name": "天津卫视",
@@ -397,11 +388,9 @@
     {
       "name": "湖北卫视",
       "group": "卫视",
-      "lines": 1,
+      "lines": 0,
       "best_resolution": "",
-      "sources": [
-        "vbskycn-ipv4"
-      ]
+      "sources": []
     },
     {
       "name": "河南卫视",
@@ -420,11 +409,10 @@
     {
       "name": "东南卫视",
       "group": "卫视",
-      "lines": 2,
+      "lines": 1,
       "best_resolution": "1920x1080",
       "sources": [
-        "vbskycn-ipv4",
-        "zilong7728"
+        "vbskycn-ipv4"
       ]
     },
     {
@@ -457,7 +445,7 @@
       "best_resolution": "3840x2160",
       "sources": [
         "guovin",
-        "vbskycn-ipv4"
+        "zilong7728"
       ]
     },
     {
@@ -477,20 +465,16 @@
     {
       "name": "甘肃卫视",
       "group": "卫视",
-      "lines": 1,
+      "lines": 0,
       "best_resolution": "",
-      "sources": [
-        "vbskycn-ipv4"
-      ]
+      "sources": []
     },
     {
       "name": "青海卫视",
       "group": "卫视",
-      "lines": 1,
+      "lines": 0,
       "best_resolution": "",
-      "sources": [
-        "vbskycn-ipv4"
-      ]
+      "sources": []
     },
     {
       "name": "宁夏卫视",
@@ -513,11 +497,9 @@
     {
       "name": "云南卫视",
       "group": "卫视",
-      "lines": 1,
+      "lines": 0,
       "best_resolution": "",
-      "sources": [
-        "vbskycn-ipv4"
-      ]
+      "sources": []
     },
     {
       "name": "贵州卫视",
@@ -529,11 +511,10 @@
     {
       "name": "广西卫视",
       "group": "卫视",
-      "lines": 2,
+      "lines": 1,
       "best_resolution": "1920x1080",
       "sources": [
-        "guovin",
-        "vbskycn-ipv4"
+        "guovin"
       ]
     },
     {
@@ -542,26 +523,25 @@
       "lines": 1,
       "best_resolution": "",
       "sources": [
-        "vbskycn-ipv4"
+        "zilong7728"
       ]
     },
     {
       "name": "内蒙古卫视",
       "group": "卫视",
-      "lines": 1,
+      "lines": 2,
       "best_resolution": "1920x1080",
       "sources": [
-        "guovin"
+        "vbskycn-ipv4",
+        "zilong7728"
       ]
     },
     {
       "name": "西藏卫视",
       "group": "卫视",
-      "lines": 1,
+      "lines": 0,
       "best_resolution": "",
-      "sources": [
-        "vbskycn-ipv4"
-      ]
+      "sources": []
     },
     {
       "name": "重庆卫视",
@@ -615,7 +595,7 @@
       "lines": 1,
       "best_resolution": "",
       "sources": [
-        "guovin"
+        "zilong7728"
       ]
     },
     {
@@ -638,7 +618,8 @@
       "lines": 5,
       "best_resolution": "1920x1080",
       "sources": [
-        "vbskycn-ipv4"
+        "vbskycn-ipv4",
+        "zilong7728"
       ]
     }
   ]
