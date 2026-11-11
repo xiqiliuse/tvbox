@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-11-10T17:00:00+08:00",
+  "started_at": "2026-11-11T17:00:00+08:00",
   "finished_at": null,
-  "elapsed_seconds": 76.6,
+  "elapsed_seconds": 44.6,
   "sources": {
     "total": 6,
     "ok": 6,
@@ -12,7 +12,7 @@
         "ok": true,
         "streams": 156,
         "bytes": 32047,
-        "elapsed": 4.81,
+        "elapsed": 4.96,
         "error": ""
       },
       {
@@ -20,31 +20,31 @@
         "ok": true,
         "streams": 2197,
         "bytes": 588585,
-        "elapsed": 39.91,
+        "elapsed": 5.62,
         "error": ""
       },
       {
         "name": "vbskycn-ipv4",
         "ok": true,
-        "streams": 428,
-        "bytes": 95469,
-        "elapsed": 3.11,
+        "streams": 430,
+        "bytes": 96118,
+        "elapsed": 4.11,
         "error": ""
       },
       {
         "name": "zilong7728",
         "ok": true,
-        "streams": 639,
-        "bytes": 128936,
-        "elapsed": 2.36,
+        "streams": 607,
+        "bytes": 123425,
+        "elapsed": 3.38,
         "error": ""
       },
       {
         "name": "herberthe-cn",
         "ok": true,
-        "streams": 129,
-        "bytes": 41387,
-        "elapsed": 2.7,
+        "streams": 163,
+        "bytes": 52520,
+        "elapsed": 4.11,
         "error": ""
       },
       {
@@ -52,43 +52,43 @@
         "ok": true,
         "streams": 839,
         "bytes": 208068,
-        "elapsed": 3.92,
+        "elapsed": 4.18,
         "error": ""
       }
     ]
   },
   "streams": {
-    "total": 4388,
-    "deduped": 414
+    "total": 4392,
+    "deduped": 389
   },
   "probes": {
-    "total": 414,
-    "ok": 43,
-    "failed": 371,
+    "total": 389,
+    "ok": 39,
+    "failed": 350,
     "reasons": {
       "conn:oserror": 270,
-      "skipped_slow_host": 156,
-      "timeout": 120,
-      "error:connectionreseterror": 72,
+      "skipped_slow_host": 160,
+      "timeout": 128,
       "conn:sslerror": 64,
       "conn:sslcertverificationerror": 22,
-      "http_404": 10,
+      "error:connectionreseterror": 20,
       "conn:connectionrefusederror": 8,
+      "http_404": 8,
       "http_403": 6,
-      "low_speed": 5,
+      "low_speed": 6,
       "http_5xx": 4,
       "error:unicodeencodeerror": 4,
       "conn:connectionreseterror": 2,
+      "html": 2,
       "conn:gaierror": 2,
-      "not_stream": 2,
-      "low_resolution": 2
+      "low_resolution": 1
     }
   },
   "channels": {
     "total": 59,
-    "ok": 23,
-    "lines_ok": 34,
-    "fallback_lines": 3
+    "ok": 22,
+    "lines_ok": 33,
+    "fallback_lines": 4
   },
   "top_channels": [
     [
@@ -128,14 +128,14 @@
       1
     ],
     [
-      "CCTV-16 奥林匹克",
+      "浙江卫视",
       1
     ]
   ],
   "failed_domains": [
     [
       "stream1.freetv.fun",
-      57
+      58
     ],
     [
       "63.141.230.178",
@@ -146,11 +146,11 @@
       32
     ],
     [
-      "t.061899.xyz",
-      27
+      "2409:8087:8:21::18",
+      25
     ],
     [
-      "2409:8087:8:21::18",
+      "iptv.huuc.edu.cn",
       25
     ]
   ],
@@ -280,11 +280,9 @@
     {
       "name": "CCTV-16 奥林匹克",
       "group": "央视",
-      "lines": 1,
+      "lines": 0,
       "best_resolution": "",
-      "sources": [
-        "zilong7728"
-      ]
+      "sources": []
     },
     {
       "name": "CCTV-17 农业农村",
@@ -358,11 +356,9 @@
     {
       "name": "安徽卫视",
       "group": "卫视",
-      "lines": 1,
+      "lines": 0,
       "best_resolution": "",
-      "sources": [
-        "zilong7728"
-      ]
+      "sources": []
     },
     {
       "name": "山东卫视",
@@ -418,9 +414,11 @@
     {
       "name": "辽宁卫视",
       "group": "卫视",
-      "lines": 0,
+      "lines": 1,
       "best_resolution": "",
-      "sources": []
+      "sources": [
+        "zilong7728"
+      ]
     },
     {
       "name": "黑龙江卫视",
@@ -593,7 +591,7 @@
       "name": "凤凰中文",
       "group": "港澳台",
       "lines": 1,
-      "best_resolution": "",
+      "best_resolution": "1280x720",
       "sources": [
         "zilong7728"
       ]
