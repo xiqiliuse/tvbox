@@ -31,12 +31,6 @@
           ]
         },
         {
-          "name": "CCTV-16 奥林匹克",
-          "urls": [
-            "https://piccpndks.v.kcdnvip.com/audio/cctv16_2/index.m3u8"
-          ]
-        },
-        {
           "name": "湖南卫视",
           "urls": [
             "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
@@ -47,7 +41,7 @@
         {
           "name": "浙江卫视",
           "urls": [
-            "http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8"
+            "http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8"
           ]
         },
         {
@@ -59,8 +53,8 @@
         {
           "name": "东方卫视",
           "urls": [
-            "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
             "https://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+            "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
             "http://bp-resource-dfl.bestv.cn/155/3/video.m3u8"
           ]
         },
@@ -71,15 +65,15 @@
           ]
         },
         {
-          "name": "安徽卫视",
-          "urls": [
-            "https://piccpndks.v.kcdnvip.com/audio/anhui_2/index.m3u8"
-          ]
-        },
-        {
           "name": "东南卫视",
           "urls": [
             "http://live.zohi.tv/video/s10001-fztv-3/index.m3u8"
+          ]
+        },
+        {
+          "name": "辽宁卫视",
+          "urls": [
+            "https://piccpndks.v.kcdnvip.com/audio/liaoning_2/index.m3u8"
           ]
         },
         {
@@ -149,9 +143,9 @@
           "urls": [
             "http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8",
             "https://0472.org/hls/cgtna.m3u8",
-            "https://0472.org/hls/cgtnx.m3u8",
-            "http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8",
-            "https://0472.org/hls/cgtn.m3u8"
+            "https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8",
+            "https://0472.org/hls/cgtn.m3u8",
+            "https://0472.org/hls/cgtnd.m3u8"
           ]
         }
       ]
