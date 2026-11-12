@@ -1,38 +1,38 @@
 {
- "ts": 1794283044,
- "elapsed": 81.3,
+ "ts": 1794455893,
+ "elapsed": 128.1,
  "depth": "l3",
- "sources_total": 155,
- "sources_ok": 56,
+ "sources_total": 152,
+ "sources_ok": 53,
  "states": {
-  "ok": 56,
-  "encrypted": 4,
-  "nested_multi": 3,
+  "ok": 53,
   "decode_fail": 20,
+  "nested_multi": 3,
+  "encrypted": 4,
   "fetch_fail": 34,
   "http_404": 27,
   "http_403": 5,
   "http_401": 4,
   "http_423": 2
  },
- "sites_total": 1598,
- "sites_uniq": 360,
- "sites_ok": 109,
- "sites_kept": 251,
+ "sites_total": 1593,
+ "sites_uniq": 358,
+ "sites_ok": 104,
+ "sites_kept": 243,
  "lines": 4,
- "all_sites": 251,
+ "all_sites": 243,
  "summary": [
   {
    "name": "全能聚合",
    "jar": "(全部)",
-   "sites": 251,
+   "sites": 243,
    "lives": 141,
-   "sources": 42
+   "sources": 40
   },
   {
    "name": "聚合01·svip.jar",
    "jar": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.jar",
-   "sites": 55,
+   "sites": 56,
    "lives": 20,
    "sources": 1
   },
@@ -46,15 +46,15 @@
   {
    "name": "聚合03·svip.jar",
    "jar": "https://jiekou.netlify.app/svip.jar",
-   "sites": 40,
+   "sites": 35,
    "lives": 20,
    "sources": 1
   }
  ],
  "failed_sources": [
   {
-   "url": "http://xn--z7x900a.net/",
-   "state": "encrypted",
+   "url": "http://new.xn--4kq62z5rby2qupq9ub.top",
+   "state": "decode_fail",
    "note": ""
   },
   {
@@ -63,12 +63,17 @@
    "note": ""
   },
   {
-   "url": "http://new.xn--4kq62z5rby2qupq9ub.top",
-   "state": "decode_fail",
+   "url": "http://ztha.top/TVBox/GYCK.json",
+   "state": "nested_multi",
    "note": ""
   },
   {
-   "url": "http://ztha.top/TVBox/GYCK.json",
+   "url": "http://xn--z7x900a.net/",
+   "state": "encrypted",
+   "note": ""
+  },
+  {
+   "url": "http://xmbjm.fh4u.org/dc.txt",
    "state": "nested_multi",
    "note": ""
   },
@@ -83,19 +88,14 @@
    "note": ""
   },
   {
-   "url": "http://xmbjm.fh4u.org/dc.txt",
-   "state": "nested_multi",
-   "note": ""
+   "url": "http://liulian1993.vip:5555/tvbox/lib/ziji/ziji.json",
+   "state": "fetch_fail",
+   "note": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "url": "https://api.hgyx.vip/hgyx.json",
    "state": "fetch_fail",
    "note": "<urlopen error [Errno 111] Connection refused>"
-  },
-  {
-   "url": "http://liulian1993.vip:5555/tvbox/lib/ziji/ziji.json",
-   "state": "fetch_fail",
-   "note": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "url": "http://new.xn--4kq62z5rby2qupq9ub.top/",
@@ -108,6 +108,11 @@
    "note": ""
   },
   {
+   "url": "https://100km.top/0",
+   "state": "fetch_fail",
+   "note": "<urlopen error [Errno -5] No address associated with hostname>"
+  },
+  {
    "url": "http://www3.fish2018.ip-ddns.com/p/jsm.json",
    "state": "decode_fail",
    "note": ""
@@ -118,19 +123,14 @@
    "note": ""
   },
   {
-   "url": "https://xhdwc.tk/0",
-   "state": "fetch_fail",
-   "note": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
    "url": "https://raw.atomgit.com/xxxooo/fan/blobs/cef5f441c422cffe4852e0fc8b102f9be6d2bb2b/in.bmp",
    "state": "http_404",
    "note": ""
   },
   {
-   "url": "https://100km.top/0",
-   "state": "fetch_fail",
-   "note": "<urlopen error [Errno -5] No address associated with hostname>"
+   "url": "https://cnb.cool/fish2018/zx/-/git/raw/master/FongMi.json",
+   "state": "http_403",
+   "note": ""
   },
   {
    "url": "https://cnb.cool/xiaomi666888/devcontainer/-/git/raw/main/gege.json",
@@ -143,12 +143,12 @@
    "note": ""
   },
   {
-   "url": "https://cnb.cool/fish2018/zx/-/git/raw/master/FongMi.json",
-   "state": "http_403",
+   "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/XBPQ.json",
+   "state": "http_404",
    "note": ""
   },
   {
-   "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+   "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/ok.txt",
    "state": "http_404",
    "note": ""
   },
@@ -158,14 +158,14 @@
    "note": ""
   },
   {
-   "url": "https://fty.xxooo.cf/tv",
+   "url": "https://xhdwc.tk/0",
    "state": "fetch_fail",
    "note": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
-   "url": "https://notabug.org/wc/3/raw/master/100.json",
-   "state": "http_404",
-   "note": ""
+   "url": "http://www.xn--ihq545aq7p.com",
+   "state": "fetch_fail",
+   "note": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "url": "https://jk.catvod.site/",
@@ -173,7 +173,7 @@
    "note": ""
   },
   {
-   "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/9918.json",
+   "url": "http://xn--z7x900a.net/tv",
    "state": "http_404",
    "note": ""
   },
@@ -183,9 +183,9 @@
    "note": ""
   },
   {
-   "url": "https://codeberg.org/Jsnzkpg/Jsnzkpg/raw/branch/Jsnzkpg/Jsnzkpg2",
-   "state": "http_404",
-   "note": ""
+   "url": "https://fty.xxooo.cf/tv",
+   "state": "fetch_fail",
+   "note": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "url": "https://git.acwing.com/lw0704/66/-/raw/master/jjzx.json",
@@ -198,9 +198,9 @@
    "note": ""
   },
   {
-   "url": "http://cdn.qiaoji8.com/tvbox.json",
-   "state": "fetch_fail",
-   "note": "<urlopen error [Errno -2] Name or service not known>"
+   "url": "https://codeberg.org/Jsnzkpg/Jsnzkpg/raw/branch/Jsnzkpg/Jsnzkpg2",
+   "state": "http_404",
+   "note": ""
   },
   {
    "url": "http://fty.xxooo.cf/tv",
@@ -208,12 +208,12 @@
    "note": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
-   "url": "http://tv.nxog.top/m",
-   "state": "fetch_fail",
-   "note": "[Errno 104] Connection reset by peer"
+   "url": "https://notabug.org/wc/3/raw/master/100.json",
+   "state": "http_404",
+   "note": ""
   },
   {
-   "url": "http://www.xn--ihq545aq7p.com",
+   "url": "http://cdn.qiaoji8.com/tvbox.json",
    "state": "fetch_fail",
    "note": "<urlopen error [Errno -2] Name or service not known>"
   },
@@ -223,17 +223,7 @@
    "note": ""
   },
   {
-   "url": "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/DEMO.json",
-   "state": "http_404",
-   "note": ""
-  },
-  {
-   "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/ok.txt",
-   "state": "http_404",
-   "note": ""
-  },
-  {
-   "url": "http://tv.nxog.top/m/111.php?ou=%E5%85%AC%E4%BC%97%E5%8F%B7%E6%AC%A7%E6%AD%8C",
+   "url": "http://tv.nxog.top/m",
    "state": "fetch_fail",
    "note": "[Errno 104] Connection reset by peer"
   },
@@ -243,13 +233,23 @@
    "note": ""
   },
   {
-   "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/XBPQ.json",
-   "state": "http_404",
-   "note": ""
+   "url": "http://tv.nxog.top/m/111.php?ou=%E5%85%AC%E4%BC%97%E5%8F%B7%E6%AC%A7%E6%AD%8C",
+   "state": "fetch_fail",
+   "note": "[Errno 104] Connection reset by peer"
+  },
+  {
+   "url": "https://hb.xyyh.online/tvbox",
+   "state": "fetch_fail",
+   "note": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
    "url": "https://4708.kstore.space/svip/svip.json",
    "state": "http_401",
+   "note": ""
+  },
+  {
+   "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/0822.json",
+   "state": "http_404",
    "note": ""
   },
   {
@@ -258,24 +258,14 @@
    "note": ""
   },
   {
-   "url": "https://6492.kstore.space/xnf/xnf.json",
-   "state": "http_401",
-   "note": ""
-  },
-  {
-   "url": "http://xn--z7x900a.net/tv",
-   "state": "http_404",
-   "note": ""
-  },
-  {
    "url": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/0825.txt",
    "state": "http_404",
    "note": ""
   },
   {
-   "url": "https://hb.xyyh.online/tvbox",
-   "state": "fetch_fail",
-   "note": "<urlopen error [Errno -2] Name or service not known>"
+   "url": "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/DEMO.json",
+   "state": "http_404",
+   "note": ""
   },
   {
    "url": "https://gitee.com/lukei7/lib/raw/Luck/%E8%87%AA%E5%BB%BA.json",
@@ -283,13 +273,8 @@
    "note": ""
   },
   {
-   "url": "http://mzjk.top/%E7%A6%81%E6%AD%A2%E8%B4%A9%E5%8D%96",
-   "state": "fetch_fail",
-   "note": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-   "url": "https://gitee.com/yiwu369/6758/raw/master/%E9%9D%92%E9%BE%99/1.json",
-   "state": "http_423",
+   "url": "https://6492.kstore.space/xnf/xnf.json",
+   "state": "http_401",
    "note": ""
   },
   {
@@ -298,9 +283,24 @@
    "note": "<urlopen error [Errno 104] Connection reset by peer>"
   },
   {
+   "url": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json",
+   "state": "http_404",
+   "note": ""
+  },
+  {
    "url": "https://xn--8owq8u.com/tv/",
    "state": "fetch_fail",
    "note": "<urlopen error [Errno -5] No address associated with hostname>"
+  },
+  {
+   "url": "https://gitee.com/yiwu369/6758/raw/master/%E9%9D%92%E9%BE%99/1.json",
+   "state": "http_423",
+   "note": ""
+  },
+  {
+   "url": "https://zthaa.top/th/api.json",
+   "state": "fetch_fail",
+   "note": "<urlopen error [Errno 111] Connection refused>"
   }
  ]
 }
