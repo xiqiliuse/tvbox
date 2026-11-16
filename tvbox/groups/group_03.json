@@ -66,6 +66,17 @@
    ]
   },
   {
+   "key": "软软短剧_2",
+   "name": "软软｜短剧",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/%E8%BD%AF%E9%B8%AD%E7%9F%AD%E5%89%A7.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
    "key": "量子资源",
    "name": "量子｜采集",
    "type": 1,
@@ -101,10 +112,10 @@
    ]
   },
   {
-   "key": "若惜影视_2",
-   "name": "若惜｜APP",
+   "key": "绝对PY_2",
+   "name": "绝对｜APP",
    "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E8%8B%A5%E6%83%9C%E5%BD%B1%E8%A7%86.py",
+   "api": "https://jiekou.netlify.app/py/%E7%BB%9D%E5%AF%B9%E5%BD%B1%E8%A7%86.py",
    "searchable": 1,
    "changeable": 1,
    "quickSearch": 1,
@@ -112,15 +123,24 @@
    "playerType": 2
   },
   {
-   "key": "海马影视_2",
-   "name": "海马｜APP",
-   "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E6%B5%B7%E9%A9%AC%E5%BD%B1%E8%A7%86.py",
+   "key": "最大采集",
+   "name": "最大｜采集",
+   "type": 1,
+   "api": "https://zuida.xyz/api.php/provide/vod/",
+   "quickSearch": 1,
    "searchable": 1,
    "changeable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "playerType": 2
+   "categories": [
+    "国产动漫",
+    "日韩动漫",
+    "国产剧"
+   ]
+  },
+  {
+   "key": "网络直播_2",
+   "name": "网络｜直播",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/%E7%BD%91%E7%BB%9C%E7%9B%B4%E6%92%AD.py"
   },
   {
    "key": "天涯资源网",
@@ -137,54 +157,15 @@
    ]
   },
   {
-   "key": "索尼资源",
-   "name": "索尼｜采集",
-   "type": 1,
-   "api": "https://suoniapi.com/api.php/provide/vod/",
+   "key": "土豆浏览器_2",
+   "name": "土豆｜APP",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/%E5%9C%9F%E8%B1%86%E6%B5%8F%E8%A7%88%E5%99%A8.py",
    "searchable": 1,
    "changeable": 1,
-   "categories": [
-    "动作片",
-    "喜剧片",
-    "爱情片",
-    "科幻片",
-    "恐怖片",
-    "剧情片",
-    "战争片",
-    "纪录片",
-    "动画片",
-    "国产剧",
-    "欧美剧",
-    "韩剧",
-    "日剧",
-    "港剧",
-    "台剧",
-    "泰剧",
-    "海外剧",
-    "大陆综艺",
-    "日韩综艺",
-    "港台综艺",
-    "欧美综艺",
-    "国产动漫",
-    "日韩动漫",
-    "欧美动漫",
-    "港台动漫",
-    "海外动漫"
-   ]
-  },
-  {
-   "key": "最大采集",
-   "name": "最大｜采集",
-   "type": 1,
-   "api": "https://zuida.xyz/api.php/provide/vod/",
    "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "categories": [
-    "国产动漫",
-    "日韩动漫",
-    "国产剧"
-   ]
+   "filterable": 1,
+   "playerType": 2
   },
   {
    "key": "牛牛资源网",
@@ -248,6 +229,39 @@
    ]
   },
   {
+   "key": "追星影视_2",
+   "name": "追星｜影视",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/%E8%BF%BD%E6%98%9F%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "看球PY_2",
+   "name": "球球｜看球",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/%E7%90%83%E7%90%83.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "蓝莓短剧_2",
+   "name": "蓝莓｜短剧",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/%E8%93%9D%E8%8E%93%E7%9F%AD%E5%89%A7.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
    "key": "红牛资源",
    "name": "红牛｜采集",
    "type": 1,
@@ -271,131 +285,6 @@
     "韩剧",
     "纪录片",
     "动漫电影"
-   ]
-  },
-  {
-   "key": "国外影视_2",
-   "name": "全球｜APP",
-   "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E5%9B%BD%E5%A4%96%E5%89%A7.py",
-   "searchable": 1,
-   "changeable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "playerType": 2
-  },
-  {
-   "key": "五八PY_2",
-   "name": "伍捌｜APP",
-   "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E4%BA%94%E5%85%AB%E5%BD%B1%E8%A7%86.py",
-   "searchable": 1,
-   "changeable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "playerType": 2
-  },
-  {
-   "key": "豪华采集",
-   "name": "豪华｜采集",
-   "type": 1,
-   "api": "https://hhzyapi.com/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "categories": [
-    "国产动漫",
-    "日韩动漫",
-    "国产剧"
-   ]
-  },
-  {
-   "key": "丫丫资源网采集",
-   "name": "丫丫｜采集",
-   "type": 1,
-   "api": "https://yayazy2.com/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "categories": [
-    "国产动漫",
-    "日韩动漫",
-    "国产剧"
-   ]
-  },
-  {
-   "key": "暴風资源采集",
-   "name": "暴風｜采集",
-   "type": 1,
-   "api": "https://bfzyapi.com/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "categories": [
-    "国产动漫",
-    "日韩动漫",
-    "国产剧"
-   ]
-  },
-  {
-   "key": "无尽资源网",
-   "name": "无尽｜采集",
-   "type": 1,
-   "api": "https://api.wujinapi.net/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "categories": [
-    "国产动漫",
-    "日韩动漫",
-    "国产剧"
-   ]
-  },
-  {
-   "key": "360采集",
-   "name": "360｜采集",
-   "type": 1,
-   "api": "https://360zy.com/api.php/provide/vod/",
-   "searchable": 1,
-   "changeable": 1,
-   "categories": [
-    "国产动漫",
-    "日韩动漫",
-    "国产剧"
-   ]
-  },
-  {
-   "key": "天堂资源网",
-   "name": "天堂｜采集",
-   "type": 0,
-   "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml/",
-   "searchable": 1,
-   "changeable": 1,
-   "categories": [
-    "短剧",
-    "国产剧",
-    "欧美剧",
-    "香港剧",
-    "韩国剧",
-    "台湾剧",
-    "日本剧",
-    "泰国剧",
-    "动作片",
-    "喜剧片",
-    "科幻片",
-    "恐怖片",
-    "爱情片",
-    "剧情片",
-    "战争片",
-    "动画片",
-    "记录片",
-    "国产动漫",
-    "日韩动漫",
-    "欧美动漫",
-    "大陆综艺",
-    "港台综艺",
-    "日韩综艺",
-    "欧美综艺"
    ]
   },
   {
@@ -428,6 +317,66 @@
     "中国动漫",
     "日本动漫",
     "欧美动漫"
+   ]
+  },
+  {
+   "key": "柯南影视_2",
+   "name": "柯南｜APP",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/%E6%9F%AF%E5%8D%97%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "索尼资源",
+   "name": "索尼｜采集",
+   "type": 1,
+   "api": "https://suoniapi.com/api.php/provide/vod/",
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "动作片",
+    "喜剧片",
+    "爱情片",
+    "科幻片",
+    "恐怖片",
+    "剧情片",
+    "战争片",
+    "纪录片",
+    "动画片",
+    "国产剧",
+    "欧美剧",
+    "韩剧",
+    "日剧",
+    "港剧",
+    "台剧",
+    "泰剧",
+    "海外剧",
+    "大陆综艺",
+    "日韩综艺",
+    "港台综艺",
+    "欧美综艺",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫"
+   ]
+  },
+  {
+   "key": "360采集",
+   "name": "360｜采集",
+   "type": 1,
+   "api": "https://360zy.com/api.php/provide/vod/",
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "国产动漫",
+    "日韩动漫",
+    "国产剧"
    ]
   },
   {
@@ -468,6 +417,102 @@
    ]
   },
   {
+   "key": "文才_2",
+   "name": "文才｜APP",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/%E6%96%87%E6%89%8D%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": {
+    "site": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+   }
+  },
+  {
+   "key": "天堂资源网",
+   "name": "天堂｜采集",
+   "type": 0,
+   "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml/",
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "短剧",
+    "国产剧",
+    "欧美剧",
+    "香港剧",
+    "韩国剧",
+    "台湾剧",
+    "日本剧",
+    "泰国剧",
+    "动作片",
+    "喜剧片",
+    "科幻片",
+    "恐怖片",
+    "爱情片",
+    "剧情片",
+    "战争片",
+    "动画片",
+    "记录片",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺"
+   ]
+  },
+  {
+   "key": "河马短剧_2",
+   "name": "河马｜短剧",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/%E6%B2%B3%E9%A9%AC%E7%9F%AD%E5%89%A7.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "嗷呜动漫_2",
+   "name": "嗷呜｜动漫",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/%E5%97%B7%E5%91%9C%E5%8A%A8%E6%BC%AB.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "豪华采集",
+   "name": "豪华｜采集",
+   "type": 1,
+   "api": "https://hhzyapi.com/api.php/provide/vod/",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "国产动漫",
+    "日韩动漫",
+    "国产剧"
+   ]
+  },
+  {
+   "key": "无尽资源网",
+   "name": "无尽｜采集",
+   "type": 1,
+   "api": "https://api.wujinapi.net/api.php/provide/vod/",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "国产动漫",
+    "日韩动漫",
+    "国产剧"
+   ]
+  },
+  {
    "key": "茅台采集",
    "name": "茅台｜采集",
    "type": 0,
@@ -475,6 +520,42 @@
    "playUrl": "https://mtjiexi.cc:966/?url=",
    "searchable": 1,
    "quickSearch": 1
+  },
+  {
+   "key": "小苹果PY_2",
+   "name": "水果｜APP",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/%E5%B0%8F%E8%8B%B9%E6%9E%9C%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "猎手影视_2",
+   "name": "猎手｜影视",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/%E7%8C%8E%E6%89%8B%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "丫丫资源网采集",
+   "name": "丫丫｜采集",
+   "type": 1,
+   "api": "https://yayazy2.com/api.php/provide/vod/",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "国产动漫",
+    "日韩动漫",
+    "国产剧"
+   ]
   },
   {
    "key": "零度影视_2",
@@ -488,10 +569,55 @@
    "playerType": 2
   },
   {
-   "key": "柯南影视_2",
-   "name": "柯南｜APP",
+   "key": "哔哩｜APP_2",
+   "name": "哔哩｜APP",
    "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E6%9F%AF%E5%8D%97%E5%BD%B1%E8%A7%86.py",
+   "api": "https://jiekou.netlify.app/py/%E5%93%94%E5%93%A9%E8%A7%86%E9%A2%91.py",
+   "ext": {
+    "json": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+   }
+  },
+  {
+   "key": "云端PY_2",
+   "name": "云端｜APP",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/%E4%BA%91%E7%AB%AF%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "GZAPP_2",
+   "name": "瓜子｜APP",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/drpy_libs/drpy2.min.js",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "order_num": 0,
+   "ext": "https://jiekou.netlify.app/js/%E7%93%9C%E5%AD%90%E5%BD%B1%E8%A7%86.js"
+  },
+  {
+   "key": "暴風资源采集",
+   "name": "暴風｜采集",
+   "type": 1,
+   "api": "https://bfzyapi.com/api.php/provide/vod/",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+    "国产动漫",
+    "日韩动漫",
+    "国产剧"
+   ]
+  },
+  {
+   "key": "BTT磁力_2",
+   "name": "磁力｜APP",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/BTT%E7%A3%81%E5%8A%9B.py",
    "searchable": 1,
    "changeable": 1,
    "quickSearch": 1,
@@ -510,10 +636,10 @@
    "playerType": 2
   },
   {
-   "key": "追星影视_2",
-   "name": "追星｜影视",
+   "key": "爱看短剧_2",
+   "name": "爱看｜短剧",
    "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E8%BF%BD%E6%98%9F%E5%BD%B1%E8%A7%86.py",
+   "api": "https://jiekou.netlify.app/py/%E7%88%B1%E7%9C%8B%E7%9F%AD%E5%89%A7.py",
    "searchable": 1,
    "changeable": 1,
    "quickSearch": 1,
@@ -521,10 +647,10 @@
    "playerType": 2
   },
   {
-   "key": "云端PY_2",
-   "name": "云端｜APP",
+   "key": "云速影视_2",
+   "name": "云速｜APP",
    "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E4%BA%91%E7%AB%AF%E5%BD%B1%E8%A7%86.py",
+   "api": "https://jiekou.netlify.app/py/%E4%BA%91%E9%80%9F%E5%BD%B1%E8%A7%86.py",
    "searchable": 1,
    "changeable": 1,
    "quickSearch": 1,
@@ -532,10 +658,38 @@
    "playerType": 2
   },
   {
-   "key": "土豆浏览器_2",
-   "name": "土豆｜APP",
+   "key": "哔哩直播_2",
+   "name": "哔哩｜直播",
    "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E5%9C%9F%E8%B1%86%E6%B5%8F%E8%A7%88%E5%99%A8.py",
+   "api": "https://jiekou.netlify.app/py/%E5%93%94%E5%93%A9%E7%9B%B4%E6%92%AD.py"
+  },
+  {
+   "key": "奇库影视_2",
+   "name": "奇库｜APP",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/%E5%A5%87%E5%BA%93%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "五八PY_2",
+   "name": "伍捌｜APP",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/%E4%BA%94%E5%85%AB%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "playerType": 2
+  },
+  {
+   "key": "若惜影视_2",
+   "name": "若惜｜APP",
+   "type": 3,
+   "api": "https://jiekou.netlify.app/py/%E8%8B%A5%E6%83%9C%E5%BD%B1%E8%A7%86.py",
    "searchable": 1,
    "changeable": 1,
    "quickSearch": 1,
@@ -554,83 +708,10 @@
    "playerType": 2
   },
   {
-   "key": "小红影视_2",
-   "name": "小红｜APP",
+   "key": "锦鲤短剧_2",
+   "name": "萌鱼｜短剧",
    "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E5%B0%8F%E7%BA%A2%E5%BD%B1%E8%A7%86.py",
-   "searchable": 1,
-   "changeable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "playerType": 2
-  },
-  {
-   "key": "奇库影视_2",
-   "name": "奇库｜APP",
-   "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E5%A5%87%E5%BA%93%E5%BD%B1%E8%A7%86.py",
-   "searchable": 1,
-   "changeable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "playerType": 2
-  },
-  {
-   "key": "边缘影视_2",
-   "name": "边缘｜影视",
-   "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E8%BE%B9%E7%BC%98%E5%BD%B1%E8%A7%86.py",
-   "searchable": 1,
-   "changeable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "playerType": 2
-  },
-  {
-   "key": "骚火影视_2",
-   "name": "骚火｜APP",
-   "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E9%AA%9A%E7%81%AB%E5%BD%B1%E8%A7%86.py",
-   "searchable": 1,
-   "changeable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "playerType": 2
-  },
-  {
-   "key": "文才_2",
-   "name": "文才｜APP",
-   "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E6%96%87%E6%89%8D%E5%BD%B1%E8%A7%86.py",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": {
-    "site": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
-   }
-  },
-  {
-   "key": "蓝莓短剧_2",
-   "name": "蓝莓｜短剧",
-   "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E8%93%9D%E8%8E%93%E7%9F%AD%E5%89%A7.py",
-   "searchable": 1,
-   "changeable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "playerType": 2
-  },
-  {
-   "key": "哔哩直播_2",
-   "name": "哔哩｜直播",
-   "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E5%93%94%E5%93%A9%E7%9B%B4%E6%92%AD.py"
-  },
-  {
-   "key": "河马短剧_2",
-   "name": "河马｜短剧",
-   "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E6%B2%B3%E9%A9%AC%E7%9F%AD%E5%89%A7.py",
+   "api": "https://jiekou.netlify.app/py/%E9%94%A6%E9%B2%A4%E7%9F%AD%E5%89%A7.py",
    "searchable": 1,
    "changeable": 1,
    "quickSearch": 1,
@@ -642,50 +723,6 @@
    "name": "星芽｜短剧",
    "type": 3,
    "api": "https://jiekou.netlify.app/py/%E6%98%9F%E8%8A%BD%E7%9F%AD%E5%89%A7.py",
-   "searchable": 1,
-   "changeable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "playerType": 2
-  },
-  {
-   "key": "爱看短剧_2",
-   "name": "爱看｜短剧",
-   "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E7%88%B1%E7%9C%8B%E7%9F%AD%E5%89%A7.py",
-   "searchable": 1,
-   "changeable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "playerType": 2
-  },
-  {
-   "key": "小苹果PY_2",
-   "name": "水果｜APP",
-   "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E5%B0%8F%E8%8B%B9%E6%9E%9C%E5%BD%B1%E8%A7%86.py",
-   "searchable": 1,
-   "changeable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "playerType": 2
-  },
-  {
-   "key": "软软短剧_2",
-   "name": "软软｜短剧",
-   "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E8%BD%AF%E9%B8%AD%E7%9F%AD%E5%89%A7.py",
-   "searchable": 1,
-   "changeable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "playerType": 2
-  },
-  {
-   "key": "看球PY_2",
-   "name": "球球｜看球",
-   "type": 3,
-   "api": "https://jiekou.netlify.app/py/%E7%90%83%E7%90%83.py",
    "searchable": 1,
    "changeable": 1,
    "quickSearch": 1,
