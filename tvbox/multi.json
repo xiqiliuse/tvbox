@@ -1,20 +1,24 @@
 {
  "urls": [
   {
-   "name": "全能聚合（234站）",
+   "name": "全能聚合（455站）",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xiqiliuse/tvbox/main/tvbox/groups/group_00_all.json"
   },
   {
-   "name": "聚合01·svip.jar（56站）",
+   "name": "聚合01·lem1126.jar（81站）",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xiqiliuse/tvbox/main/tvbox/groups/group_01.json"
   },
   {
-   "name": "聚合02·xs.jar（64站）",
+   "name": "聚合02·ea7a1ae7d5b3a88329515f91838527（54站）",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xiqiliuse/tvbox/main/tvbox/groups/group_02.json"
   },
   {
-   "name": "聚合03·svip.jar（35站）",
+   "name": "聚合03·xs.jar（59站）",
    "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xiqiliuse/tvbox/main/tvbox/groups/group_03.json"
+  },
+  {
+   "name": "聚合04·pg.jar（40站）",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xiqiliuse/tvbox/main/tvbox/groups/group_04.json"
   }
  ]
 }
