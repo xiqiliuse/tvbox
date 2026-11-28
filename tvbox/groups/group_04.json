@@ -3,6 +3,34 @@
  "wallpaper": "",
  "sites": [
   {
+   "key": "奥斯卡",
+   "name": "奥斯卡 | 采集",
+   "type": 1,
+   "api": "https://aosikazy.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": "proxy"
+  },
+  {
+   "key": "小湿妹",
+   "name": "湿妹 | 采集",
+   "type": 0,
+   "api": "http://www.afasu.com/api/xml.php",
+   "searchable": 1,
+   "quickSearch": 1,
+   "ext": "proxy"
+  },
+  {
+   "key": "香奶儿资源站",
+   "name": "香奶 | 采集",
+   "type": 0,
+   "api": "https://www.gdlsp.com/api/xml.php",
+   "searchable": 0,
+   "quickSearch": 0,
+   "ext": "proxy"
+  },
+  {
    "key": "白嫖",
    "name": "白嫖 | 采集",
    "type": 0,
@@ -13,66 +41,55 @@
    "ext": "proxy"
   },
   {
-   "key": "淫水机资源站",
-   "name": "水机 | 采集",
+   "key": "美少女",
+   "name": "美少女",
    "type": 0,
-   "api": "https://www.xrbsp.com/api/xml.php",
-   "searchable": 0,
-   "quickSearch": 0,
-   "ext": "proxy"
-  },
-  {
-   "key": "py_xx01",
-   "name": "猎奇影视[py]",
-   "type": 3,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/xx01.py",
-   "ext": ""
-  },
-  {
-   "key": "py_花都",
-   "name": "花都影院[py]",
-   "type": 3,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/%E8%8A%B1%E9%83%BD%E5%BD%B1%E9%99%A2.py",
-   "ext": ""
-  },
-  {
-   "key": "py_91porn",
-   "name": "91porn[py]",
-   "type": 3,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/91porn.py",
-   "ext": ""
-  },
-  {
-   "key": "py_rolizxwnoble",
-   "name": "乱伦仓库[py]",
-   "type": 3,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/rolizxwnoble.py",
-   "ext": ""
-  },
-  {
-   "key": "py_51短剧",
-   "name": "51短剧[py]",
-   "type": 3,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/51%E7%9F%AD%E5%89%A7.py",
-   "ext": ""
-  },
-  {
-   "key": "森林专场",
-   "name": "森林 | 采集",
-   "type": 1,
-   "api": "https://slapibf.com/api.php/provide/vod/",
-   "playUrl": "",
+   "api": "https://www.msnii.com/api/xml.php",
    "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "proxy"
+   "quickSearch": 1
   },
   {
-   "key": "火速",
-   "name": "火速 | 采集",
+   "key": "py_huangguo2",
+   "name": "黄果剧场[py]",
+   "type": 3,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/%E9%BB%84%E6%9E%9C%E5%89%A7%E5%9C%BA.py",
+   "ext": ""
+  },
+  {
+   "key": "py_redtube",
+   "name": "RedTube[py]",
+   "type": 3,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/redtube.py",
+   "ext": ""
+  },
+  {
+   "key": "xp天堂",
+   "name": "XP天堂[js]",
+   "type": 3,
+   "filterable": 0,
+   "changeable": 0,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/xp%E5%A4%A9%E5%A0%82.js"
+  },
+  {
+   "key": "py_owoav",
+   "name": "owoav[py]",
+   "type": 3,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/owoav.py",
+   "ext": ""
+  },
+  {
+   "key": "py_lsys111",
+   "name": "恋丝影视[py]",
+   "type": 3,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/lsys111.py",
+   "ext": ""
+  },
+  {
+   "key": "玉兔",
+   "name": "玉兔 | 采集",
    "type": 1,
-   "api": "https://api.huosuapi.cc/api.php/provide/vod/",
-   "playUrl": "",
+   "api": "https://apiyutu.com/api.php/provide/vod/",
+   "playUrl": "https://yutujx.com/?url=",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
@@ -86,44 +103,23 @@
    "ext": "proxy"
   },
   {
-   "key": "Hanime",
-   "name": "Hanime[py]",
-   "type": 3,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/py/Hanime.py",
+   "key": "souav",
+   "name": "souav | 采集",
+   "type": 1,
+   "api": "https://api.souavzy.vip/api.php/provide/vod/?ac=list",
+   "playUrl": "https://jiexi.souavzyw.top/m3u8/?url=",
    "searchable": 1,
-   "recordable": 0,
-   "timeout": 60,
-   "ext": "proxy",
-   "style": {
-    "type": "rect",
-    "ratio": 0.68
-   }
+   "quickSearch": 1,
+   "filterable": 1
   },
   {
-   "key": "香奶儿资源站",
-   "name": "香奶 | 采集",
+   "key": "淫水机资源站",
+   "name": "水机 | 采集",
    "type": 0,
-   "api": "https://www.gdlsp.com/api/xml.php",
+   "api": "https://www.xrbsp.com/api/xml.php",
    "searchable": 0,
    "quickSearch": 0,
    "ext": "proxy"
-  },
-  {
-   "key": "滴滴",
-   "name": "滴滴 | 采集",
-   "type": 1,
-   "api": "https://api.ddapi.cc/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "ext": "proxy"
-  },
-  {
-   "key": "py_Youavhub",
-   "name": "Youavhub[py]",
-   "type": 3,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/youav.py",
-   "ext": ""
   },
   {
    "key": "大奶子",
@@ -138,27 +134,101 @@
    "changeable": 1
   },
   {
-   "key": "女优色库",
-   "name": "女优色库[py]",
+   "key": "py_porn",
+   "name": "肉视频[py]",
    "type": 3,
-   "filterable": 0,
-   "changeable": 0,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/%E5%A5%B3%E4%BC%98%E8%89%B2%E5%BA%93.py"
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/porn.py",
+   "ext": ""
   },
   {
-   "key": "黄AV资源站",
-   "name": "AV | 采集",
-   "type": 0,
-   "api": "https://www.pgxdy.com/api/xml.php",
+   "key": "嘿嘿场",
+   "name": "嘿嘿 | 采集",
+   "type": 1,
+   "api": "https://api.heiapi.cc/api.php/provide/vod/",
+   "playUrl": "",
    "searchable": 1,
    "quickSearch": 1,
+   "filterable": 1,
    "ext": "proxy"
   },
   {
-   "key": "py_huangguo",
-   "name": "黄果短剧[py]",
+   "key": "滴滴",
+   "name": "滴滴 | 采集",
+   "type": 1,
+   "api": "https://api.ddapi.cc/api.php/provide/vod/",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "ext": "proxy"
+  },
+  {
+   "key": "火速",
+   "name": "火速 | 采集",
+   "type": 1,
+   "api": "https://api.huosuapi.cc/api.php/provide/vod/",
+   "playUrl": "",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": "proxy"
+  },
+  {
+   "key": "py_ 小黄书",
+   "name": "小黄书[py]",
    "type": 3,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/huangguo.py",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/%E5%B0%8F%E9%BB%84%E4%B9%A6.py",
+   "order_num": 5,
+   "ext": ""
+  },
+  {
+   "key": "py_shaofu36",
+   "name": "少妇喝了[py]",
+   "type": 3,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/shaofu36.py",
+   "ext": ""
+  },
+  {
+   "key": "森林专场",
+   "name": "森林 | 采集",
+   "type": 1,
+   "api": "https://slapibf.com/api.php/provide/vod/",
+   "playUrl": "",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": "proxy"
+  },
+  {
+   "key": "鸡坤",
+   "name": "鸡坤 | 采集",
+   "type": 1,
+   "api": "https://jkunzyapi.com/api.php/provide/vod/",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "ext": "proxy"
+  },
+  {
+   "key": "py_xigua",
+   "name": "51吃瓜[py]",
+   "type": 3,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/xigua51.py",
+   "ext": {
+    "h265": true
+   }
+  },
+  {
+   "key": "py_javdb",
+   "name": "javdb[py]",
+   "type": 3,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/javdb.py",
+   "order_num": 5,
    "ext": ""
   },
   {
@@ -184,107 +254,13 @@
    "ext": "proxy"
   },
   {
-   "key": "鸡坤",
-   "name": "鸡坤 | 采集",
-   "type": 1,
-   "api": "https://jkunzyapi.com/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "ext": "proxy"
-  },
-  {
-   "key": "乐播",
-   "name": "乐播 | 采集",
-   "type": 1,
-   "api": "https://lbapi9.com/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "ext": "proxy"
-  },
-  {
-   "key": "souav",
-   "name": "souav | 采集",
-   "type": 1,
-   "api": "https://api.souavzy.vip/api.php/provide/vod/?ac=list",
-   "playUrl": "https://jiexi.souavzyw.top/m3u8/?url=",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "py_huangdou",
-   "name": "黄豆短剧[py]",
-   "type": 3,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/huangdou.py",
-   "ext": ""
-  },
-  {
-   "key": "美少女",
-   "name": "美少女",
+   "key": "黄AV资源站",
+   "name": "AV | 采集",
    "type": 0,
-   "api": "https://www.msnii.com/api/xml.php",
-   "searchable": 1,
-   "quickSearch": 1
-  },
-  {
-   "key": "xp天堂",
-   "name": "XP天堂[js]",
-   "type": 3,
-   "filterable": 0,
-   "changeable": 0,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/xp%E5%A4%A9%E5%A0%82.js"
-  },
-  {
-   "key": "py_shaofu36",
-   "name": "少妇喝了[py]",
-   "type": 3,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/shaofu36.py",
-   "ext": ""
-  },
-  {
-   "key": "py_huangguo2",
-   "name": "黄果剧场[py]",
-   "type": 3,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/%E9%BB%84%E6%9E%9C%E5%89%A7%E5%9C%BA.py",
-   "ext": ""
-  },
-  {
-   "key": "py_owoav",
-   "name": "owoav[py]",
-   "type": 3,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/owoav.py",
-   "ext": ""
-  },
-  {
-   "key": "py_ 小黄书",
-   "name": "小黄书[py]",
-   "type": 3,
+   "api": "https://www.pgxdy.com/api/xml.php",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/%E5%B0%8F%E9%BB%84%E4%B9%A6.py",
-   "order_num": 5,
-   "ext": ""
-  },
-  {
-   "key": "玉兔",
-   "name": "玉兔 | 采集",
-   "type": 1,
-   "api": "https://apiyutu.com/api.php/provide/vod/",
-   "playUrl": "https://yutujx.com/?url=",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
    "ext": "proxy"
-  },
-  {
-   "key": "py_redtube",
-   "name": "RedTube[py]",
-   "type": 3,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/redtube.py",
-   "ext": ""
   },
   {
    "key": "py_ybhz51",
@@ -294,48 +270,81 @@
    "ext": ""
   },
   {
-   "key": "py_javdb",
-   "name": "javdb[py]",
+   "key": "py_花都",
+   "name": "花都影院[py]",
    "type": 3,
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/javdb.py",
-   "order_num": 5,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/%E8%8A%B1%E9%83%BD%E5%BD%B1%E9%99%A2.py",
    "ext": ""
   },
   {
-   "key": "嘿嘿场",
-   "name": "嘿嘿 | 采集",
-   "type": 1,
-   "api": "https://api.heiapi.cc/api.php/provide/vod/",
-   "playUrl": "",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "proxy"
-  },
-  {
-   "key": "py_porn",
-   "name": "肉视频[py]",
+   "key": "py_huangdou",
+   "name": "黄豆短剧[py]",
    "type": 3,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/porn.py",
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/huangdou.py",
    "ext": ""
   },
   {
-   "key": "py_xigua",
-   "name": "51吃瓜[py]",
+   "key": "女优色库",
+   "name": "女优色库[py]",
    "type": 3,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/xigua51.py",
-   "ext": {
-    "h265": true
+   "filterable": 0,
+   "changeable": 0,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/%E5%A5%B3%E4%BC%98%E8%89%B2%E5%BA%93.py"
+  },
+  {
+   "key": "py_huangguo",
+   "name": "黄果短剧[py]",
+   "type": 3,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/huangguo.py",
+   "ext": ""
+  },
+  {
+   "key": "Hanime",
+   "name": "Hanime[py]",
+   "type": 3,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/py/Hanime.py",
+   "searchable": 1,
+   "recordable": 0,
+   "timeout": 60,
+   "ext": "proxy",
+   "style": {
+    "type": "rect",
+    "ratio": 0.68
    }
   },
   {
-   "key": "py_lsys111",
-   "name": "恋丝影视[py]",
+   "key": "py_91porn",
+   "name": "91porn[py]",
    "type": 3,
-   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/lsys111.py",
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/91porn.py",
+   "ext": ""
+  },
+  {
+   "key": "py_rolizxwnoble",
+   "name": "乱伦仓库[py]",
+   "type": 3,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/rolizxwnoble.py",
+   "ext": ""
+  },
+  {
+   "key": "py_51短剧",
+   "name": "51短剧[py]",
+   "type": 3,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/51%E7%9F%AD%E5%89%A7.py",
+   "ext": ""
+  },
+  {
+   "key": "py_xx01",
+   "name": "猎奇影视[py]",
+   "type": 3,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/xx01.py",
+   "ext": ""
+  },
+  {
+   "key": "py_Youavhub",
+   "name": "Youavhub[py]",
+   "type": 3,
+   "api": "https://g.3344550.xyz/https:/raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/js/ss/youav.py",
    "ext": ""
   }
  ],
